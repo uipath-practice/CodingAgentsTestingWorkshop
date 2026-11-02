@@ -154,7 +154,7 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
 
     ✅ *"Don't use the data from the PDD in the test case"*
 
-    ✅ *"Add the label 'Coding Agent WS' to this test case and requirement"*
+    ✅ *"Add the label 'Delegate' to this test case and requirement"*
 
     Keep going until you're happy with both.
 
