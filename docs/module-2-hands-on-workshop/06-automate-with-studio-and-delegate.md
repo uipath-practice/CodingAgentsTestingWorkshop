@@ -151,21 +151,20 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 !!! tip "Write your own Object Repository prompt"
     Describe what you need in plain language, such as the app, its screens, and the elements to capture. Delegate can also review and fine-tune your prompt, or fix it when something's missed.
 
-**Check it:**
+??? tip "Check it"
+    1. In Studio's **Object Repository** panel, expand **UiBankORForChrome**. It lists all 6 screens and their elements. If it's empty, reload the project.
 
-1. In Studio's **Object Repository** panel, expand **UiBankORForChrome**. It lists all 6 screens and their elements. If it's empty, reload the project.
+        ![Object Repository panel](../assets/images/Object%20Repo.png){ width="300" }
 
-    ![Object Repository panel](../assets/images/Object%20Repo.png){ width="300" }
+    2. Open UiBank in Chrome on the Welcome screen. Right-click an element, such as **Username**, and select **Highlight**.
 
-2. Open UiBank in Chrome on the Welcome screen. Right-click an element, such as **Username**, and select **Highlight**.
+        ![Highlight an element](../assets/images/Studio%20OR%20Highlight.png){ width="300" }
 
-    ![Highlight an element](../assets/images/Studio%20OR%20Highlight.png){ width="300" }
+    3. In the browser, the element is outlined in **green**, and its label anchor in **blue**. Repeat for a few elements on each screen.
 
-3. In the browser, the element is outlined in **green**, and its label anchor in **blue**. Repeat for a few elements on each screen.
+        ![Highlighted element in UiBank](../assets/images/UiBank%20Highlight.png)
 
-    ![Highlighted element in UiBank](../assets/images/UiBank%20Highlight.png)
-
-If an element doesn't highlight, ask Delegate to recapture it.
+    If an element doesn't highlight, ask Delegate to recapture it.
 
 !!! warning "Complete this step before you continue"
     **Autopilot for Testers** builds your test cases from the Object Repository elements. Without them, it can't automate the test cases in the next step.
