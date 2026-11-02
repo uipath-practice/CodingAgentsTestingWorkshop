@@ -6,7 +6,11 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 
 1. Open the **Submit Loan Request** requirement.
 2. Run the **Generate Test Cases** built-in agent on it.
-3. Choose one of the built-in prompts to tell the agent how to generate the test cases.
+3. Choose the **Valid E2E Scenario Testing** built-in prompt. At the end of the prompt, add:
+
+    ```text
+    Add the label 'Coding Agent WS' to every test case you create.
+    ```
 
     ??? info "Editing prompts and adding your own"
         The built-in prompts are editable, and you can add custom prompts of your own. Manage them in the **Prompt Library**, under **Project Settings**.
@@ -28,7 +32,7 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 5. Optionally, add instructions, for example *"Focus on the age and income rules in the acceptance criteria, and apply the security guidelines."*
 6. Review the proposals, keep **3 or 4**, and create them.
 
-**Check it:** the requirement shows the new test cases as linked, each with manual steps.
+**Check it:** the requirement shows the new test cases as linked, each with manual steps and the **Coding Agent WS** label.
 
 !!! tip "Create one test case that fails"
     Your trainer guides you to create a test case that's meant to fail. You'll automate it in [06. Automate Test Cases with Studio Desktop and Delegate](06-automate-with-studio-and-delegate.md) and add it to the test set in [07. Create a Test Set](07-create-test-set.md), so the report in [08. Run and Report](08-run-and-report.md) has a real failure to show.

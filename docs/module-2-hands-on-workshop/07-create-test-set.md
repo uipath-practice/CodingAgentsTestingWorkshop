@@ -11,7 +11,7 @@ A **test set** groups test cases that run together.
 
         ✅ **Static Assignment** — pick your automated test cases, including the one meant to fail. The set always runs exactly these.
 
-        ✅ **Dynamic Assignment** — enter labels. Each time the set runs, it includes every test case with at least one of them. Use a label only your automated test cases have.
+        ✅ **Dynamic Assignment** — enter the label **Coding Agent WS**. Each time the set runs, it includes every test case with that label.
 
     See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/quickstart-assigning-test-cases-to-test-sets" target="_blank">Assigning test cases to test sets</a>.
 

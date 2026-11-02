@@ -109,6 +109,7 @@ Your project has a test case, **Request Loan**, with no steps.
         Take all field names, valid test data, validation rules and expected outcomes from the requirement document. Don't make up any values.
         Give each step one action and one expected result.
         If the requirement leaves out details a step needs, such as a missing field value or an unclear acceptance criterion, list them as open questions. Don't guess.
+        Add the label 'Coding Agent WS' to <REQUEST_LOAN_KEY>.
         Before saving the steps to <REQUEST_LOAN_KEY>, show them to me for review.
         ```
 
@@ -120,7 +121,7 @@ Your project has a test case, **Request Loan**, with no steps.
         5. **Run it** — say yes.
         6. **Note the loan ID** — the approval screen shows it. You'll use it in part 3. Missed it? Ask Delegate: *"What loan ID did the approval screen show?"*
 
-**Check it:** **Request Loan** has manual steps, is linked to the requirement, and has a new result in **Execution**.
+**Check it:** **Request Loan** has manual steps and the **Coding Agent WS** label, is linked to the requirement, and has a new result in **Execution**.
 
 ### 3 — Create a new requirement and test case
 
@@ -154,7 +155,7 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
 
     ✅ *"Don't use the data from the PDD in the test case"*
 
-    ✅ *"Add the label 'Delegate' to this test case and requirement"*
+    ✅ *"Add the label 'Coding Agent WS' to this test case and requirement"*
 
     Keep going until you're happy with both.
 
