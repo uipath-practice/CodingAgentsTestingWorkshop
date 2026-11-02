@@ -196,17 +196,6 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
 
 **Check it:** each test case passes locally, except the one you made fail in step 6.
 
-!!! warning "Don't continue until every labelled test case is automated"
-    Your test set in [07. Create a Test Set](07-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.
-
-    Replace `<YOUR_PROJECT_KEY>` with your Test Manager project key, and `<YOUR_STUDIO_PROJECT>` with your Studio project name, **UiBank Tests**. Then paste in Delegate:
-
-    ```text
-    List every test case in Test Manager project <YOUR_PROJECT_KEY> with the label 'Coding Agent WS'. For each one, tell me whether it's linked to a Studio project named '<YOUR_STUDIO_PROJECT>'. List the ones that aren't.
-    ```
-
-    Automate any test case on that list, then ask again. Continue only when the list is empty.
-
 ??? example "Optional: Fix the activity display names"
     Autopilot names each activity after its manual step, including the test data, which makes long, hard-to-read display names.
 
@@ -238,6 +227,17 @@ Set all the test cases in UiBank Tests as publishable and publish the project.
 ```
 
 **Check it:** in Orchestrator, each automated test case shows in **Test Cases**.
+
+!!! warning "Don't continue until every labelled test case is automated"
+    Your test set in [07. Create a Test Set](07-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.
+
+    Replace `<YOUR_PROJECT_KEY>` with your Test Manager project key, and `<YOUR_STUDIO_PROJECT>` with your Studio project name, **UiBank Tests**. Then paste in Delegate:
+
+    ```text
+    List every test case in Test Manager project <YOUR_PROJECT_KEY> with the label 'Coding Agent WS'. For each one, tell me whether it's linked to a Studio project named '<YOUR_STUDIO_PROJECT>'. List the ones that aren't.
+    ```
+
+    Automate any test case on that list, publish again, then ask again. Continue only when the list is empty.
 
 ## Nice work!
 
