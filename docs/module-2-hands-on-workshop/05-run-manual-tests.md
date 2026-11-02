@@ -119,7 +119,6 @@ Your project has a test case, **Request Loan**, with no steps.
         3. **Open questions** — answer them.
         4. **Save the steps** — give permission.
         5. **Run it** — say yes.
-        6. **Note the loan ID** — the approval screen shows it. You'll use it in part 3. Missed it? Ask Delegate: *"What loan ID did the approval screen show?"*
 
 **Check it:** **Request Loan** has manual steps and the **Coding Agent WS** label, is linked to the requirement, and has a new result in **Execution**.
 
@@ -129,20 +128,20 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
 
 !!! example "It's your turn now!"
     1. Download the PDD, <a href="../../assets/Files/Loan%20lookup%20process%20to%20be%20tested.docx" target="_blank">Loan lookup process to be tested.docx</a>.
-    2. Attach it in Delegate. Replace `<YOUR_LOAN_ID>` with the loan ID from your **Request Loan** run in part 2, then paste:
+    2. Attach it in Delegate. Replace the placeholders in `< >`, then paste:
 
         ```text
-        The attached PDD describes the UiBank loan lookup process. It isn't covered by any requirement in my Test Manager project yet.
+        Analyze the attached PDD and create + save a requirement and a manual test case directly in UiPath Test Manager — no review pause, just create and save.
 
-        1. Create a new requirement for this process.
-        2. Create a manual test case from the steps and screenshots in the document, and link it to the new requirement.
-        3. Use loan ID <YOUR_LOAN_ID> as test data.
-        4. The document ends at Retrieve Loan Details. Add a final step that checks the loan details page shows the same loan ID, along with the rest of the loan's details.
-
-        Show me the requirement and the test case before you save them to Test Manager.
+        Test Manager target: project key <PROJECT_KEY> (org <ORG_NAME>, tenant <TENANT_NAME>). If your CLI session is logged into a different org/tenant, switch it to this one yourself — I'm pre-authorizing the browser-based login switch, no need to ask me.
+        Requirement: Create one new requirement for the process described in the PDD (don't create it if an existing requirement already covers this exact process — check first and tell me if you find one instead of creating a duplicate). Name it <REQUIREMENT_NAME> (or infer from the PDD title if omitted); description should summarize the user flow (pages/actions) and any acceptance criteria from the PDD.
+        Test case: Create one manual test case named <TEST_CASE_NAME> (or infer from the PDD if omitted), derived from the PDD's numbered steps/screenshots — one test step per documented UI action, each with an expected result.
+        Extra step(s): <ADDITIONAL_STEP_DESCRIPTION> (e.g. "after the PDD's last action, verify the loan details page shows the same loan ID that was entered, along with the rest of the loan's details"). Omit this bullet if the PDD's steps are complete as-is.
+        Link: Link the new test case to the new requirement.
+        Report back: give me the created requirement key and test case key (e.g. <PROJECT_KEY>:NN) when done.
         ```
 
-    3. Review, give permission to save, and ask Delegate to run it with your loan ID.
+    3. Ask Delegate to run the new test case.
 
 **Check it:** a new **Loan lookup** requirement, with a linked test case that has manual steps and a result in **Execution**.
 
