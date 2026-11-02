@@ -134,8 +134,8 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
         Analyze the attached PDD and create + save a requirement and a manual test case directly in UiPath Test Manager — no review pause, just create and save.
 
         Test Manager project: <PROJECT_KEY>
-        Requirement: Create one new requirement for the process described in the PDD (don't create it if an existing requirement already covers this exact process — check first and tell me if you find one instead of creating a duplicate). Name it <REQUIREMENT_NAME> (or infer from the PDD title if omitted); description should summarize the user flow (pages/actions) and any acceptance criteria from the PDD.
-        Test case: Create one manual test case named <TEST_CASE_NAME> (or infer from the PDD if omitted), derived from the PDD's numbered steps/screenshots — one test step per documented UI action, each with an expected result.
+        Requirement: Create one new requirement for the process described in the PDD (don't create it if an existing requirement already covers this exact process — check first and tell me if you find one instead of creating a duplicate). Name it - infer from the PDD title; description should summarize the user flow (pages/actions) and any acceptance criteria from the PDD.
+        Test case: Create one manual test case - infer name from the PDD, derived from the PDD's numbered steps/screenshots — one test step per documented UI action, each with an expected result.
         Extra step(s): <ADDITIONAL_STEP_DESCRIPTION> (e.g. "after the PDD's last action, verify the loan details page shows the same loan ID that was entered, along with the rest of the loan's details"). Omit this bullet if the PDD's steps are complete as-is.
         Link: Link the new test case to the new requirement.
         Report back: give me the created requirement key and test case key (e.g. <PROJECT_KEY>:NN) when done.
