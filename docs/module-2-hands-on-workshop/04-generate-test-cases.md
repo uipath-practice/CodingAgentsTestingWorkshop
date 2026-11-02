@@ -13,7 +13,9 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
     ```
 
     ??? info "Editing prompts and adding your own"
-        The built-in prompts are editable, and you can add custom prompts of your own. Manage them in the **Prompt Library**, under **Project Settings**.
+        ✅ **For this run only** — edit the prompt right here, as you just did.
+
+        ✅ **For the whole project** — create new prompts or edit existing ones in the **Prompt Library**, under **Project Settings**.
 
 4. In **Provide additional context → Add documents**, select:
 
