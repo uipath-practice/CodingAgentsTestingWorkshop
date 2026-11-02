@@ -7,7 +7,7 @@ To run tests automatically, your project needs an **Orchestrator folder** with a
 ### Create your folder
 
 1. Create a personal folder, as your trainer guides you. You'll assign your machine to it.
-2. Enable your user for **Personal Automation + Personal workspace**, with the **Automation Developer** role.
+2. You get your permissions through a group your trainer sets up: **Personal Automation + Personal workspace**, with the **Automation Developer** role. You don't need to set them yourself.
 3. In the Enterprise setup, use **Custom Windows credentials**: your `domain\username` and your system's Windows password.
 
     ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
