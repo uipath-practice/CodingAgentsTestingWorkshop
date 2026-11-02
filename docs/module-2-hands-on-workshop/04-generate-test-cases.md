@@ -32,7 +32,7 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
         | **Best for** | A few specific documents | Large document sets |
 
 5. Optionally, add instructions, for example *"Focus on the age and income rules in the acceptance criteria, and apply the security guidelines."*
-6. Review the proposals, keep **3 or 4**, and create them.
+6. Review the proposals, keep **2 or 3**, and create them.
 
 **Check it:** the requirement shows the new test cases as linked, each with manual steps and the **Coding Agent WS** label.
 

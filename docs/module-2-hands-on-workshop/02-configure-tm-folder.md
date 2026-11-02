@@ -12,7 +12,7 @@ To run tests automatically, your project needs an **Orchestrator folder** with a
 
     ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
 
-### Give your machine an App Testing runtime
+### Set up your machine and folder
 
 1. Edit your machine template. Under **Runtime details**, set **App Testing** to **1**, and save.
 
