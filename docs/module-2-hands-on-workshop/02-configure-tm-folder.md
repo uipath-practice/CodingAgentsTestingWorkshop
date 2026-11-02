@@ -4,25 +4,27 @@ To run tests automatically, your project needs an **Orchestrator folder** with a
 
 ## Part 1 — Set up your folder and robot
 
-!!! example "Exercise 1 — Create your folder"
-    1. Create a personal folder, as your trainer guides you. You'll assign your machine to it.
-    2. Enable your user for **Personal Automation + Personal workspace**, with the **Automation Developer** role.
-    3. In the Enterprise setup, use **Custom Windows credentials**: your `domain\username` and your system's Windows password.
+### Create your folder
 
-        ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
+1. Create a personal folder, as your trainer guides you. You'll assign your machine to it.
+2. Enable your user for **Personal Automation + Personal workspace**, with the **Automation Developer** role.
+3. In the Enterprise setup, use **Custom Windows credentials**: your `domain\username` and your system's Windows password.
 
-    4. Add your user to your folder.
+    ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
 
-        ![Manage Access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
+4. Add your user to your folder.
 
-!!! example "Exercise 2 — Give your machine an App Testing runtime"
-    1. Edit your machine template. Under **Runtime details**, set **App Testing** to **1**, and save.
+    ![Manage Access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
 
-        ![App Testing runtime in the machine template](../assets/images/OC%20App%20testing%20license.png)
+### Give your machine an App Testing runtime
 
-    2. In your folder, open **Machines → Manage Machines in Folder**, and add the machine.
+1. Edit your machine template. Under **Runtime details**, set **App Testing** to **1**, and save.
 
-        ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
+    ![App Testing runtime in the machine template](../assets/images/OC%20App%20testing%20license.png)
+
+2. In your folder, open **Machines → Manage Machines in Folder**, and add the machine.
+
+    ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
 
 ## Part 2 — Link the project to the folder
 
