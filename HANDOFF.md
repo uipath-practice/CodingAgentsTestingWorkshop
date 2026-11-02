@@ -34,9 +34,12 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 - **Delegate setup (Installation Guide step 2):** open it from the top ribbon, set **Work profile** to **QA / Testing** (Settings → Behavior preferences), then **+ New**. Approval mode is in **Settings → Security**: Cautious / Adaptive (recommended, with a Smart approvals toggle) / Full access.
 - **Built-in agents** are named **Evaluate Requirement Quality** (step 3) and **Generate Test Cases** (step 4). The requirement is **Submit Loan Request**.
 - **The project file** is `docs/assets/Files/Agentic Testing Workshop - Sample Test Manager Project.zip` (project "UiPath Autopilot Playground", prefix `UAP`). Learners rename the project and prefix with their own name.
-- **Test cases are automated only with Autopilot for Testers in Studio (step 6).** Delegate builds the Object Repository. Learners automate **at least 2** test cases. Step 6 creates a new Test Automation project; there's no starter project.
-- **The trainer guides each learner to create a test case meant to fail** (step 4). Learners automate it (step 6) and add it to Regression Test Set (step 7), so the step 8 report has a real failure.
-- **Step 7:** learners create **Regression Test Set**, and assign test cases statically or dynamically (by label).
+- **Test cases are automated only with Autopilot for Testers in Studio (step 6).** Delegate builds the Object Repository. Learners automate **every** test case with the **Coding Agent WS** label, then check with Delegate after publishing (links only exist once the project is published). Step 6 creates a new Test Automation project; there's no starter project.
+- **The label Coding Agent WS marks the workshop's test cases.** The Generate Test Cases prompt (step 4, Valid E2E Scenario Testing) and the Request Loan prompt (step 5) add it. Learners keep **2 or 3** generated test cases.
+- **One test case is made to fail in step 6**, by changing an input value so it breaks a requirement rule, so the step 8 report has a real failure.
+- **Loan lookup (step 5, part 3) is optional** and labelled **Delegate**, so it stays out of the test set and isn't automated.
+- **Delegate remembers the project.** Step 1's first prompt lists the learner's projects (asks which one if there are several) and remembers it; later prompts say "my project", with no project key placeholder.
+- **Step 7:** learners create **Regression Test Set** and use **Dynamic Assignment** with the **Coding Agent WS** label, from the set's **Test Cases** tab. Runs triggered from Test Manager use the Default Folder, so they run on the learner's machine.
 - **Step 8:** the report content, save questions and PDF follow-up come from the Fusion PDF. Routines are a read-through, not hands-on.
 - Python and the .NET 8 SDK are left out of the prerequisites.
 
@@ -46,10 +49,8 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 - [ ] **Rehearse step 8's prompt:** trigger the test set *and* write the report in one prompt, saved as a PDF in `Documents\UiPath\Reports`. The PDF only shows reporting on past executions. Also check whether Delegate still asks before triggering the run with **Adaptive** and **Smart approvals** on, and try the single test case prompt.
 - [ ] **Rehearse step 5 with Delegate:** the manual run (result and screenshot pushed to Test Manager), Request Loan, the loan lookup PDD, and the Test Tier custom field.
 - [ ] **Rehearse step 6:** Delegate captures UiBank elements into the Object Repository, and Autopilot uses them. Check the Studio **New Project → Test Automation** and **Manage Packages** wording.
-- [ ] **Check step 2, Exercise 1** against the product: Personal Automation + Personal workspace, the Automation Developer role, and Custom Windows credentials with no password have no source.
 - [ ] **Confirm how Delegate signs in to the tenant.** Prerequisites still says "Connect UiPath Assistant to your Cloud account".
 - [ ] **Add screenshots** for steps 3 and 4 (the built-in agents).
-- [ ] Merge `feature/move-folder-setup` to `main` to publish, and enable GitHub Pages (`gh-pages` branch) in the repo settings after the first deploy.
 
 ## Log
 
@@ -72,3 +73,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-10-29 | Configure the Test Manager Folder moved from step 06 to step 02, right after the import, so the folder and robot exist before Run autonomously (step 5) and publishing (step 6). Old steps 02–05 renumbered to 03–06; Home map phases regrouped (Set up / Plan & test / Build / Run & report). Removed the "Published before creating the folder?" tip. |
 | 2026-10-29 | Removed the optional *Use Your Own Coding Agent* section (overview and setup pages, nav entry, its two screenshots, and the links from Home, Installation Guide, Introduction, Troubleshooting and README). |
 | 2026-10-29 | Review pass against the Fusion PDF: Delegate setup (top ribbon, + New, QA / Testing work profile, approval mode names), `uipath-testcloud` skill, built-in agent names, Submit Loan Request, App Testing runtime, personal folder and Default Folder path, static / dynamic test set assignment, step 8 report content, routines as a read-through. Removed defect creation, the Edge/Chrome tip, "Send feedback", the 760 MB size, and the coding-agent Learn more links. Decisions and Open items rewritten. |
+| 2026-11-02 | Reviewer feedback closed (F-12 kept by owner, F-14, F-36, F-47, F-49). Publishing moved to uipath-practice only; meera-uipath repos archived with redirects. Step 2: plain steps, images under each step, permissions from a trainer group, Windows password. Coding Agent WS label added (steps 4, 5, 6, 7); step 6 automates every labelled test case, makes one fail, and checks links after publishing. Loan lookup made optional with a new PDD prompt. Project key placeholders replaced by Delegate remembering the project from step 1. |
