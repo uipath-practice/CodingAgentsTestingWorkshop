@@ -19,7 +19,7 @@ You start from a ready-made **UiBank** project: requirements, test cases, test s
 [Open Delegate](../module-0-prerequisites/01-installation-guide.md#step-2-meet-delegate) and ask, one at a time:
 
 ```text
-List the Test Manager projects created by me, with their details. I'll use the one I just imported for the whole workshop. Remember it, and use it whenever I ask about my project in this session.
+List the Test Manager projects created by me, with their details. If there's more than one, ask me which one to use for this workshop. Remember that project, and use it whenever I ask about my project in this session.
 ```
 
 ```text
