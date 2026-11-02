@@ -191,10 +191,11 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
         ✅ **Cards in between:** keep **Open** and **Close** as **Never**.
     4. **Run** it locally.
     5. Repeat for each test case with the **Coding Agent WS** label.
+    6. **Make one test case fail.** In one automated test case, change an input value so it breaks a rule in the requirement, such as an age or income outside the limits. Keep the expected result as it is, and run it again. It fails, which gives the report in [08. Run and Report](08-run-and-report.md) a real failure to show.
 
 ![Test Explorer](../assets/images/testExplorer.png)
 
-**Check it:** each test case passes locally, except the test case meant to fail, from [04. Generate Test Cases](04-generate-test-cases.md), which fails.
+**Check it:** each test case passes locally, except the one you made fail in step 6.
 
 !!! warning "Don't continue until every labelled test case is automated"
     Your test set in [07. Create a Test Set](07-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.

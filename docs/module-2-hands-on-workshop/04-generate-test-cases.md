@@ -36,11 +36,6 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 
 **Check it:** the requirement shows the new test cases as linked, each with manual steps and the **Coding Agent WS** label.
 
-!!! tip "Create one test case that fails"
-    Your trainer guides you to create a test case that's meant to fail. You'll automate it in [06. Automate Test Cases with Studio Desktop and Delegate](06-automate-with-studio-and-delegate.md) and add it to the test set in [07. Create a Test Set](07-create-test-set.md), so the report in [08. Run and Report](08-run-and-report.md) has a real failure to show.
-
-    Make sure it has the **Coding Agent WS** label, so it's automated in 06 and included in the test set in 07.
-
 ## Nice work!
 
 You've gone from a requirement to reviewed, linked test cases in minutes.
