@@ -1,12 +1,13 @@
 # Handoff: Coding Agents for Test Workshop Guide
 
-**Owner:** Meera Kannan · **Last updated:** 2026-10-29 · **Status:** Review fixes on branch `feature/move-folder-setup`, not yet merged to `main`.
+**Owner:** Meera Kannan · **Last updated:** 2026-11-02 · **Status:** On `main`. Open review items: F-12, F-14 (step 2) and F-47, F-49 (step 7).
 
 ## What this is
 
 An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. Its theme and conventions are copied from <a href="https://meera-uipath.github.io/software-testing-ilt-guide/" target="_blank">software-testing-ilt-guide</a>. See [CLAUDE.md](CLAUDE.md) for the content standards.
 
-- **Publishes to:** `https://meera-uipath.github.io/Coding-Agents-For-Test-Workshop/` and `https://uipath-practice.github.io/CodingAgentsTestingWorkshop/`, through `.github/workflows/deploy.yml` on every push to `main`. Push every change to both remotes: `origin` (meera-uipath) and `practice` (uipath-practice).
+- **Publishes to:** `https://uipath-practice.github.io/CodingAgentsTestingWorkshop/`, through `.github/workflows/deploy.yml` on every push to `main`. Push to `origin` (uipath-practice) only.
+- **Old site:** `https://meera-uipath.github.io/Coding-Agents-For-Test-Workshop/` now redirects to the new URL, keeping the page path. Its repo is the `meera` remote. Don't push to it, or the redirect is overwritten.
 - **Preview locally:** `start-guide.bat` (uses `.venv`, which has `mkdocs-material` installed), then open http://127.0.0.1:8000
 
 ## Structure
