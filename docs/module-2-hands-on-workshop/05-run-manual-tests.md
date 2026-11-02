@@ -128,12 +128,12 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
 
 !!! example "It's your turn now!"
     1. Download the PDD, <a href="../../assets/Files/Loan%20lookup%20process%20to%20be%20tested.docx" target="_blank">Loan lookup process to be tested.docx</a>.
-    2. Attach it in Delegate. Replace the placeholders in `< >`, then paste:
+    2. Attach it in Delegate. Replace `<PROJECT_KEY>` with your project key, then paste:
 
         ```text
         Analyze the attached PDD and create + save a requirement and a manual test case directly in UiPath Test Manager — no review pause, just create and save.
 
-        Test Manager target: project key <PROJECT_KEY> (org <ORG_NAME>, tenant <TENANT_NAME>). If your CLI session is logged into a different org/tenant, switch it to this one yourself — I'm pre-authorizing the browser-based login switch, no need to ask me.
+        Test Manager project: <PROJECT_KEY>
         Requirement: Create one new requirement for the process described in the PDD (don't create it if an existing requirement already covers this exact process — check first and tell me if you find one instead of creating a duplicate). Name it <REQUIREMENT_NAME> (or infer from the PDD title if omitted); description should summarize the user flow (pages/actions) and any acceptance criteria from the PDD.
         Test case: Create one manual test case named <TEST_CASE_NAME> (or infer from the PDD if omitted), derived from the PDD's numbered steps/screenshots — one test step per documented UI action, each with an expected result.
         Extra step(s): <ADDITIONAL_STEP_DESCRIPTION> (e.g. "after the PDD's last action, verify the loan details page shows the same loan ID that was entered, along with the rest of the loan's details"). Omit this bullet if the PDD's steps are complete as-is.
