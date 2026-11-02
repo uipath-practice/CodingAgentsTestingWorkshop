@@ -45,12 +45,13 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 
 ## Open items
 
-- [ ] **Generate test data (step 6) is still "TBD".** Prerequisites (Data Fabric), the Home map, step 6's Nice work and *You did it* still mention test data.
+- [ ] **Generate test data (step 6) is still "TBD".** Prerequisites (Data Fabric), the Home map, step 6's Nice work and *You did it* still mention test data. When writing it, make sure the test data doesn't overwrite the value learners change to make one test case fail.
 - [ ] **Rehearse step 8's prompt:** trigger the test set *and* write the report in one prompt, saved as a PDF in `Documents\UiPath\Reports`. The PDF only shows reporting on past executions. Also check whether Delegate still asks before triggering the run with **Adaptive** and **Smart approvals** on, and try the single test case prompt.
-- [ ] **Rehearse step 5 with Delegate:** the manual run (result and screenshot pushed to Test Manager), Request Loan, the loan lookup PDD, and the Test Tier custom field.
-- [ ] **Rehearse step 6:** Delegate captures UiBank elements into the Object Repository, and Autopilot uses them. Check the Studio **New Project → Test Automation** and **Manage Packages** wording.
+- [ ] **Rehearse step 5 with Delegate:** the manual run (result and screenshot pushed to Test Manager), Request Loan (gets the Coding Agent WS label), the new loan lookup PDD prompt (no review pause, required final loan ID step), and the Test Tier custom field.
+- [ ] **Rehearse step 6:** Delegate captures UiBank elements into the Object Repository, and Autopilot uses them. Check the Studio **New Project → Test Automation** and **Manage Packages** wording. Time how long automating 3–4 test cases takes, and check that the "make one test case fail" step works as worded.
 - [ ] **Confirm how Delegate signs in to the tenant.** Prerequisites still says "Connect UiPath Assistant to your Cloud account".
 - [ ] **Add screenshots** for steps 3 and 4 (the built-in agents).
+- [ ] **Decide on a `.gitignore`.** Add `~$*` so Office lock files can't be committed by accident. Also decide whether `Custom Skills for Guide/`, `TM Attachments/` and the two `.pptx` files in `docs/assets/Files/` should be ignored.
 
 ## Log
 
