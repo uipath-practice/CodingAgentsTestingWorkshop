@@ -8,53 +8,21 @@ To run tests automatically, your project needs an **Orchestrator folder** with a
     1. Create a personal folder, as your trainer guides you. You'll assign your machine to it.
     2. Enable your user for **Personal Automation + Personal workspace**, with the **Automation Developer** role.
     3. In the Enterprise setup, use **Custom Windows credentials**: your `domain\username` and your system's Windows password.
+
+        ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
+
     4. Add your user to your folder.
 
-    <div class="carousel">
-      <input type="radio" name="oc-settings-carousel" id="carousel-slide-1" checked>
-      <input type="radio" name="oc-settings-carousel" id="carousel-slide-2">
-      <div class="carousel-slides">
-        <div class="carousel-slide slide-1">
-          <img src="../../assets/images/OC%20Settings%20Enterprize%20setup.png" alt="Orchestrator Enterprise setup settings">
-          <label class="carousel-arrow carousel-arrow--prev" for="carousel-slide-2" title="Previous image">&#10094;</label>
-          <label class="carousel-arrow carousel-arrow--next" for="carousel-slide-2" title="Next image">&#10095;</label>
-        </div>
-        <div class="carousel-slide slide-2">
-          <img src="../../assets/images/OC%20Settings%20Folder%20Admin.png" alt="Orchestrator Folder Admin settings">
-          <label class="carousel-arrow carousel-arrow--prev" for="carousel-slide-1" title="Previous image">&#10094;</label>
-          <label class="carousel-arrow carousel-arrow--next" for="carousel-slide-1" title="Next image">&#10095;</label>
-        </div>
-      </div>
-      <div class="carousel-nav">
-        <label class="label-1" for="carousel-slide-1"></label>
-        <label class="label-2" for="carousel-slide-2"></label>
-      </div>
-    </div>
+        ![Manage Access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
 
 !!! example "Exercise 2 — Give your machine an App Testing runtime"
     1. Edit your machine template. Under **Runtime details**, set **App Testing** to **1**, and save.
+
+        ![App Testing runtime in the machine template](../assets/images/OC%20App%20testing%20license.png)
+
     2. In your folder, open **Machines → Manage Machines in Folder**, and add the machine.
 
-    <div class="carousel">
-      <input type="radio" name="oc-exercise2-carousel" id="carousel-slide-3" checked>
-      <input type="radio" name="oc-exercise2-carousel" id="carousel-slide-4">
-      <div class="carousel-slides">
-        <div class="carousel-slide slide-3">
-          <img src="../../assets/images/OC%20App%20testing%20license.png" alt="Orchestrator App Testing license settings">
-          <label class="carousel-arrow carousel-arrow--prev" for="carousel-slide-4" title="Previous image">&#10094;</label>
-          <label class="carousel-arrow carousel-arrow--next" for="carousel-slide-4" title="Next image">&#10095;</label>
-        </div>
-        <div class="carousel-slide slide-4">
-          <img src="../../assets/images/OC%20Manage%20machine.png" alt="Orchestrator Manage Machine settings">
-          <label class="carousel-arrow carousel-arrow--prev" for="carousel-slide-3" title="Previous image">&#10094;</label>
-          <label class="carousel-arrow carousel-arrow--next" for="carousel-slide-3" title="Next image">&#10095;</label>
-        </div>
-      </div>
-      <div class="carousel-nav">
-        <label class="label-3" for="carousel-slide-3"></label>
-        <label class="label-4" for="carousel-slide-4"></label>
-      </div>
-    </div>
+        ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
 
 ## Part 2 — Link the project to the folder
 
