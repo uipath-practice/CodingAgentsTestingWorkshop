@@ -122,7 +122,7 @@ Your project has a test case, **Request Loan**, with no steps.
 
 **Check it:** **Request Loan** has manual steps and the **Coding Agent WS** label, is linked to the requirement, and has a new result in **Execution**.
 
-### 3 — Create a new requirement and test case
+### 3 — Create a new requirement and test case (optional)
 
 The business has documented a new process, **Loan lookup**, in a Process Design Document (PDD). It isn't in your requirements yet.
 
