@@ -12,17 +12,17 @@ To run tests automatically, your project needs an **Orchestrator folder** with a
 
     ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
 
-4. Add your user to your folder.
-
-    ![Manage Access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
-
 ### Give your machine an App Testing runtime
 
 1. Edit your machine template. Under **Runtime details**, set **App Testing** to **1**, and save.
 
     ![App Testing runtime in the machine template](../assets/images/OC%20App%20testing%20license.png)
 
-2. In your folder, open **Machines → Manage Machines in Folder**, and add the machine.
+2. Open your personal folder. In the **Manage Access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
+
+    ![Manage Access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
+
+3. Open the **Machines** tab, next to **Manage Access**. Click **Manage Machines in Folder**, and select your machine to add it to the folder.
 
     ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
 
