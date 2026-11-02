@@ -199,10 +199,10 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
 !!! warning "Don't continue until every labelled test case is automated"
     Your test set in [07. Create a Test Set](07-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.
 
-    Replace `<YOUR_PROJECT_KEY>`, then paste in Delegate:
+    Replace `<YOUR_PROJECT_KEY>` with your Test Manager project key, and `<YOUR_STUDIO_PROJECT>` with your Studio project name, **UiBank Tests**. Then paste in Delegate:
 
     ```text
-    List every test case in Test Manager project <YOUR_PROJECT_KEY> with the label 'Coding Agent WS'. For each one, tell me whether it's linked to an automation in UiBank Tests. List the ones that aren't.
+    List every test case in Test Manager project <YOUR_PROJECT_KEY> with the label 'Coding Agent WS'. For each one, tell me whether it's linked to a Studio project named '<YOUR_STUDIO_PROJECT>'. List the ones that aren't.
     ```
 
     Automate any test case on that list, then ask again. Continue only when the list is empty.
