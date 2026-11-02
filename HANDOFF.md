@@ -1,6 +1,6 @@
 # Handoff: Coding Agents for Test Workshop Guide
 
-**Owner:** Meera Kannan · **Last updated:** 2026-11-02 · **Status:** On `main`. Open review items: F-12, F-14 (step 2) and F-47, F-49 (step 7).
+**Owner:** Meera Kannan · **Last updated:** 2026-11-02 · **Status:** On `main`. Review items F-12, F-14, F-36, F-47 and F-49 are closed.
 
 ## What this is
 
