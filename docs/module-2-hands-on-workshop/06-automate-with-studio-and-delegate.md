@@ -194,7 +194,18 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
 
 ![Test Explorer](../assets/images/testExplorer.png)
 
-**Check it:** every test case with the **Coding Agent WS** label is automated. Each one passes locally, except the test case meant to fail, from [04. Generate Test Cases](04-generate-test-cases.md), which fails.
+**Check it:** each test case passes locally, except the test case meant to fail, from [04. Generate Test Cases](04-generate-test-cases.md), which fails.
+
+!!! warning "Don't continue until every labelled test case is automated"
+    Your test set in [07. Create a Test Set](07-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.
+
+    Replace `<YOUR_PROJECT_KEY>`, then paste in Delegate:
+
+    ```text
+    List every test case in Test Manager project <YOUR_PROJECT_KEY> with the label 'Coding Agent WS'. For each one, tell me whether it's linked to an automation in UiBank Tests. List the ones that aren't.
+    ```
+
+    Automate any test case on that list, then ask again. Continue only when the list is empty.
 
 ??? example "Optional: Fix the activity display names"
     Autopilot names each activity after its manual step, including the test data, which makes long, hard-to-read display names.
