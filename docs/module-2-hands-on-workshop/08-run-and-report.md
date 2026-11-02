@@ -54,7 +54,7 @@ Delegate gives the path to the saved report and summarizes the key numbers in th
 
 A report you run once is useful. One that arrives every morning is better. You don't need to set this up today, but here's how it works.
 
-**Save it as a routine.** Once Delegate has run a task, you can ask it to save the task as a reusable routine. For example: *"Save this run-and-report task as a routine called UiBank Release Report."* The routine appears under **Routines** in Delegate's left panel, ready to run again on demand. A scheduled routine runs outside this session, so check that the saved routine names your project.
+**Save it as a routine.** Once Delegate has run a task, you can ask it to save the task as a reusable routine. For example: *"Save this run-and-report task as a routine called UiBank Release Report."* The routine appears under **Routines** in Delegate's left panel, ready to run again on demand. **A scheduled routine may run outside this session, so check that the saved routine names your project.**
 
 **Put it on a schedule.** Under **Scheduled routines**, a Day / Week / Month calendar shows every routine with a time slot. New routines wait in the **Not scheduled** list below it. Drop one onto a time slot or set it to recur, for example weekdays at 8:00 AM.
 
