@@ -4,7 +4,7 @@
 
 ## What this is
 
-An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. Its theme and conventions are copied from <a href="https://meera-uipath.github.io/software-testing-ilt-guide/" target="_blank">software-testing-ilt-guide</a>. See [CLAUDE.md](CLAUDE.md) for the content standards.
+An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. Its theme and conventions are copied from <a href="https://uipath-practice.github.io/SoftwareTestingCourse/" target="_blank">software-testing-ilt-guide</a>. See [CLAUDE.md](CLAUDE.md) for the content standards.
 
 - **Publishes to:** `https://uipath-practice.github.io/CodingAgentsTestingWorkshop/`, through `.github/workflows/deploy.yml` on every push to `main`. Push to `origin` (uipath-practice) only.
 - **Old site:** `https://meera-uipath.github.io/Coding-Agents-For-Test-Workshop/` now redirects to the new URL, keeping the page path. Its repo is the `meera` remote. Don't push to it, or the redirect is overwritten.
