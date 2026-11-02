@@ -177,8 +177,10 @@ If an element doesn't highlight, ask Delegate to recapture it.
 
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 
+Automate **every** test case with the **Coding Agent WS** label: the ones the built-in agent created in [04. Generate Test Cases](04-generate-test-cases.md), and the ones Delegate created in [05. Run Manual Tests](05-run-manual-tests.md). Your test set in [07. Create a Test Set](07-create-test-set.md) runs all of them.
+
 !!! example "It's your turn now!"
-    1. In **Test Explorer**, right-click a manual test case → **Generate Test Case with Autopilot**.
+    1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
     2. Check it uses **Object Repository** elements and the expected results. If not, ask Delegate to fix it.
     3. Check the **Use Application/Browser** cards. The data-driven test in the next section must open and close the app once per row, and your requirement and test case may not say so.
 
@@ -188,10 +190,11 @@ If an element doesn't highlight, ask Delegate to recapture it.
 
         ✅ **Cards in between:** keep **Open** and **Close** as **Never**.
     4. **Run** it locally.
+    5. Repeat for each test case with the **Coding Agent WS** label.
 
 ![Test Explorer](../assets/images/testExplorer.png)
 
-**Check it:** at least **2** automated test cases pass locally, and the test case meant to fail, from [04. Generate Test Cases](04-generate-test-cases.md), fails.
+**Check it:** every test case with the **Coding Agent WS** label is automated. Each one passes locally, except the test case meant to fail, from [04. Generate Test Cases](04-generate-test-cases.md), which fails.
 
 ??? example "Optional: Fix the activity display names"
     Autopilot names each activity after its manual step, including the test data, which makes long, hard-to-read display names.
@@ -220,7 +223,7 @@ TBD
 Paste:
 
 ```text
-Set the <YOUR_TEST_CASE_NAMES> test cases in UiBank Tests as publishable and publish the project.
+Set all the test cases in UiBank Tests as publishable and publish the project.
 ```
 
 **Check it:** in Orchestrator, each automated test case shows in **Test Cases**.
