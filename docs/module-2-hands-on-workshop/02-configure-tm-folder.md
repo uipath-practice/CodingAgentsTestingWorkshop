@@ -22,7 +22,7 @@ To run tests automatically, your project needs an **Orchestrator folder** with a
 
     ![Manage Access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
 
-3. Open the **Machines** tab, next to **Manage Access**. Click **Manage Machines in Folder**, and select your machine and **Update** to add it to the folder.
+3. Open the **Machines** tab, next to **Manage Access**. Click **Manage Machines in Folder**, select your machine, then click **Update** to add it to the folder.
 
     ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
 
