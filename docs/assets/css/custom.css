@@ -260,10 +260,40 @@ th {
 
 .carousel-slide {
   display: none;
+  position: relative;
 }
 
 .carousel-slide img {
   margin: 0 auto !important;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.carousel-arrow:hover {
+  background-color: var(--primary-blue);
+}
+
+.carousel-arrow--prev {
+  left: 8px;
+}
+
+.carousel-arrow--next {
+  right: 8px;
 }
 
 .carousel-nav {
