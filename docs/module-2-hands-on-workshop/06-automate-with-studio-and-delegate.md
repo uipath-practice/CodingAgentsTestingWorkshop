@@ -71,10 +71,10 @@ Install the latest stable UI Automation activities package in UiBank Tests.
 
 <span class="tool-badge tool-badge--delegate">Delegate</span>
 
-Replace `<YOUR_PROJECT_KEY>` with your project key, then paste:
+Paste:
 
 ```text
-Connect this project to my Test Manager project <YOUR_PROJECT_KEY>, then open Test Explorer to show its test cases.
+Connect this project to my Test Manager project, then open Test Explorer to show its test cases.
 ```
 
 **Check it:** the connection icon is green, and **Test Explorer** lists your test cases.
@@ -231,10 +231,10 @@ Set all the test cases in UiBank Tests as publishable and publish the project.
 !!! warning "Don't continue until every labelled test case is automated"
     Your test set in [07. Create a Test Set](07-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.
 
-    Replace `<YOUR_PROJECT_KEY>` with your Test Manager project key, and `<YOUR_STUDIO_PROJECT>` with your Studio project name, **UiBank Tests**. Then paste in Delegate:
+    Replace `<YOUR_STUDIO_PROJECT>` with your Studio project name, **UiBank Tests**. Then paste in Delegate:
 
     ```text
-    List every test case in Test Manager project <YOUR_PROJECT_KEY> with the label 'Coding Agent WS'. For each one, tell me whether it's linked to a Studio project named '<YOUR_STUDIO_PROJECT>'. List the ones that aren't.
+    List every test case in my Test Manager project with the label 'Coding Agent WS'. For each one, tell me whether it's linked to a Studio project named '<YOUR_STUDIO_PROJECT>'. List the ones that aren't.
     ```
 
     Automate any test case on that list, publish again, then ask again. Continue only when the list is empty.

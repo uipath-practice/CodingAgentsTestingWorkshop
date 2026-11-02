@@ -5,16 +5,16 @@ It's release night, and the release manager wants to know: **can we ship?** Ask 
 !!! info "Check these first"
     ✅ **Your robot is available** — connected and not busy, in your Orchestrator folder.
 
-    ✅ You know your **project key**, and **Regression Test Set** from [07. Create a Test Set](07-create-test-set.md) has your automated test cases.
+    ✅ **Regression Test Set** from [07. Create a Test Set](07-create-test-set.md) has your automated test cases.
 
 ## Run it
 
 !!! example "It's your turn now!"
     1. [Open Delegate](../module-0-prerequisites/01-installation-guide.md#step-2-meet-delegate).
-    2. Replace `<YOUR_PROJECT_KEY>`, then paste:
+    2. Paste:
 
         ```text
-        Trigger the Regression Test Set of project <YOUR_PROJECT_KEY> in Test Manager and wait for it to finish. Once finished, create a release manager report in PDF for that test set, and save it in Documents\UiPath\Reports. I need a go/no-go summary before tonight's sign-off meeting. Highlight the failures blocking the release.
+        Trigger the Regression Test Set of my project in Test Manager and wait for it to finish. Once finished, create a release manager report in PDF for that test set, and save it in Documents\UiPath\Reports. I need a go/no-go summary before tonight's sign-off meeting. Highlight the failures blocking the release.
         ```
 
     3. Approve the run when Delegate asks. It's the only action that changes anything — a **real execution** on your robot.
@@ -23,7 +23,7 @@ It's release night, and the release manager wants to know: **can we ship?** Ask 
 
 ??? tip "Run a single test case instead"
     ```text
-    Run test case <YOUR_TEST_CASE_KEY> in project <YOUR_PROJECT_KEY> in Test Manager, wait for it to finish, and tell me whether it passed. If it failed, explain why.
+    Run test case <YOUR_TEST_CASE_KEY> in my project in Test Manager, wait for it to finish, and tell me whether it passed. If it failed, explain why.
     ```
 
 ## Check the report
@@ -54,7 +54,7 @@ Delegate gives the path to the saved report and summarizes the key numbers in th
 
 A report you run once is useful. One that arrives every morning is better. You don't need to set this up today, but here's how it works.
 
-**Save it as a routine.** Once Delegate has run a task, you can ask it to save the task as a reusable routine. For example: *"Save this run-and-report task as a routine called `<YOUR_PROJECT_KEY>` Release Report."* The routine appears under **Routines** in Delegate's left panel, ready to run again on demand.
+**Save it as a routine.** Once Delegate has run a task, you can ask it to save the task as a reusable routine. For example: *"Save this run-and-report task as a routine called UiBank Release Report."* The routine appears under **Routines** in Delegate's left panel, ready to run again on demand.
 
 **Put it on a schedule.** Under **Scheduled routines**, a Day / Week / Month calendar shows every routine with a time slot. New routines wait in the **Not scheduled** list below it. Drop one onto a time slot or set it to recur, for example weekdays at 8:00 AM.
 

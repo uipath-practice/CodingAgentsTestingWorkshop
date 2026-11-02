@@ -19,19 +19,19 @@ You start from a ready-made **UiBank** project: requirements, test cases, test s
 [Open Delegate](../module-0-prerequisites/01-installation-guide.md#step-2-meet-delegate) and ask, one at a time:
 
 ```text
-Can you identify the Test Manager project created by me. Provide details.
+List the Test Manager projects created by me, with their details. I'll use the one I just imported for the whole workshop. Remember it, and use it whenever I ask about my project in this session.
 ```
 
 ```text
-List the requirements in project <YOUR_PROJECT_KEY>, with the test cases linked to each.
+List the requirements in my project, with the test cases linked to each.
 ```
 
 ```text
-Which requirements in project <YOUR_PROJECT_KEY> don't have any test cases linked yet?
+Which requirements in my project don't have any test cases linked yet?
 ```
 
 ```text
-Pick one test case in project <YOUR_PROJECT_KEY> and show me its manual steps and expected results.
+Pick one test case in my project and show me its manual steps and expected results.
 ```
 
 ✅ Delegate finds your project and answers from your Test Manager data.

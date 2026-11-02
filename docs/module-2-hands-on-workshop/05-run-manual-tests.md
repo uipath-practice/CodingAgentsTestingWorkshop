@@ -128,17 +128,16 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
 
 !!! example "It's your turn now!"
     1. Download the PDD, <a href="../../assets/Files/Loan%20lookup%20process%20to%20be%20tested.docx" target="_blank">Loan lookup process to be tested.docx</a>.
-    2. Attach it in Delegate. Replace `<PROJECT_KEY>` with your project key, then paste:
+    2. Attach it in Delegate, then paste:
 
         ```text
         Analyze the attached PDD and create + save a requirement and a manual test case directly in UiPath Test Manager — no review pause, just create and save.
 
-        Test Manager project: <PROJECT_KEY>
         Requirement: Create one new requirement for the process described in the PDD (don't create it if an existing requirement already covers this exact process — check first and tell me if you find one instead of creating a duplicate). Name it - infer from the PDD title; description should summarize the user flow (pages/actions) and any acceptance criteria from the PDD.
         Test case: Create one manual test case - infer name from the PDD, derived from the PDD's numbered steps/screenshots — one test step per documented UI action, each with an expected result.
         Final step: After the PDD's last action, add a step that verifies the loan details page shows the same loan ID that was entered, along with the rest of the loan's details.
         Link: Link the new test case to the new requirement.
-        Report back: give me the created requirement key and test case key (e.g. <PROJECT_KEY>:NN) when done.
+        Report back: give me the created requirement key and test case key when done.
         ```
 
     3. Ask Delegate to run the new test case.
@@ -168,7 +167,7 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
     2. Create a **Test Tier** custom field and set it on the labeled test cases:
 
         ```text
-        Create a custom field definition for test cases in project <YOUR_PROJECT_KEY>:
+        Create a custom field definition for test cases in my project:
         - Name: Test Tier
         - Description: How often this test should run: every build, daily, or before release.
         - Object type: Test Cases
