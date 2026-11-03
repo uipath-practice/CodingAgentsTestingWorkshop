@@ -2,11 +2,12 @@
 
 There are three ways to run a manual test case. Each records its results in Test Manager.
 
+
 | | Who runs the steps | Apps it can test | Setup needed |
 |---|---|---|---|
+| **Delegate** *(used in this workshop)* | Delegate, on your machine | Web and desktop apps | None |
 | **Manual execution assistant** | You | Any | None |
 | **Run autonomously** | Autopilot, on a robot | Web apps | A robot in the project's default folder ([01. Import and Link the Test Manager Project](01-import-tm-project.md#link-the-project-to-your-folder)) |
-| **Delegate** | Delegate, on your machine | Web and desktop apps | None |
 
 See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-manual-tests" target="_blank">Executing manual tests</a>.
 
@@ -47,7 +48,7 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
 
 ## Run manual tests with Delegate
 
-In this workshop, you'll use Delegate. It runs your test cases, builds new ones, and pushes every result to Test Manager.
+With Delegate, you can run a test case, add steps to an empty one, or create a new one from a business document. You review the work and decide what to save in Test Manager.
 
 [Open Delegate](../module-0-prerequisites/01-installation-guide.md#step-2-meet-delegate).
 
