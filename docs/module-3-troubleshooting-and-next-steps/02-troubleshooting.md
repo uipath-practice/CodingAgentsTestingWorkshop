@@ -12,8 +12,8 @@
 
 | Symptom | Likely cause / fix |
 |---|---|
-| `HTTP 400: Please assign folder to project level before executing testcases.` | The project has no default folder. Complete [02. Link the Project to Your Folder](../module-2-hands-on-workshop/02-configure-tm-folder.md). |
-| Test cases are skipped with no result | They're manual — not linked to a published automation. Complete [Publish the test cases](../module-2-hands-on-workshop/06-automate-with-studio-and-delegate.md#publish-the-test-cases) and check each test case shows an automation. |
+| `HTTP 400: Please assign folder to project level before executing testcases.` | The project has no default folder. Complete [01. Import and Link the Test Manager Project](../module-2-hands-on-workshop/01-import-tm-project.md#link-the-project-to-your-folder). |
+| Test cases are skipped with no result | They're manual — not linked to a published automation. Complete [Publish the test cases](../module-2-hands-on-workshop/05-automate-with-studio-and-delegate.md#publish-the-test-cases) and check each test case shows an automation. |
 | The run stays pending or hangs | The robot is busy or disconnected. In Orchestrator, check the machine in your folder is connected and has an **App Testing** runtime. |
 | Tests fail with "Cannot communicate with the browser" | A robot-side problem with the UiPath browser extension, not a product defect. Check the extension is installed and enabled on the robot machine. |
 

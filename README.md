@@ -29,7 +29,7 @@ Learners complete their own [Prerequisites](docs/module-0-prerequisites/index.md
 
 ### Organization and tenant
 
-- [ ] Create the workshop **tenant** in an organization delivered through **Test Cloud**. Autonomous Test Execution and Autonomous Exploration (step 5) are only available in Test Cloud.
+- [ ] Create the workshop **tenant** in an organization delivered through **Test Cloud**. Autonomous Test Execution and Autonomous Exploration (step 4) are only available in Test Cloud.
 - [ ] Make sure the tenant has **Test Manager**, **Orchestrator**, and **Data Fabric** enabled.
 - [ ] Make sure **Autopilot for Testers** is allowed for the tenant, in Test Manager and in Studio. Check that no AI Trust Layer or governance policy blocks it.
 - [ ] Make sure learners can use **Delegate** in the organization.
@@ -42,8 +42,8 @@ Learners complete their own [Prerequisites](docs/module-0-prerequisites/index.md
 
 ### Licenses and runtimes
 
-- [ ] Assign an **App Test Developer** user license to the group or to each learner. Learners need it to create and publish Test Automation projects in Studio (step 6).
-- [ ] Allocate enough **App Testing** runtimes to the tenant: at least one per learner machine (step 2).
+- [ ] Assign an **App Test Developer** user license to the group or to each learner. Learners need it to create and publish Test Automation projects in Studio (step 5).
+- [ ] Allocate enough **App Testing** runtimes to the tenant: at least one per learner machine (Prerequisites: folder and robot setup).
 - [ ] For **Run autonomously** and **Autonomous Exploration**, make sure a supported, non-serverless robot is available in each project's default folder. The robot machine must run Windows, and its UiPath browser extension must have **Allow in Incognito** turned on.
 
 ### Test Manager
@@ -53,13 +53,13 @@ Learners complete their own [Prerequisites](docs/module-0-prerequisites/index.md
 
 ### Orchestrator
 
-- [ ] In step 2, guide each learner to create a **personal folder**. Their machine is assigned to it, and it becomes their project's default folder.
-- [ ] Give the group the roles it needs in step 2. At tenant level, learners must be able to set up their own user: **Personal Automation + Personal workspace**, the **Automation Developer** role, and **Custom Windows credentials**. They also need rights to create their own folder and add machines and users to it. If you'd rather not grant these, do this part of step 2 for each learner before the session.
+- [ ] In the Prerequisites folder and robot setup, guide each learner to create a **personal folder**. Their machine is assigned to it, and it becomes their project's default folder.
+- [ ] Give the group the roles it needs for the Prerequisites folder and robot setup. At tenant level, learners must be able to set up their own user: **Personal Automation + Personal workspace**, the **Automation Developer** role, and **Custom Windows credentials**. They also need rights to create their own folder and add machines and users to it. If you'd rather not grant these, do this setup for each learner before the session.
 - [ ] If learners use credential assets in test cases, give them the **View** permission on **Assets**.
 
 ### Data Fabric
 
-- [ ] Give the group **read-write access** to Data Fabric at **tenant level**: permission to **create entities**, and to create, read, and update **records** (step 6).
+- [ ] Give the group **read-write access** to Data Fabric at **tenant level**: permission to **create entities**, and to create, read, and update **records** (step 5).
 - [ ] Learners name their entity `LoanTestData<INITIALS>`, so names don't clash on the shared tenant.
 
 ### Learner machines and network
@@ -70,7 +70,7 @@ Learners complete their own [Prerequisites](docs/module-0-prerequisites/index.md
 ### On the day
 
 - [ ] Share the **organization name** and **tenant name** with learners.
-- [ ] Check that loan ID `6adae567758a48004816b1cc` still opens on UiBank's **Loan Lookup** page. Every learner uses it in step 5.
+- [ ] Check that loan ID `6adae567758a48004816b1cc` still opens on UiBank's **Loan Lookup** page. Every learner uses it in step 4.
 - [ ] Do a dry run of steps 1, 2, 5, 6, and 8 with a test user in the learner group. These are the steps that depend most on permissions.
 
 ### After the workshop

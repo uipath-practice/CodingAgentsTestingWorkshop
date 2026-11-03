@@ -1,4 +1,4 @@
-# 04. Generate Test Cases
+# 03. Generate Test Cases
 
 The **Generate Test Cases** built-in agent reads a requirement and proposes test cases with manual steps. You review them before they're saved.
 
@@ -42,6 +42,6 @@ You've gone from a requirement to reviewed, linked test cases in minutes.
 
 ---
 
-[Next → 05. Run Manual Tests](05-run-manual-tests.md){: .md-button .md-button--primary}
+[Next → 04. Run Manual Tests](04-run-manual-tests.md){: .md-button .md-button--primary}
 
 ---

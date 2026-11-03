@@ -15,7 +15,7 @@ Confirm that you can:
 
 ✅ Use an **App Test Developer** license, to create Test Automation projects
 
-✅ **Create Data Fabric entities**, for test data in [06. Automate Test Cases with Studio Desktop and Delegate](../module-2-hands-on-workshop/06-automate-with-studio-and-delegate.md)
+✅ **Create Data Fabric entities**, for test data in [05. Automate Test Cases with Studio Desktop and Delegate](../module-2-hands-on-workshop/05-automate-with-studio-and-delegate.md)
 
 ✅ Connect **UiPath Assistant** to your Cloud account
 
@@ -27,7 +27,7 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
 ✅ **Your machine**, with an **App Testing** runtime, where the robot runs your tests
 
-Later, in [02. Link the Project to Your Folder](../module-2-hands-on-workshop/02-configure-tm-folder.md), you point your Test Manager project to this folder.
+Later, in [01. Import and Link the Test Manager Project](../module-2-hands-on-workshop/01-import-tm-project.md#link-the-project-to-your-folder), you point your Test Manager project to this folder.
 
 ??? info "Trainer-led setup: your folder and machine"
     Your trainer guides you through these steps.

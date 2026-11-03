@@ -1,11 +1,11 @@
-# 05. Run Manual Tests
+# 04. Run Manual Tests
 
 There are three ways to run a manual test case. Each records its results in Test Manager.
 
 | | Who runs the steps | Apps it can test | Setup needed |
 |---|---|---|---|
 | **Manual execution assistant** | You | Any | None |
-| **Run autonomously** | Autopilot, on a robot | Web apps | A robot in the project's default folder ([02. Link the Project to Your Folder](02-configure-tm-folder.md)) |
+| **Run autonomously** | Autopilot, on a robot | Web apps | A robot in the project's default folder ([01. Import and Link the Test Manager Project](01-import-tm-project.md#link-the-project-to-your-folder)) |
 | **Delegate** | Delegate, on your machine | Web and desktop apps | None |
 
 See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-manual-tests" target="_blank">Executing manual tests</a>.
@@ -54,7 +54,7 @@ In this workshop, you'll use Delegate. It runs your test cases, builds new ones,
 ### 1 — Run a test case
 
 !!! example "It's your turn now!"
-    1. Replace `<YOUR_TEST_CASE_KEY>` with a test case you created in [04. Generate Test Cases](04-generate-test-cases.md), then paste:
+    1. Replace `<YOUR_TEST_CASE_KEY>` with a test case you created in [03. Generate Test Cases](03-generate-test-cases.md), then paste:
 
         ```text
         Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and upload it to the test case's assertions. Push the results to Test Manager. If any step failed, explain the reason.
@@ -73,7 +73,7 @@ In this workshop, you'll use Delegate. It runs your test cases, builds new ones,
 **Check it:** **Execution** → open the new execution → select your test case key. It shows the result, with the screenshot under **Assertions**.
 
 !!! question "Think about it"
-    Did Delegate stumble on a step? Autopilot automates these same steps in [06. Automate Test Cases with Studio Desktop and Delegate](06-automate-with-studio-and-delegate.md), so fix them now:
+    Did Delegate stumble on a step? Autopilot automates these same steps in [05. Automate Test Cases with Studio Desktop and Delegate](05-automate-with-studio-and-delegate.md), so fix them now:
 
     ```text
     Rewrite the steps of test case <YOUR_TEST_CASE_KEY> that were unclear during this run, so each one has a single clear action and expected result. Show me the changes before you save them to Test Manager.
@@ -196,6 +196,6 @@ Your test cases are proven against the real application, with results in Test Ma
 
 ---
 
-[Next → 06. Automate Test Cases with Studio Desktop and Delegate](06-automate-with-studio-and-delegate.md){: .md-button .md-button--primary}
+[Next → 05. Automate Test Cases with Studio Desktop and Delegate](05-automate-with-studio-and-delegate.md){: .md-button .md-button--primary}
 
 ---

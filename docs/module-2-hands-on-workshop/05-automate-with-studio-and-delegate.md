@@ -1,4 +1,4 @@
-# 06. Automate Test Cases with Studio Desktop and Delegate
+# 05. Automate Test Cases with Studio Desktop and Delegate
 
 Automate your manual test cases in Studio with Delegate. Each automation stays **linked** to its test case in Test Manager.
 
@@ -176,7 +176,7 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 
-Automate **every** test case with the **Coding Agent WS** label: the ones the built-in agent created in [04. Generate Test Cases](04-generate-test-cases.md), and the ones Delegate created in [05. Run Manual Tests](05-run-manual-tests.md). Your test set in [07. Create a Test Set](07-create-test-set.md) runs all of them.
+Automate **every** test case with the **Coding Agent WS** label: the ones the built-in agent created in [03. Generate Test Cases](03-generate-test-cases.md), and the ones Delegate created in [04. Run Manual Tests](04-run-manual-tests.md). Your test set in [06. Create a Test Set](06-create-test-set.md) runs all of them.
 
 !!! example "It's your turn now!"
     1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
@@ -190,7 +190,7 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
         ✅ **Cards in between:** keep **Open** and **Close** as **Never**.
     4. **Run** it locally.
     5. Repeat for each test case with the **Coding Agent WS** label.
-    6. **Make one test case fail.** In one automated test case, change an input value so it breaks a rule in the requirement, such as an age or income outside the limits. Keep the expected result as it is, and run it again. It fails, which gives the report in [08. Run and Report](08-run-and-report.md) a real failure to show.
+    6. **Make one test case fail.** In one automated test case, change an input value so it breaks a rule in the requirement, such as an age or income outside the limits. Keep the expected result as it is, and run it again. It fails, which gives the report in [07. Run and Report](07-run-and-report.md) a real failure to show.
 
 ![Test Explorer](../assets/images/testExplorer.png)
 
@@ -229,7 +229,7 @@ Set all the test cases in UiBank Tests as publishable and publish the project.
 **Check it:** in Orchestrator, each automated test case shows in **Test Cases**.
 
 !!! warning "Don't continue until every labelled test case is automated"
-    Your test set in [07. Create a Test Set](07-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.
+    Your test set in [06. Create a Test Set](06-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.
 
     Replace `<YOUR_STUDIO_PROJECT>` with your Studio project name, **UiBank Tests**. Then paste in Delegate:
 
@@ -245,6 +245,6 @@ Your test cases are automated, data-driven, and published, ready to run from Tes
 
 ---
 
-[Next → 07. Create a Test Set](07-create-test-set.md){: .md-button .md-button--primary}
+[Next → 06. Create a Test Set](06-create-test-set.md){: .md-button .md-button--primary}
 
 ---

@@ -1,4 +1,4 @@
-# 03. Evaluate Requirements
+# 02. Evaluate Requirements
 
 Vague or incomplete requirements lead to gaps in testing. The **Evaluate Requirement Quality** built-in agent checks a requirement for clarity, completeness, and consistency, and suggests fixes.
 
@@ -37,6 +37,6 @@ Your requirement is clearer and more testable — ready for generating test case
 
 ---
 
-[Next → 04. Generate Test Cases](04-generate-test-cases.md){: .md-button .md-button--primary}
+[Next → 03. Generate Test Cases](03-generate-test-cases.md){: .md-button .md-button--primary}
 
 ---

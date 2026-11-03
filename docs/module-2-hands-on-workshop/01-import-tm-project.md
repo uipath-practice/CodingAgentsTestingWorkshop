@@ -1,4 +1,4 @@
-# 01. Import the Test Manager Project
+# 01. Import and Link the Test Manager Project
 
 You start from a ready-made **UiBank** project: requirements, test cases, test sets, results, and attachments.
 
@@ -13,6 +13,16 @@ You start from a ready-made **UiBank** project: requirements, test cases, test s
 2. On **Projects**, select **import** and choose the `.tmh` file.
 3. Add your name to the **Name** and **Prefix** (project key), for example `UiBank_AlexS` and `UIBAS`, so your project is unique on the shared tenant.
 4. Start the import. It takes about a minute.
+
+## Link the project to your folder
+
+To run tests automatically, Test Manager needs to know which **Orchestrator folder** to use: the personal folder you set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot).
+
+!!! example "It's your turn now!"
+    In your Test Manager project, go to **Project Settings**, open the **Automation** tab, set **Default Folder** to your personal folder, and click **Save**.
+
+!!! failure "Skipped this step?"
+    Runs fail with `HTTP 400: Please assign folder to project level before executing testcases.`
 
 ## Check it with Delegate
 
@@ -38,6 +48,6 @@ Pick one test case in my project and show me its manual steps and expected resul
 
 ---
 
-[Next → 02. Link the Project to Your Folder](02-configure-tm-folder.md){: .md-button .md-button--primary}
+[Next → 02. Evaluate Requirements](02-evaluate-requirements.md){: .md-button .md-button--primary}
 
 ---
