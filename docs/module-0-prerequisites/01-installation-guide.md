@@ -21,7 +21,7 @@ flowchart LR
     B --> C["Save it as a routine<br/>(re-run anytime)"]
 ```
 
-For testing, Delegate works with **Test Manager**: it runs tests locally with computer use, uploads the results, and creates test reports.
+For testing, Delegate is fully integrated with **Test Manager**, so you can hand it testing work across the whole cycle, from planning and authoring tests to running them and reporting on the results.
 
 1. Open **UiPath Assistant**, and select **Delegate** in the top ribbon.
 2. Set the work profile: click the chevron next to your user name (bottom left) → **Settings** → **Behavior preferences**, and set **Work profile** to **QA / Testing**.
