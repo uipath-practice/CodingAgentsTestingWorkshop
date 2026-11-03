@@ -6,7 +6,7 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 
 1. Open **Requirements** → **Submit Loan Request**.
 2. Run the **Evaluate Requirement Quality** built-in agent on it.
-3. Choose one of the built-in prompts to tell the agent how to evaluate the requirement.
+3. Under **Select a prompt**, choose **Multifaceted Audit**.
 
     ??? info "Editing prompts and adding your own"
         The built-in prompts are editable, and you can add custom prompts of your own. Manage them in the **Prompt Library**, under **Project Settings**.
