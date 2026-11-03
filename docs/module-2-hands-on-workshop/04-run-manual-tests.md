@@ -31,6 +31,7 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
     2. Confirm the **Target Application URL**, for example `https://uibank.uipath.com`. Turn on **Live Streaming** to watch Autopilot drive the browser, and take over if needed. Leave **AI Model** as it is.
     3. Select **Run**.
     4. When it finishes, open the execution:
+
         ✅ **Logs** — each step's result, expected behavior, and screenshots. Expand a step to see what Autopilot did.
 
         ✅ **Execution Log** — Autopilot's reasoning, such as how it found an element or compared a result.
