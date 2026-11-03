@@ -4,6 +4,9 @@ Complete this section **before the workshop**, then follow the **[Installation G
 
 ## Accounts and access
 
+!!! info "Access is provided by your trainer"
+    Your trainer gives you access to the workshop **organization** and **tenant** and guides you through signing in.
+
 Confirm that you can:
 
 ✅ Sign in to <a href="https://cloud.uipath.com" target="_blank">UiPath Automation Cloud</a> and open the workshop **organization** and **tenant**
