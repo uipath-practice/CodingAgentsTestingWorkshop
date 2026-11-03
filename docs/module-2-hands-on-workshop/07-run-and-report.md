@@ -28,7 +28,7 @@ It's release night, and the release manager wants to know: **can we ship?** Ask 
 
 ## Check the report
 
-Delegate gives the path to the saved report and summarizes the key numbers in the chat. Compare them with **Execution** in Test Manager. The report shows:
+Delegate gives the path to the saved report and summarizes the key numbers in the chat. Compare them with **Execution** in Test Manager. Delegate can be wrong, so always review its output before sharing. The report shows:
 
 ✅ **Scope** — the executions it covers
 
@@ -58,6 +58,8 @@ A report you run once is useful. One that arrives every morning is better. You d
 
 **Put it on a schedule.** Under **Scheduled routines**, a Day / Week / Month calendar shows every routine with a time slot. New routines wait in the **Not scheduled** list below it. Drop one onto a time slot or set it to recur, for example weekdays at 8:00 AM.
 
+**Start from a ready-made routine.** The Test Cloud plugin includes **Summarize last night's execution of a test set**, already waiting in the **Not scheduled** list.
+
 !!! warning "The machine must be on"
     A scheduled routine runs only if the machine it runs on is powered on and signed in at the scheduled time.
 
@@ -70,6 +72,10 @@ Stay in the same session — it remembers the run:
 ✅ *"Summarize the failures in three bullet points I can paste into Slack."*
 
 ✅ *"Add a section to the report with recommended next steps for the developers."*
+
+✅ *"Regenerate the same report for a Developer, with failure details and stack traces."*
+
+✅ *"Group the failures in this run by root cause: app bug, test data, environment, or flaky."*
 
 More ideas in **[More Prompts to Try](../module-3-troubleshooting-and-next-steps/01-more-agent-prompts.md)**.
 
