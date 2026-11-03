@@ -1,6 +1,6 @@
 # Handoff: Coding Agents for Test Workshop Guide
 
-**Owner:** Meera Kannan · **Last updated:** 2026-11-02 · **Status:** On `main`. Review items F-12, F-14, F-36, F-47 and F-49 are closed.
+**Owner:** Meera Kannan · **Last updated:** 2026-11-03 · **Status:** On `main`. Reviewer feedback (`MeeraFeedback.md`) is being worked through one item at a time; see Open items.
 
 ## What this is
 
@@ -17,13 +17,13 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | Home | `docs/index.md` |
 | 0 - Prerequisites | Overview, Installation Guide (Studio STS + Delegate) |
 | 1 - Introduction | Test Cloud & Test Manager |
-| 2 - Hands-On Workshop | 01 Import → 02 Configure the folder → 03 Evaluate → 04 Generate → 05 Run manual tests → 06 Automate with Studio and Delegate → 07 Test set → 08 Run and report, You did it! |
+| 2 - Hands-On Workshop | 01 Import and link → 02 Evaluate → 03 Generate → 04 Run manual tests → 05 Automate with Studio and Delegate → 06 Test set → 07 Run and report, You did it! |
 | 3 - Troubleshooting & Next Steps | Overview, More Prompts to Try, Troubleshooting |
 
 ## Sources
 
 - **Trusted:** the UiPath FUSION 2026 workshop PDF, *Agentic Testing: Exploring the Dark Testing Factory* (kept outside the repo). Follow it when the guide disagrees, and don't add details that it, UiPath docs or a product screenshot don't confirm.
-- **Corrections to the PDF:** Delegate is in UiPath Assistant's top ribbon, and **+ New** is in Delegate's left panel. Delegate doesn't need the PDF's `uip login status` check.
+- **Corrections to the PDF:** Delegate is in UiPath Assistant's top ribbon, and **+ New** is in Delegate's left panel. The Installation Guide now has a `uip login status` check, because the docs say the CLI must be signed in to run tests or publish results, and it isn't confirmed that Delegate signs it in by itself.
 - `docs/assets/Files/UiPath Delegate  - CFD.pptx` is useful for positioning and routines, but its security setting names are out of date.
 
 ## Decisions
@@ -49,8 +49,10 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 - [ ] **Rehearse step 8's prompt:** trigger the test set *and* write the report in one prompt, saved as a PDF in `Documents\UiPath\Reports`. The PDF only shows reporting on past executions. Also check whether Delegate still asks before triggering the run with **Adaptive** and **Smart approvals** on, and try the single test case prompt.
 - [ ] **Rehearse step 5 with Delegate:** the manual run (result and screenshot pushed to Test Manager), Request Loan (gets the Coding Agent WS label), the new loan lookup PDD prompt (no review pause, required final loan ID step), and the Test Tier custom field.
 - [ ] **Rehearse step 6:** Delegate captures UiBank elements into the Object Repository, and Autopilot uses them. Check the Studio **New Project → Test Automation** and **Manage Packages** wording. Time how long automating 3–4 test cases takes, and check that the "make one test case fail" step works as worded.
-- [ ] **Confirm how Delegate signs in to the tenant.** Prerequisites still says "Connect UiPath Assistant to your Cloud account".
+- [ ] **Confirm how Delegate signs in to the tenant.** Prerequisites still says "Connect UiPath Assistant to your Cloud account". On a machine that has never run `uip login`, check whether Delegate needs the new `uip login status` check in the Installation Guide.
 - [ ] **Add screenshots** for steps 3 and 4 (the built-in agents).
+- [ ] **F-49: Configure Automation is missing from step 06.** HANDOFF marked it closed, but `06-create-test-set.md` has no such step. The reviewer found a new test set defaults to **Cloud – Serverless Testing** (15-minute limit, not the learner's robot) with no package selected. Proposed step 5 on the **Test Cases** tab: **Configure Automation** → **Runtime type** = the machine's runtime (shows *1 Runtimes Available, 1 Connected*) → **Autoselect packages** (lists the learner's package) → Save. To confirm: the exact runtime label (**Testing** or **App Testing**), and whether the owner's working step 7 run used the defaults.
+- [ ] **Remaining reviewer feedback to discuss** (one at a time, before changing anything): F-56 (Delegate docs link to delegate-for-testing-overview), F-57 ("blocked" and "yesterday" in More Prompts), F-59, F-60, F-61 (troubleshooting wording and rows; F-60 could add an exit code 2 = auth error row), P-01, P-02, P-03, P-05/F-02, P-06, F-11, T-02, the remaining BP items, and the minor F items.
 - [ ] **Decide on a `.gitignore`.** Add `~$*` so Office lock files can't be committed by accident. Also decide whether `Custom Skills for Guide/`, `TM Attachments/` and the two `.pptx` files in `docs/assets/Files/` should be ignored.
 
 ## Log
@@ -77,3 +79,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-02 | Reviewer feedback closed (F-12 kept by owner, F-14, F-36, F-47, F-49). Publishing moved to uipath-practice only; meera-uipath repos archived with redirects. Step 2: plain steps, images under each step, permissions from a trainer group, Windows password. Coding Agent WS label added (steps 4, 5, 6, 7); step 6 automates every labelled test case, makes one fail, and checks links after publishing. Loan lookup made optional with a new PDD prompt. Project key placeholders replaced by Delegate remembering the project from step 1. |
 | 2026-11-03 | Folder and robot setup (old step 2 Part 1) moved to Prerequisites as a trainer-led section, with a short why: Automation Cloud access alone can't run tests; Test Manager runs them through Orchestrator on a robot in a folder. Step 2 renamed *Link the Project to Your Folder* (file name kept). Org and tenant access noted as trainer-provided. Meet Delegate reworded from the Delegate CFD deck, with a mermaid flow. Delegate for Test now names the Test Cloud plugin and the `uip` CLI (docs disagree on the skill name: `uipath-testcloud` vs `uipath-test`, so it isn't named). |
 | 2026-11-03 | Step 2 (*Link the Project to Your Folder*) merged into step 1, now *Import and Link the Test Manager Project*. Old steps 03–08 renamed and renumbered to 02–07 (files, titles, Next buttons, cross-links, nav, Home map, README). Folder and robot setup steps in Prerequisites put in a collapsed trainer-led box. |
+| 2026-11-03 | Reviewer feedback, items 1–20: F-32 manual run screenshot now goes on the step result (no Assertions on manual results); F-46 publish Check it moved to Test Manager (Automated + Automation tab); F-28 step 02 gets *Check the requirement against UiBank* and *Fix the requirement* sections (the `.tmh` is unchanged); BP-04 Studio project is `<YOUR_NAME>_UiBank Tests`; F-03 installer is `UiPathPlatformSTS.msi`; P-10 `uip login status` check added; README dead loan ID removed and dry run steps renumbered. F-40 (test data TBD) and F-50 (step 7 prompt, works as is) kept by owner. Unused `Add Docs TC creation.png` deleted. |
