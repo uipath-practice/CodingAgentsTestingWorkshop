@@ -113,14 +113,14 @@ Building it by hand is usually one of the slowest parts of test automation: you 
            - Loans (menu item in the Products dropdown; open Products first so Loans is visible when you capture it)
 
         2. Screen: Loans (https://uibank.uipath.com/loans)
-           - Apply For Loan (button)
-           - Already Have A Loan (button)
+           - Apply For A Loan (button; the one on the Loans page, not the Apply For Loan button on the Welcome page)
+           - Already Have A Loan? (button)
 
         3. Screen: Loan Application (https://uibank.uipath.com/loans/apply)
            - Email Address of Requester (input)
            - Loan Amount Requested (input)
            - Loan Term (dropdown)
-           - Current Yearly Income Before Taxes (input)
+           - Current Yearly Income (Before Taxes) (input)
            - Age (input)
            - Submit Loan Application (button)
 

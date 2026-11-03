@@ -97,12 +97,12 @@ Your project has a test case, **Request Loan**, with no steps.
         Expected result: The Loans page opens.
 
         Loans page (https://uibank.uipath.com/loans)
-        Click the Apply for Loan button.
+        Click the Apply For A Loan button.
         Expected result: The loan application form is displayed.
 
         Loan application form (https://uibank.uipath.com/loans/apply)
         Fill in every required field with the values and rules from the requirement document.
-        Click Submit.
+        Click the Submit Loan Application button.
         Expected result: The application is accepted, and the confirmation or result shown matches the acceptance criteria in the requirement.
 
         Instructions:
