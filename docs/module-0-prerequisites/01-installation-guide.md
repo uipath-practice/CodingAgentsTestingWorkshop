@@ -5,7 +5,7 @@
 !!! warning "Install the latest STS version"
     Delegate is only in **Short Term Support (STS)** versions of Studio. Install the latest one, even if you already have Studio.
 
-1. Download and run <a href="https://download.uipath.com/UiPathStudioCloud.msi" target="_blank">UiPathStudioCloud.msi</a>.
+1. Download and run <a href="https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi" target="_blank">UiPathPlatformSTS.msi</a>.
 2. Launch Studio and **sign in** to the workshop organization and tenant.
 3. Install the **UiPath browser extension**: **Home → Tools → UiPath Extensions**, then select Edge or Chrome.
 
