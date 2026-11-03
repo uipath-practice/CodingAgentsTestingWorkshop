@@ -178,27 +178,26 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
 Automate **every** test case with the **Coding Agent WS** label: the ones the built-in agent created in [03. Generate Test Cases](03-generate-test-cases.md), and the ones Delegate created in [04. Run Manual Tests](04-run-manual-tests.md). Your test set in [06. Create a Test Set](06-create-test-set.md) runs all of them.
 
-!!! example "It's your turn now!"
-    1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
+1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
 
-        ![Test Explorer](../assets/images/testExplorer.png)
+    ![Test Explorer](../assets/images/testExplorer.png)
 
-    2. Remember it uses **Object Repository** elements and the expected results. 
-    3. Check the **Use Application/Browser** cards. The data-driven test in the next section must open and close the app once per row, and your requirement and test case may not say so.
+2. Remember it uses **Object Repository** elements and the expected results. 
+3. Check the **Use Application/Browser** cards. The data-driven test in the next section must open and close the app once per row, and your requirement and test case may not say so.
 
-        ✅ **First card:** set **Open** to **Always**.
+    ✅ **First card:** set **Open** to **Always**.
 
-        ✅ **Last card:** set **Close** to **Always**.
+    ✅ **Last card:** set **Close** to **Always**.
 
-        ✅ **Cards in between:** keep **Open** and **Close** as **Never**.
+    ✅ **Cards in between:** keep **Open** and **Close** as **Never**.
 
-        Select a card, then set **Open** and **Close** under **Properties → Options**. Here, the first card opens the app and leaves it open:
+    Select a card, then set **Open** and **Close** under **Properties → Options**. Here, the first card opens the app and leaves it open:
 
-        ![Open and Close options of the first Use Application/Browser card](../assets/images/Use%20Application%20properties.png)
+    ![Open and Close options of the first Use Application/Browser card](../assets/images/Use%20Application%20properties.png)
 
-    4. **Run** it locally.
-    5. Repeat for each test case with the **Coding Agent WS** label.
-    6. **Make one test case fail.** In one automated test case, change an input value so it breaks a rule in the requirement, such as an age or income outside the limits. Keep the expected result as it is, and run it again. It fails, which gives the report in [07. Run and Report](07-run-and-report.md) a real failure to show.
+4. **Run** it locally.
+5. Repeat for each test case with the **Coding Agent WS** label.
+6. **Make one test case fail.** In one automated test case, change an input value so it breaks a rule in the requirement, such as an age or income outside the limits. Keep the expected result as it is, and run it again. It fails, which gives the report in [07. Run and Report](07-run-and-report.md) a real failure to show.
 
 **Check it:** each test case passes locally, except the one you made fail in step 6.
 
