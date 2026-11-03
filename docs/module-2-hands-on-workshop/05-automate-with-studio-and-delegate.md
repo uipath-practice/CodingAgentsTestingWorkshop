@@ -180,6 +180,9 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
 
 !!! example "It's your turn now!"
     1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
+
+        ![Test Explorer](../assets/images/testExplorer.png)
+
     2. Remember it uses **Object Repository** elements and the expected results. 
     3. Check the **Use Application/Browser** cards. The data-driven test in the next section must open and close the app once per row, and your requirement and test case may not say so.
 
@@ -196,8 +199,6 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
     4. **Run** it locally.
     5. Repeat for each test case with the **Coding Agent WS** label.
     6. **Make one test case fail.** In one automated test case, change an input value so it breaks a rule in the requirement, such as an age or income outside the limits. Keep the expected result as it is, and run it again. It fails, which gives the report in [07. Run and Report](07-run-and-report.md) a real failure to show.
-
-![Test Explorer](../assets/images/testExplorer.png)
 
 **Check it:** each test case passes locally, except the one you made fail in step 6.
 
