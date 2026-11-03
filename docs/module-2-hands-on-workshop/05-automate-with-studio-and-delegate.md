@@ -231,7 +231,7 @@ Paste:
 Set all the test cases in UiBank Tests as publishable and publish the project.
 ```
 
-**Check it:** in Orchestrator, each automated test case shows in **Test Cases**.
+**Check it:** in Test Manager, open **Test Cases**. Each one you automated shows as **Automated**. Open one and check that its **Automation** tab shows your package, **UiBank.Tests**.
 
 !!! warning "Don't continue until every labelled test case is automated"
     Your test set in [06. Create a Test Set](06-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.
