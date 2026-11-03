@@ -14,7 +14,7 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 
     ✅ **UiBank Accessibility Guidelines.docx** — form labels, error messages, keyboard support
 
-    ![Add documents tab in Provide additional context](../assets/images/Add%20Docs%20TC%20creation.png){ .img-equal }
+    ![Add documents tab in Provide additional context](../assets/images/Add%20Documents%20dialog.png){ .img-equal }
 
     ??? tip "Where do these documents come from?"
         They're the project's attachments, under **Dashboard → Attachments**:
