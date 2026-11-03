@@ -43,6 +43,8 @@ Try it:
 List the tenant I am connected to.
 ```
 
+**Check it:** ask Delegate, *"Run uip login status."* If it says you're not signed in, ask Delegate to run `uip login` and sign in with your workshop account.
+
 !!! warning "Delegate acts on your behalf"
     It uses your UiPath account and permissions, and every action is logged in your name.
 
