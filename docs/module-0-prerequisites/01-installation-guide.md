@@ -13,7 +13,15 @@
 
 ## Step 2 — Meet Delegate
 
-**UiPath Delegate** is UiPath's agent, with the UiPath CLI and skills built in. Describe a task in plain English, and it does it on your machine, in your real browser and apps.
+**UiPath Delegate** is UiPath's productivity agent, and the evolution of UiPath Assistant. You give it a task, and it completes the task end to end on your real machine, in your browsers and desktop apps.
+
+```mermaid
+flowchart LR
+    A["Delegate a task<br/>(prompt, voice, or recording)"] --> B["Delegate does it<br/>(web, desktop, files, systems)"]
+    B --> C["Save it as a routine<br/>(re-run anytime)"]
+```
+
+For testing, Delegate works with **Test Manager**: it runs tests locally with computer use, uploads the results, and creates test reports.
 
 1. Open **UiPath Assistant**, and select **Delegate** in the top ribbon.
 2. Set the work profile: click the chevron next to your user name (bottom left) → **Settings** → **Behavior preferences**, and set **Work profile** to **QA / Testing**.
