@@ -10,9 +10,9 @@ You start from a ready-made **UiBank** project: requirements, test cases, test s
 ## Import it into Test Manager
 
 1. Open **Test Manager** in the workshop tenant.
-2. On **Projects**, select **import** and choose the `.tmh` file.
-3. Add your name to the **Name** and **Prefix** (project key), for example `UiBank_AlexS` and `UIBAS`, so your project is unique on the shared tenant.
-4. Start the import. It takes about a minute.
+2. On **Projects**, select **Import Project** and drop the `.tmh` file.
+3. Replace the **Name** and **Prefix** (project key) with your own, for example `UiBank_AlexS` and `UIBAS`, so your project is unique on the shared tenant.
+4. Select **Import**. It takes 3–15 minutes. The project card shows **Import in progress…** until it's done, then **Created on**. Refresh the page if the status doesn't change.
 
 ## Link the project to your folder
 
