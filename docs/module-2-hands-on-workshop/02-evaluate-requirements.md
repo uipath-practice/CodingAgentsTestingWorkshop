@@ -1,6 +1,6 @@
 # 02. Evaluate Requirements
 
-Vague or incomplete requirements lead to gaps in testing. The **Evaluate Requirement Quality** built-in agent checks a requirement for clarity, completeness, and consistency, and suggests fixes.
+Vague or incomplete requirements lead to gaps in testing. The **Evaluate Requirement Quality** built-in agent finds gaps in a requirement, such as undefined thresholds, ambiguous input formats, and missing edge cases or validation rules, and suggests fixes.
 
 ## Evaluate it with a built-in agent
 
@@ -26,10 +26,10 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 
         ![Attachments tab of the Test Manager project](../assets/images/Attachments%20in%20TM.png){ .img-equal }
 
-5. Apply the suggestions you agree with, and update the requirement.
+5. Review the suggestions, and apply or dismiss each one. Then update the requirement.
 
 !!! question "Think about it"
-    Can you spot gaps in the acceptance criteria — an applicant who is exactly 18 or 65, or a loan amount that matches two approval rules? Did the agent find them?
+    Can you spot gaps in the acceptance criteria — an applicant who is exactly 18 or 65, or a loan amount that matches two approval rules? Did the agent find them? Compare with your neighbor.
 
 ## Nice work!
 

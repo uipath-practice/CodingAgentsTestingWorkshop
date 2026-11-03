@@ -26,7 +26,7 @@
 
 AI agents built into Test Manager and Studio. Today you'll use:
 
-✅ **Evaluate Requirement Quality** — checks requirements for clarity, completeness, and testability
+✅ **Evaluate Requirement Quality** — finds gaps in requirements, such as undefined thresholds and missing edge cases, and suggests fixes
 
 ✅ **Generate Test Cases** — generates test cases from requirements
 
