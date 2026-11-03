@@ -70,8 +70,7 @@ Learners complete their own [Prerequisites](docs/module-0-prerequisites/index.md
 ### On the day
 
 - [ ] Share the **organization name** and **tenant name** with learners.
-- [ ] Check that loan ID `6adae567758a48004816b1cc` still opens on UiBank's **Loan Lookup** page. Every learner uses it in step 4.
-- [ ] Do a dry run of steps 1, 2, 5, 6, and 8 with a test user in the learner group. These are the steps that depend most on permissions.
+- [ ] Do a dry run of steps 01, 04, 05, and 07 with a test user in the learner group. These are the steps that depend most on permissions.
 
 ### After the workshop
 
