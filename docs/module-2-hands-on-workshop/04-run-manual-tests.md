@@ -59,7 +59,7 @@ With Delegate, you can run a test case, add steps to an empty one, or create a n
     1. Replace `<YOUR_TEST_CASE_KEY>` with a test case you created in [03. Generate Test Cases](03-generate-test-cases.md), then paste:
 
         ```text
-        Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and upload it to the test case's assertions. Push the results to Test Manager. If any step failed, explain the reason.
+        Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and attach it to that step's result. Push the results to Test Manager. If any step failed, explain the reason.
         ```
 
     2. Approve when Delegate asks to push the result.
@@ -72,7 +72,7 @@ With Delegate, you can run a test case, add steps to an empty one, or create a n
     Rerun test case <YOUR_TEST_CASE_KEY> with new registration data that hasn't been used before, and push the new result to Test Manager.
     ```
 
-**Check it:** **Execution** → open the new execution → select your test case key. It shows the result, with the screenshot under **Assertions**.
+**Check it:** **Execution** → open the new execution → select your test case key. It shows the result and the step results, with the screenshot on the last step.
 
 !!! question "Think about it"
     Did Delegate stumble on a step? Autopilot automates these same steps in [05. Automate Test Cases with Studio Desktop and Delegate](05-automate-with-studio-and-delegate.md), so fix them now:
