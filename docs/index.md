@@ -84,7 +84,7 @@ By the end of this workshop, you will:
 |---|---|
 | **[Prerequisites](module-0-prerequisites/index.md)** | Accounts, Delegate, and installation |
 | **[Introduction](module-1-introduction/index.md)** | A short tour of Test Cloud, Test Manager, and Coding Agents for Test |
-| **[Hands-On Workshop](module-2-hands-on-workshop/01-import-tm-project.md)** | The eight hands-on steps, from import to the go/no-go report |
+| **[Hands-On Workshop](module-2-hands-on-workshop/01-import-tm-project.md)** | The seven hands-on steps, from import to the go/no-go report |
 | **[Troubleshooting & Next Steps](module-3-troubleshooting-and-next-steps/index.md)** | More prompts to try and fixes for common problems |
 
 ---
