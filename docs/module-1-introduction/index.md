@@ -36,13 +36,15 @@ AI agents built into Test Manager and Studio. Today you'll use:
 
 ## Delegate for Test
 
-Through the `uip tm` CLI and the `uipath-testcloud` skill, **Delegate** can:
+Delegate connects to Test Manager through the **Test Cloud** plugin, which comes on with the **QA / Testing** work profile. It uses the `uip` CLI behind the scenes, so you just ask in plain language. Delegate can:
 
-✅ **Read** test cases, results, and requirement coverage from Test Manager
+✅ **Run** manual tests on your desktop and publish the results to Test Manager
 
-✅ **Write** results and test case updates
+✅ **Manage** test cases, test sets, and executions
 
-✅ **Trigger** test sets and monitor them
+✅ **Report** on results, and triage failures
+
+✅ **Schedule** recurring test runs as routines
 
 That's enough theory — let's build.
 
