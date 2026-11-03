@@ -75,7 +75,7 @@ By the end of this workshop, you will:
 
 ✅ Delegate at different stages of testing
 
-✅ Agentic and Autopilot for Tester features in Studio 
+✅ Agentic and Autopilot for Testers features in Studio 
 
 
 ## How this guide is organized
