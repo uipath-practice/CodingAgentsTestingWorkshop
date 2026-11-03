@@ -51,18 +51,20 @@ Click a step to jump to it.
 
 <span class="tool-badge tool-badge--delegate">Delegate</span>
 
+Replace `<YOUR_NAME>` with your name, for example `AlexS`, so your package is unique on the shared tenant. Then paste:
+
 ```text
-Create a Studio Test Automation project named UiBank Tests.
+Create a Studio Test Automation project named <YOUR_NAME>_UiBank Tests.
 ```
 
-**Check it:** **UiBank Tests** opens in Studio, in `Documents\UiPath\UiBank Tests`.
+**Check it:** your project opens in Studio, in `Documents\UiPath\<YOUR_NAME>_UiBank Tests`.
 
 ## Install the UI Automation package
 
 <span class="tool-badge tool-badge--delegate">Delegate</span>
 
 ```text
-Install the latest stable UI Automation activities package in UiBank Tests.
+Install the latest stable UI Automation activities package in <YOUR_NAME>_UiBank Tests.
 ```
 
 **Check it:** **Manage Packages → Project Dependencies** lists **UiPath.UIAutomation.Activities**.
@@ -228,15 +230,15 @@ TBD
 Paste:
 
 ```text
-Set all the test cases in UiBank Tests as publishable and publish the project.
+Set all the test cases in <YOUR_NAME>_UiBank Tests as publishable and publish the project.
 ```
 
-**Check it:** in Test Manager, open **Test Cases**. Each one you automated shows as **Automated**. Open one and check that its **Automation** tab shows your package, **UiBank.Tests**.
+**Check it:** in Test Manager, open **Test Cases**. Each one you automated shows as **Automated**. Open one and check that its **Automation** tab shows your package, named after your project.
 
 !!! warning "Don't continue until every labelled test case is automated"
     Your test set in [06. Create a Test Set](06-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.
 
-    Replace `<YOUR_STUDIO_PROJECT>` with your Studio project name, **UiBank Tests**. Then paste in Delegate:
+    Replace `<YOUR_STUDIO_PROJECT>` with your Studio project name, for example **AlexS_UiBank Tests**. Then paste in Delegate:
 
     ```text
     List every test case in my Test Manager project with the label 'Coding Agent WS'. For each one, tell me whether it's linked to a Studio project named '<YOUR_STUDIO_PROJECT>'. List the ones that aren't.
