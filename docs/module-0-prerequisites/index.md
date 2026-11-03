@@ -29,29 +29,30 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
 Later, in [02. Link the Project to Your Folder](../module-2-hands-on-workshop/02-configure-tm-folder.md), you point your Test Manager project to this folder.
 
-!!! info "Your trainer guides you through this setup"
+??? info "Trainer-led setup: your folder and machine"
+    Your trainer guides you through these steps.
 
-### Create your folder
+    **Create your folder**
 
-1. Create a personal folder, as your trainer guides you. You'll assign your machine to it.
-2. You get your permissions through a group your trainer sets up. You don't need to set them yourself.
-3. In the Enterprise setup, use **Custom Windows credentials**: your `domain\username` and your system's Windows password.
+    1. Create a personal folder, as your trainer guides you. You'll assign your machine to it.
+    2. You get your permissions through a group your trainer sets up. You don't need to set them yourself.
+    3. In the Enterprise setup, use **Custom Windows credentials**: your `domain\username` and your system's Windows password.
 
-    ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
+        ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
 
-### Set up your machine and folder
+    **Set up your machine and folder**
 
-1. Edit your machine template. Under **Runtime details**, set **App Testing** to **1**, and save.
+    1. Edit your machine template. Under **Runtime details**, set **App Testing** to **1**, and save.
 
-    ![App Testing runtime in the machine template](../assets/images/OC%20App%20testing%20license.png)
+        ![App Testing runtime in the machine template](../assets/images/OC%20App%20testing%20license.png)
 
-2. Open your personal folder. In the **Manage Access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
+    2. Open your personal folder. In the **Manage Access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
 
-    ![Manage Access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
+        ![Manage Access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
 
-3. Open the **Machines** tab, next to **Manage Access**. Click **Manage Machines in Folder**, select your machine, then click **Update** to add it to the folder.
+    3. Open the **Machines** tab, next to **Manage Access**. Click **Manage Machines in Folder**, select your machine, then click **Update** to add it to the folder.
 
-    ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
+        ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
 
 ---
 
