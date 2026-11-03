@@ -30,6 +30,10 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
     2. Choose a model.
     3. Click **Evaluate quality**.
 5. Review the suggestions, and apply or dismiss each one. Then update the requirement.
+6. Check the rejection message against UiBank. Test cases are generated from the requirement's text, so it must match what the app shows.
+    1. In <a href="https://uibank.uipath.com" target="_blank">UiBank</a>, go to **Products → Loans → Apply For A Loan**, and apply with an age of **17**.
+    2. Copy the message UiBank shows.
+    3. In the requirement's acceptance criteria, replace "Not approved due to age." with that message, and save.
 
 !!! question "Think about it"
     Can you spot gaps in the acceptance criteria — an applicant who is exactly 18 or 65, or a loan amount that matches two approval rules? Did the agent find them? Compare with your neighbor.
