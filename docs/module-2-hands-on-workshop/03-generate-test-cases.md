@@ -5,19 +5,8 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 ## Generate them with a built-in agent
 
 1. Open the **Submit Loan Request** requirement.
-2. Run the **Generate Test Cases** built-in agent on it.
-3. Choose the **Valid E2E Scenario Testing** built-in prompt. At the end of the prompt, add:
-
-    ```text
-    Add the label 'Coding Agent WS' to every test case you create.
-    ```
-
-    ??? info "Editing prompts and adding your own"
-        ✅ **For this run only** — edit the prompt right here, as you just did.
-
-        ✅ **For the whole project** — create new prompts or edit existing ones in the **Prompt Library**, under **Project Settings**.
-
-4. In **Provide additional context → Add documents**, select:
+2. Click **Optimize Coverage**, and choose **Generate Tests**.
+3. In **Provide additional context → Add documents**, select:
 
     ✅ **UiBank Regression Tests.xlsx** — matches the existing step style, avoids duplicates
 
@@ -31,8 +20,22 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
         | **What the agent reads** | The documents you select, **in full** | Only the **relevant passages** from a Context Grounding index |
         | **Best for** | A few specific documents | Large document sets |
 
-5. Optionally, add instructions, for example *"Focus on the age and income rules in the acceptance criteria, and apply the security guidelines."*
-6. Review the proposals, keep **2 or 3**, and create them.
+4. On the next screen:
+    1. **Select a prompt**: choose **Valid E2E Scenario Testing**. At the end of the prompt, add:
+
+        ```text
+        Add the label 'Coding Agent WS' to every test case you create.
+        ```
+
+        ??? info "Editing prompts and adding your own"
+            ✅ **For this run only** — edit the prompt right here, as you just did.
+
+            ✅ **For the whole project** — create new prompts or edit existing ones in the **Prompt Library**, under **Project Settings**.
+
+    2. Optionally, add instructions, for example *"Focus on the age and income rules in the acceptance criteria, and apply the security guidelines."*
+    3. Choose a model.
+    4. Click **Generate Tests**.
+5. Review the proposals, keep **2 or 3**, and create them.
 
 **Check it:** the requirement shows the new test cases as linked, each with manual steps and the **Coding Agent WS** label.
 
