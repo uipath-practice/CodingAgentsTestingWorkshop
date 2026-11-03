@@ -5,13 +5,8 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 ## Evaluate it with a built-in agent
 
 1. Open **Requirements** → **Submit Loan Request**.
-2. Run the **Evaluate Requirement Quality** built-in agent on it.
-3. Under **Select a prompt**, choose **Multifaceted Audit**.
-
-    ??? info "Editing prompts and adding your own"
-        The built-in prompts are editable, and you can add custom prompts of your own. Manage them in the **Prompt Library**, under **Project Settings**.
-
-4. In **Provide additional context → Add documents**, select these project documents (marked **P**), so the agent checks the requirement against their rules:
+2. Click **Optimize Coverage**, and choose **Evaluate Quality**.
+3. In **Provide additional context → Add documents**, select these project documents (marked **P**), so the agent checks the requirement against their rules:
 
     ✅ **UiBank Glossary of Terms.txt** — undefined banking terms
 
@@ -26,6 +21,14 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 
         ![Attachments tab of the Test Manager project](../assets/images/Attachments%20in%20TM.png){ .img-equal }
 
+4. On the next screen:
+    1. **Select a prompt**: choose **Multifaceted Audit**.
+
+        ??? info "Editing prompts and adding your own"
+            The built-in prompts are editable, and you can add custom prompts of your own. Manage them in the **Prompt Library**, under **Project Settings**.
+
+    2. Choose a model.
+    3. Click **Evaluate quality**.
 5. Review the suggestions, and apply or dismiss each one. Then update the requirement.
 
 !!! question "Think about it"
