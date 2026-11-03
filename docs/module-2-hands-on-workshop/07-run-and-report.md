@@ -17,7 +17,7 @@ It's release night, and the release manager wants to know: **can we ship?** Ask 
         Trigger the Regression Test Set of my project in Test Manager and wait for it to finish. Once finished, create a release manager report in PDF for that test set, and save it in Documents\UiPath\Reports. I need a go/no-go summary before tonight's sign-off meeting. Highlight the failures blocking the release.
         ```
 
-    3. Approve the run when Delegate asks. It's the only action that changes anything — a **real execution** on your robot.
+    3. Approve Delegate's requests. The important one is the run itself, a **real execution** on your robot. Delegate may also ask before it saves the report.
     4. Wait a few minutes while it runs the set, fetches the results, counts them, and finds the top failing test cases.
     5. If Delegate asks where to save the report, select **Other folder path** and enter `Documents\UiPath\Reports`, then select **Next**. Keep the default file name, and select **Submit**.
 
