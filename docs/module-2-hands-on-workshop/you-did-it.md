@@ -4,6 +4,8 @@
 
 **Congratulations!** You've completed the hands-on workshop. Today you:
 
+✅ Imported the Test Manager project and linked it to your folder
+
 ✅ Evaluated a requirement and generated test cases with Autopilot for Testers
 
 ✅ Ran manual test cases and wrote new steps with Delegate
@@ -12,7 +14,7 @@
 
 ✅ Generated boundary test data
 
-✅ Published, set up a folder and robot, and created a test set
+✅ Published your automated test cases and grouped them in a regression test set
 
 ✅ Got a go/no-go release report from Delegate in one prompt
 
