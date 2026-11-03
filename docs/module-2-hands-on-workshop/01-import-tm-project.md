@@ -38,6 +38,6 @@ Pick one test case in my project and show me its manual steps and expected resul
 
 ---
 
-[Next → 02. Configure the Test Manager Folder](02-configure-tm-folder.md){: .md-button .md-button--primary}
+[Next → 02. Link the Project to Your Folder](02-configure-tm-folder.md){: .md-button .md-button--primary}
 
 ---

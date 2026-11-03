@@ -64,7 +64,7 @@ nav:
     - Test Cloud & Test Manager: module-1-introduction/index.md
   - Hands-On Workshop:
     - Import the Test Manager Project: module-2-hands-on-workshop/01-import-tm-project.md
-    - Configure the Test Manager Folder: module-2-hands-on-workshop/02-configure-tm-folder.md
+    - Link the Project to Your Folder: module-2-hands-on-workshop/02-configure-tm-folder.md
     - Evaluate Requirements: module-2-hands-on-workshop/03-evaluate-requirements.md
     - Generate Test Cases: module-2-hands-on-workshop/04-generate-test-cases.md
     - Run Manual Tests: module-2-hands-on-workshop/05-run-manual-tests.md

@@ -23,7 +23,7 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
     </div>
     <div class="wf-steps">
       <a class="wf-step" href="module-2-hands-on-workshop/01-import-tm-project/"><span class="wf-num">1</span>Import the project</a>
-      <a class="wf-step" href="module-2-hands-on-workshop/02-configure-tm-folder/"><span class="wf-num">2</span>Configure the folder</a>
+      <a class="wf-step" href="module-2-hands-on-workshop/02-configure-tm-folder/"><span class="wf-num">2</span>Link the folder</a>
     </div>
     <div class="wf-phase-foot">Project, folder, and robot</div>
   </div>

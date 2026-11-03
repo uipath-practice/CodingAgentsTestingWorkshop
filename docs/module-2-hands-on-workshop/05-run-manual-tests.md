@@ -5,7 +5,7 @@ There are three ways to run a manual test case. Each records its results in Test
 | | Who runs the steps | Apps it can test | Setup needed |
 |---|---|---|---|
 | **Manual execution assistant** | You | Any | None |
-| **Run autonomously** | Autopilot, on a robot | Web apps | A robot in the project's default folder ([02. Configure the Test Manager Folder](02-configure-tm-folder.md)) |
+| **Run autonomously** | Autopilot, on a robot | Web apps | A robot in the project's default folder ([02. Link the Project to Your Folder](02-configure-tm-folder.md)) |
 | **Delegate** | Delegate, on your machine | Web and desktop apps | None |
 
 See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-manual-tests" target="_blank">Executing manual tests</a>.
@@ -43,7 +43,7 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
     2. Enter the app URL, set a **time-box**, and select an AI model. Turn on **Live Streaming** to watch it explore.
     3. Select **Start**. When it's **Completed**, select **Show report**.
 
-    Needs a Windows robot in the project's default folder (set up in [02. Configure the Test Manager Folder](02-configure-tm-folder.md)), with the UiPath browser extension set to **Allow in Incognito**. See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/running-autonomous-exploration" target="_blank">Running Autonomous Exploration</a>.
+    Needs a Windows robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)), with the UiPath browser extension set to **Allow in Incognito**. See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/running-autonomous-exploration" target="_blank">Running Autonomous Exploration</a>.
 
 ## Run manual tests with Delegate
 
