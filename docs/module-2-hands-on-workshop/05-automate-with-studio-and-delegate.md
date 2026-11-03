@@ -33,7 +33,7 @@ Click a step to jump to it.
   <div class="flow-part flow-part--studio" style="--steps: 2">
     <span class="flow-part-label">Studio Desktop</span>
     <div class="flow-part-steps">
-      <a class="flow-step" href="#automate-the-test-cases-with-studio-desktop">Automate the test cases</a>
+      <a class="flow-step" href="#automate-the-test-cases-with-studio-desktop">Automate the test cases with Autopilot</a>
       <span class="flow-arrow"></span>
       <a class="flow-step" href="#generate-test-data">Generate test data</a>
     </div>
