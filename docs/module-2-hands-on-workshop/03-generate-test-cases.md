@@ -1,6 +1,6 @@
 # 03. Generate Test Cases
 
-The **Generate Test Cases** built-in agent reads a requirement and proposes test cases with manual steps. You review them before they're saved.
+The **Generate Test Cases** built-in agent reads a requirement and proposes test cases with manual steps. It works from the requirement you improved in [02. Evaluate Requirements](02-evaluate-requirements.md). You review the test cases before they're saved.
 
 ## Generate them with a built-in agent
 
