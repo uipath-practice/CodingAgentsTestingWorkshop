@@ -89,8 +89,8 @@ The **Object Repository** stores the app's screens and UI elements for every tes
 Building it by hand is usually one of the slowest parts of test automation: you capture every screen and element yourself. Tell Delegate what to capture, and it builds the repository for you. To cover every screen and element the test cases need, use the prompt below.
 
 
-!!! example "Continue in Delegate"
-    1. Paste:
+!!! example "Delegate"
+    1. Prompt in Delegate:
 
         ```text
         Create an Object Repository in UiPath Studio Desktop for the UiBank web app running in Chrome.
@@ -148,7 +148,7 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
     2. Don't use your desktop or browser while it captures.
 
-!!! tip "Write your own Object Repository prompt"
+??? tip "Write your own Object Repository prompt"
     Describe what you need in plain language, such as the app, its screens, and the elements to capture. Delegate can also review and fine-tune your prompt, or fix it when something's missed.
 
 ??? tip "Check it"
