@@ -158,7 +158,7 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
         ![Object Repository panel](../assets/images/Object%20Repo.png){ width="300" }
 
-    2. Open UiBank in Chrome on the Welcome screen. Right-click an element, such as **Username**, and select **Highlight**.
+    2. Open UiBank in Chrome on the Home screen. Right-click an element, such as **Username**, and select **Highlight**.
 
         ![Highlight an element](../assets/images/Studio%20OR%20Highlight.png){ width="300" }
 
