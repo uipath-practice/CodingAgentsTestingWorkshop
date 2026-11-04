@@ -238,10 +238,10 @@ Set all the test cases in <YOUR_NAME>_UiBank Tests as publishable and publish th
 !!! warning "Don't continue until every labelled test case is automated"
     Your test set in [06. Create a Test Set](06-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.
 
-    Replace `<YOUR_STUDIO_PROJECT>` with your Studio project name, for example **AlexS_UiBank Tests**. Then paste in Delegate:
+    Paste in Delegate:
 
     ```text
-    List every test case in my Test Manager project with the label 'Coding Agent WS'. For each one, tell me whether it's linked to a Studio project named '<YOUR_STUDIO_PROJECT>'. List the ones that aren't.
+    List every test case in my Test Manager project with the label 'Coding Agent WS'. For each one, tell me whether it's linked to a Studio project named '<YOUR_NAME>_UiBank Tests'. List the ones that aren't.
     ```
 
     Automate any test case on that list, publish again, then ask again. Continue only when the list is empty.
