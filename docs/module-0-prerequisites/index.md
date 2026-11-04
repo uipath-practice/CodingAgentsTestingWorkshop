@@ -8,7 +8,7 @@ Complete this section **before the workshop**, then follow the **[Installation G
 
 ✅ **Local admin rights**, to install Studio and the UiPath browser extension
 
-✅ **Google Chrome**. The Object Repository is built for Chrome.
+✅ A browser: **Google Chrome** or **Microsoft Edge**
 
 ✅ Access to <a href="https://cloud.uipath.com" target="_blank">cloud.uipath.com</a> and <a href="https://uibank.uipath.com" target="_blank">uibank.uipath.com</a>, with no proxy or firewall blocking them
 

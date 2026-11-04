@@ -129,6 +129,9 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
     2. Don't use your desktop or browser while it captures.
 
+!!! tip "Using Edge?"
+    The prompt uses Chrome. If you use Edge, change **running in Chrome** and **Browser: Chrome** to Edge. Keep the name **UiBankORForChrome**, so the next steps still match.
+
 ??? tip "Write your own Object Repository prompt"
     Describe what you need in plain language, such as the app, its screens, and the elements to capture. Delegate can also review and fine-tune your prompt, or fix it when something's missed.
 
@@ -137,7 +140,7 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
         ![Object Repository panel](../assets/images/Object%20Repo.png){ width="300" }
 
-    2. Open UiBank in Chrome on the Home screen. Right-click an element, such as **Username**, and select **Highlight**.
+    2. Open UiBank in your browser on the Home screen. Right-click an element, such as **Username**, and select **Highlight**.
 
         ![Highlight an element](../assets/images/Studio%20OR%20Highlight.png){ width="300" }
 
