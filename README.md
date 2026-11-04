@@ -42,7 +42,7 @@ Learners complete their own [Prerequisites](docs/module-0-prerequisites/index.md
 
 ### Licenses and runtimes
 
-- [ ] Assign an **App Test Developer** user license to the group or to each learner. Learners need it to create and publish Test Automation projects in Studio (step 5).
+- [ ] Assign an **App Test Developer** user license to the group or to each learner. Learners need it to create and publish Test Automation projects in Studio (steps 5 and 6).
 - [ ] Allocate enough **App Testing** runtimes to the tenant: at least one per learner machine (Prerequisites: folder and robot setup).
 - [ ] For **Run autonomously** and **Autonomous Exploration**, make sure a supported, non-serverless robot is available in each project's default folder. The robot machine must run Windows, and its UiPath browser extension must have **Allow in Incognito** turned on.
 
@@ -59,7 +59,7 @@ Learners complete their own [Prerequisites](docs/module-0-prerequisites/index.md
 
 ### Data Fabric
 
-- [ ] Give the group **read-write access** to Data Fabric at **tenant level**: permission to **create entities**, and to create, read, and update **records** (step 5).
+- [ ] Give the group **read-write access** to Data Fabric at **tenant level**: permission to **create entities**, and to create, read, and update **records** (step 6).
 - [ ] Learners name their entity `LoanTestData<INITIALS>`, so names don't clash on the shared tenant.
 
 ### Learner machines and network
@@ -70,7 +70,7 @@ Learners complete their own [Prerequisites](docs/module-0-prerequisites/index.md
 ### On the day
 
 - [ ] Share the **organization name** and **tenant name** with learners.
-- [ ] Do a dry run of steps 01, 04, 05, and 07 with a test user in the learner group. These are the steps that depend most on permissions.
+- [ ] Do a dry run of steps 01, 04, 05, 06, and 08 with a test user in the learner group. These are the steps that depend most on permissions.
 
 ### After the workshop
 

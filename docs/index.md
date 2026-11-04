@@ -46,7 +46,8 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
       <span class="wf-phase-title">Studio + Delegate</span>
     </div>
     <div class="wf-steps">
-      <a class="wf-step" href="module-2-hands-on-workshop/05-automate-with-studio-and-delegate/"><span class="wf-num">5</span>Automate test cases</a>
+      <a class="wf-step" href="module-2-hands-on-workshop/05-build-object-repository/"><span class="wf-num">5</span>Build the Object Repository</a>
+      <a class="wf-step" href="module-2-hands-on-workshop/06-automate-and-publish/"><span class="wf-num">6</span>Automate and publish</a>
     </div>
     <div class="wf-phase-foot">Project, Object Repository, automation, test data, and publishing</div>
   </div>
@@ -57,8 +58,8 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
       <span class="wf-phase-title">TM + Delegate</span>
     </div>
     <div class="wf-steps">
-      <a class="wf-step" href="module-2-hands-on-workshop/06-create-test-set/"><span class="wf-num">6</span>Create a test set</a>
-      <a class="wf-step" href="module-2-hands-on-workshop/07-run-and-report/"><span class="wf-num">7</span>Run and report</a>
+      <a class="wf-step" href="module-2-hands-on-workshop/07-create-test-set/"><span class="wf-num">7</span>Create a test set</a>
+      <a class="wf-step" href="module-2-hands-on-workshop/08-run-and-report/"><span class="wf-num">8</span>Run and report</a>
     </div>
     <div class="wf-phase-foot">A <strong>regression</strong> set → <strong>go/no-go PDF</strong></div>
   </div>
@@ -84,7 +85,7 @@ By the end of this workshop, you will:
 |---|---|
 | **[Prerequisites](module-0-prerequisites/index.md)** | Accounts, Delegate, and installation |
 | **[Introduction](module-1-introduction/index.md)** | A short tour of Test Cloud, Test Manager, and Delegate |
-| **[Hands-On Workshop](module-2-hands-on-workshop/01-import-tm-project.md)** | The seven hands-on steps, from import to the go/no-go report |
+| **[Hands-On Workshop](module-2-hands-on-workshop/01-import-tm-project.md)** | The eight hands-on steps, from import to the go/no-go report |
 | **[Troubleshooting & Next Steps](module-3-troubleshooting-and-next-steps/index.md)** | More prompts to try and fixes for common problems |
 
 ---

@@ -1,11 +1,11 @@
-# 07. Run and Report
+# 08. Run and Report
 
 It's release night, and the release manager wants to know: **can we ship?** Ask Delegate to run the test set and write the go/no-go report — in one prompt.
 
 !!! info "Check these first"
     ✅ **Your robot is available** — connected and not busy, in your Orchestrator folder.
 
-    ✅ **Regression Test Set** from [06. Create a Test Set](06-create-test-set.md) has your automated test cases.
+    ✅ **Regression Test Set** from [07. Create a Test Set](07-create-test-set.md) has your automated test cases.
 
 ## Run it
 

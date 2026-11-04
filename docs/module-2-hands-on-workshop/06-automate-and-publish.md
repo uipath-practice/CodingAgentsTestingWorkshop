@@ -1,0 +1,117 @@
+# 06. Automate and Publish the Test Cases
+
+Turn your manual test cases into automations with **Autopilot for Testers** in Studio, then publish them with Delegate. Each automation stays **linked** to its test case in Test Manager.
+
+!!! info "Before you start"
+    ✅ Your Studio project is linked to Test Manager, and the **UiBankORForChrome** Object Repository is built, from [05. Set Up Studio and Build the Object Repository](05-build-object-repository.md).
+
+## What you'll do
+
+You switch between **two tools** on this page. Each step is labelled with the one it uses:
+
+| Tool | What you do |
+|---|---|
+| <span class="tool-badge tool-badge--studio">Studio Desktop</span> | Work in Studio Desktop yourself, with **Autopilot for Testers** |
+| <span class="tool-badge tool-badge--delegate">Delegate</span> | Paste the prompt in Delegate, then wait and watch it work in Studio |
+
+Click a step to jump to it.
+
+<div class="flow">
+  <div class="flow-part flow-part--studio" style="--steps: 2">
+    <span class="flow-part-label">Studio Desktop</span>
+    <div class="flow-part-steps">
+      <a class="flow-step" href="#automate-the-test-cases-with-studio-desktop">Automate the test cases with Autopilot</a>
+      <span class="flow-arrow"></span>
+      <a class="flow-step" href="#generate-test-data">Generate test data</a>
+    </div>
+  </div>
+  <span class="flow-arrow"></span>
+  <div class="flow-part flow-part--delegate" style="--steps: 1">
+    <span class="flow-part-label">Delegate</span>
+    <div class="flow-part-steps">
+      <a class="flow-step" href="#publish-the-test-cases">Publish the test cases</a>
+    </div>
+  </div>
+</div>
+
+## Automate the test cases with Studio Desktop
+
+<span class="tool-badge tool-badge--studio">Studio Desktop</span>
+
+Automate **every** test case with the **Coding Agent WS** label: the ones the built-in agent created in [03. Generate Test Cases](03-generate-test-cases.md), and the ones Delegate created in [04. Run Manual Tests](04-run-manual-tests.md). Your test set in [07. Create a Test Set](07-create-test-set.md) runs all of them.
+
+1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
+
+    ![Test Explorer](../assets/images/testExplorer.png)
+
+2. Remember it uses **Object Repository** elements and the expected results. 
+3. Check the **Use Application/Browser** cards. The data-driven test in the next section must open and close the app once per row, and your requirement and test case may not say so.
+
+    ✅ **First card:** set **Open** to **Always**.
+
+    ✅ **Last card:** set **Close** to **Always**.
+
+    ✅ **Cards in between:** keep **Open** and **Close** as **Never**.
+
+    Select a card, then set **Open** and **Close** under **Properties → Options**. Here, the first card opens the app and leaves it open:
+
+    ![Open and Close options of the first Use Application/Browser card](../assets/images/Use%20Application%20properties.png)
+
+4. **Run** it locally.
+5. Repeat for each test case with the **Coding Agent WS** label.
+6. **Make one test case fail.** In one automated test case, change an input value so it breaks a rule in the requirement, such as an age or income outside the limits. Keep the expected result as it is, and run it again. It fails, which gives the report in [08. Run and Report](08-run-and-report.md) a real failure to show.
+
+**Check it:** each test case passes locally, except the one you made fail in step 6.
+
+??? example "Optional: Fix the activity display names"
+    Autopilot names each activity after its manual step, including the test data, which makes long, hard-to-read display names.
+
+    1. Replace **Submit Short-Term Request** with the name of the test case you generated, then paste in Delegate:
+
+        ```text
+        I've created test case Submit Short-Term Request using autopilot feature in Studio. Fix the Display names. Provide appropriate names.
+        ```
+
+    2. Reload the test case in Studio and check the new names.
+
+## Generate test data
+
+<span class="tool-badge tool-badge--studio">Studio Desktop</span>
+
+TBD
+
+## Publish the test cases
+
+<span class="tool-badge tool-badge--delegate">Delegate</span>
+
+!!! info "Switch back to Delegate"
+    Your test cases are automated. Go back to Delegate to publish them.
+
+Paste:
+
+```text
+Set all the test cases in <YOUR_NAME>_UiBank Tests as publishable and publish the project.
+```
+
+**Check it:** in Test Manager, open **Test Cases**. Each one you automated shows as **Automated**. Open one and check that its **Automation** tab shows your package, named after your project.
+
+!!! warning "Don't continue until every labelled test case is automated"
+    Your test set in [07. Create a Test Set](07-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.
+
+    Paste in Delegate:
+
+    ```text
+    List every test case in my Test Manager project with the label 'Coding Agent WS'. For each one, tell me whether it's linked to a Studio project named '<YOUR_NAME>_UiBank Tests'. List the ones that aren't.
+    ```
+
+    Automate any test case on that list, publish again, then ask again. Continue only when the list is empty.
+
+## Nice work!
+
+Your test cases are automated, data-driven, and published, ready to run from Test Manager.
+
+---
+
+[Next → 07. Create a Test Set](07-create-test-set.md){: .md-button .md-button--primary}
+
+---

@@ -15,7 +15,7 @@ Confirm that you can:
 
 ✅ Use an **App Test Developer** license, to create Test Automation projects
 
-✅ **Create Data Fabric entities**, for test data in [05. Automate Test Cases with Studio Desktop and Delegate](../module-2-hands-on-workshop/05-automate-with-studio-and-delegate.md)
+✅ **Create Data Fabric entities**, for test data in [06. Automate and Publish the Test Cases](../module-2-hands-on-workshop/06-automate-and-publish.md)
 
 ✅ Connect **UiPath Assistant** to your Cloud account
 

@@ -1,4 +1,4 @@
-# 06. Create a Test Set
+# 07. Create a Test Set
 
 A **test set** groups test cases that run together.
 
@@ -34,6 +34,6 @@ Everything is in place to run and report.
 
 ---
 
-[Next → 07. Run and Report](07-run-and-report.md){: .md-button .md-button--primary}
+[Next → 08. Run and Report](08-run-and-report.md){: .md-button .md-button--primary}
 
 ---

@@ -75,7 +75,7 @@ With Delegate, you can run a test case, add steps to an empty one, or create a n
 **Check it:** **Execution** → open the new execution → select your test case key. It shows the result and the step results, with the screenshot on the last step.
 
 !!! question "Think about it"
-    Did Delegate stumble on a step? Autopilot automates these same steps in [05. Automate Test Cases with Studio Desktop and Delegate](05-automate-with-studio-and-delegate.md), so fix them now:
+    Did Delegate stumble on a step? Autopilot automates these same steps in [06. Automate and Publish the Test Cases](06-automate-and-publish.md), so fix them now:
 
     ```text
     Rewrite the steps of test case <YOUR_TEST_CASE_KEY> that were unclear during this run, so each one has a single clear action and expected result. Show me the changes before you save them to Test Manager.
@@ -198,6 +198,6 @@ Your test cases are proven against the real application, with results in Test Ma
 
 ---
 
-[Next → 05. Automate Test Cases with Studio Desktop and Delegate](05-automate-with-studio-and-delegate.md){: .md-button .md-button--primary}
+[Next → 05. Set Up Studio and Build the Object Repository](05-build-object-repository.md){: .md-button .md-button--primary}
 
 ---
