@@ -6,7 +6,8 @@
 |---|---|
 | Delegate isn't in UiPath Assistant's top ribbon | Your Studio version may be too old. Install the latest STS version from the [Installation Guide](../module-0-prerequisites/01-installation-guide.md), and ask your trainer to confirm your access. |
 | Delegate asks for approval on every step | The approval mode is **Cautious**. In **Settings → Security**, switch it to **Adaptive**. Delegate still asks before high-impact actions, such as starting the run in step 7. That's expected. |
-| Delegate can't find your project | Delegate is signed in to the wrong tenant. Sign in again with the organization and tenant from your trainer, then click **+ New** to start a new task. |
+| Delegate can't find your project | Delegate is signed in to the wrong tenant. Ask Delegate *"Run uip login status."* to see which tenant it uses. If it's wrong, ask *"Log me in with uip login."* and sign in to the tenant from your trainer. |
+| `Authentication failed` or `401 Unauthorized` | Your `uip` sign-in has expired. Ask Delegate *"Log me in with uip login."* and sign in with your workshop account in the browser window that opens. |
 
 ## Execution
 
