@@ -10,7 +10,9 @@ You've built the full flow, from requirements to a go/no-go report. This section
 
 ## Learn more
 
-✅ <a href="https://docs.uipath.com/delegate" target="_blank">Delegate documentation</a>
+✅ <a href="https://docs.uipath.com/delegate/standalone/latest/user-guide/delegate-for-testing-overview" target="_blank">Delegate for Testing</a>
+
+✅ <a href="https://docs.uipath.com/delegate/standalone/latest/user-guide/features-and-functions-for-testing" target="_blank">Delegate operations for testing</a>
 
 ✅ <a href="https://docs.uipath.com/test-manager" target="_blank">Test Manager documentation</a>
 
