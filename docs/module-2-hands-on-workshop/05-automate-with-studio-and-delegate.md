@@ -107,26 +107,26 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
         Screens and elements
 
-        1. Screen: Welcome (https://uibank.uipath.com/welcome)
+        1. Screen: Home (https://uibank.uipath.com/welcome)
            - Username (input)
            - Password (input)
            - Sign In (button)
            - Products (dropdown menu)
            - Loans (menu item in the Products dropdown; open Products first so Loans is visible when you capture it)
 
-        2. Screen: Loans (https://uibank.uipath.com/loans)
+        2. Screen: Selection (https://uibank.uipath.com/loans)
            - Apply For A Loan (button; the one on the Loans page, not the Apply For Loan button on the Welcome page)
            - Already Have A Loan? (button)
 
-        3. Screen: Loan Application (https://uibank.uipath.com/loans/apply)
-           - Email Address of Requester (input)
-           - Loan Amount Requested (input)
-           - Loan Term (dropdown)
-           - Current Yearly Income (Before Taxes) (input)
+        3. Screen: Form (https://uibank.uipath.com/loans/apply)
+           - Email (input)
+           - Amount (input)
+           - Term (dropdown)
+           - Income (input)
            - Age (input)
-           - Submit Loan Application (button)
+           - Submit (button)
 
-        4. Screen: Loan Result (the results view shown after you submit the loan application)
+        4. Screen: Quote (the results view shown after you submit the loan application)
            - Result Text: the full text block of the response
            - Rate: only the number shown below "With a fantastic rate of:", without the "%" sign
            - Loan ID: the value shown below "Your new loan ID is:"
