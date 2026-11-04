@@ -16,6 +16,11 @@ A **test set** groups test cases that run together.
 
     The set includes every test case with this label: the ones you've already created, and any you label later.
 
+5. Click **Configure Automation**.
+6. Check that the execution is set to your personal folder, the one you set as **Default Folder** in [01. Import and Link the Test Manager Project](01-import-tm-project.md#link-the-project-to-your-folder).
+7. Check that **Runtime Type** shows a runtime license. If it doesn't, ask your trainer for help.
+8. Under **Automation Packages**, select **Autoselect Packages**, and click **Save**.
+
 See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/quickstart-assigning-test-cases-to-test-sets" target="_blank">Assigning test cases to test sets</a>.
 
 **Check it:** **Regression Test Set** lists every test case with the **Coding Agent WS** label.
