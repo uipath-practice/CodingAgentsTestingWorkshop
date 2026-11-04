@@ -83,7 +83,7 @@ By the end of this workshop, you will:
 | Section | What's inside |
 |---|---|
 | **[Prerequisites](module-0-prerequisites/index.md)** | Accounts, Delegate, and installation |
-| **[Introduction](module-1-introduction/index.md)** | A short tour of Test Cloud, Test Manager, and Coding Agents for Test |
+| **[Introduction](module-1-introduction/index.md)** | A short tour of Test Cloud, Test Manager, and Delegate |
 | **[Hands-On Workshop](module-2-hands-on-workshop/01-import-tm-project.md)** | The seven hands-on steps, from import to the go/no-go report |
 | **[Troubleshooting & Next Steps](module-3-troubleshooting-and-next-steps/index.md)** | More prompts to try and fixes for common problems |
 
@@ -94,6 +94,6 @@ By the end of this workshop, you will:
 ---
 
 !!! quote "Here's something worth holding onto as you work through this workshop"
-    Coding agents don't replace testers — they give testers a new way to work. Instead of clicking through dashboards to find out what failed and why, you ask a question in plain English and get an answer grounded in your real test data.
+    AI agents don't replace testers — they give testers a new way to work. Instead of clicking through dashboards to find out what failed and why, you ask a question in plain English and get an answer grounded in your real test data.
 
     Robots bring determinism and control, agents bring adaptability and reasoning. **This workshop is about putting the two together.**
