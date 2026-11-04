@@ -5,8 +5,10 @@ Try these in Delegate, in the same session, so it knows your project. Ask for ou
 ## Morning standup brief
 
 ```text
-Summarize yesterday's test runs in my project — how many passed, failed, or were blocked?
+Summarize today's test runs in my project — how many passed, failed, had no result, or were restricted?
 ```
+
+In daily use, ask for yesterday's runs instead.
 
 ## Coverage check before a release
 
