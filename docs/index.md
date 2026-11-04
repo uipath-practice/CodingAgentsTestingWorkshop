@@ -4,7 +4,7 @@
 
 **Thank you for joining the UiPath Coding Agents for Test Workshop!**
 
-This **Learner's Handbook** is your hands-on guide for the workshop. We keep the theory short and get you building fast: in a few hours you'll take a set of requirements all the way to an automated test run, and finish by asking an AI agent for a **go/no-go release report** in plain English.
+This **Learner's Handbook** is your hands-on guide for the workshop. We keep the theory short and get you building fast: in one day you'll take a set of requirements all the way to an automated test run, and finish by asking an AI agent for a **go/no-go release report** in plain English.
 
 !!! info "Before the workshop"
     Complete the **[Prerequisites](module-0-prerequisites/index.md)** before the session starts. You install Studio and Delegate, and the hands-on steps depend on them.
