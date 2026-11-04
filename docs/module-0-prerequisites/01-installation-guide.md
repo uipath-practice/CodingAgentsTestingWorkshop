@@ -7,7 +7,7 @@
 
 1. Download and run <a href="https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi" target="_blank">UiPathPlatformSTS.msi</a>.
 2. Launch Studio and **sign in** to the workshop organization and tenant.
-3. Install the **UiPath browser extension**: **Home → Tools → UiPath Extensions**, then select Edge or Chrome.
+3. Install the **UiPath browser extension**: **Home → Tools → UiPath Extensions**, then select Chrome.
 
 **Check it:** Studio shows you signed in to the workshop tenant, and the extension is enabled in your browser.
 

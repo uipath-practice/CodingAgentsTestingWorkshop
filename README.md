@@ -64,7 +64,7 @@ Learners complete their own [Prerequisites](docs/module-0-prerequisites/index.md
 
 ### Learner machines and network
 
-- [ ] Learners need **local admin rights** to install the Studio STS installer and the UiPath browser extension for Edge or Chrome.
+- [ ] Learners need **local admin rights** to install the Studio STS installer and the UiPath browser extension for Chrome.
 - [ ] Learners can reach `cloud.uipath.com` and the UiBank app at `https://uibank.uipath.com`, without a proxy or firewall blocking them.
 
 ### On the day

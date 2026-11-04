@@ -2,6 +2,16 @@
 
 Complete this section **before the workshop**, then follow the **[Installation Guide](01-installation-guide.md)**.
 
+## Your machine
+
+✅ A **Windows 10 or 11** laptop. The workshop uses Studio Desktop, and your machine runs your tests as a robot.
+
+✅ **Local admin rights**, to install Studio and the UiPath browser extension
+
+✅ **Google Chrome**. The Object Repository is built for Chrome.
+
+✅ Access to <a href="https://cloud.uipath.com" target="_blank">cloud.uipath.com</a> and <a href="https://uibank.uipath.com" target="_blank">uibank.uipath.com</a>, with no proxy or firewall blocking them
+
 ## Accounts and access
 
 !!! info "Access is provided by your trainer"
