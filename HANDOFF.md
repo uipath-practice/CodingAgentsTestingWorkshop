@@ -1,6 +1,6 @@
 # Handoff: Coding Agents for Test Workshop Guide
 
-**Owner:** Meera Kannan · **Last updated:** 2026-11-03 · **Status:** On `main`. Reviewer feedback (`MeeraFeedback.md`) is being worked through one item at a time; see Open items.
+**Owner:** Meera Kannan · **Last updated:** 2026-11-04 · **Status:** On `main`. Reviewer feedback (`MeeraFeedback.md`) is being worked through one item at a time; see Open items.
 
 ## What this is
 
@@ -80,3 +80,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-03 | Folder and robot setup (old step 2 Part 1) moved to Prerequisites as a trainer-led section, with a short why: Automation Cloud access alone can't run tests; Test Manager runs them through Orchestrator on a robot in a folder. Step 2 renamed *Link the Project to Your Folder* (file name kept). Org and tenant access noted as trainer-provided. Meet Delegate reworded from the Delegate CFD deck, with a mermaid flow. Delegate for Test now names the Test Cloud plugin and the `uip` CLI (docs disagree on the skill name: `uipath-testcloud` vs `uipath-test`, so it isn't named). |
 | 2026-11-03 | Step 2 (*Link the Project to Your Folder*) merged into step 1, now *Import and Link the Test Manager Project*. Old steps 03–08 renamed and renumbered to 02–07 (files, titles, Next buttons, cross-links, nav, Home map, README). Folder and robot setup steps in Prerequisites put in a collapsed trainer-led box. |
 | 2026-11-03 | Reviewer feedback, items 1–20: F-32 manual run screenshot now goes on the step result (no Assertions on manual results); F-46 publish Check it moved to Test Manager (Automated + Automation tab); F-28 step 02 gets *Check the requirement against UiBank* and *Fix the requirement* sections (the `.tmh` is unchanged); BP-04 Studio project is `<YOUR_NAME>_UiBank Tests`; F-03 installer is `UiPathPlatformSTS.msi`; P-10 `uip login status` check added; README dead loan ID removed and dry run steps renumbered. F-40 (test data TBD) and F-50 (step 7 prompt, works as is) kept by owner. Unused `Add Docs TC creation.png` deleted. |
+| 2026-11-04 | BP-10 and F-35 closed: the step 5 Object Repository names were checked against the live UiBank bundle and all match (lookup label is "Loan ID:", fine as is), and generated test cases automate correctly in practice, so no manual-step rewrite step is added. Owner is adjusting the Object Repository prompt by hand. |
