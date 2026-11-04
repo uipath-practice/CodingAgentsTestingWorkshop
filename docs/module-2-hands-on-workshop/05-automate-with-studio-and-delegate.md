@@ -168,8 +168,10 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
     If an element doesn't highlight, ask Delegate to recapture it.
 
-!!! warning "Complete this step before you continue"
-    **Autopilot for Testers** builds your test cases from the Object Repository elements. Without them, it can't automate the test cases in the next step.
+!!! success "Checkpoint"
+    Your project is set up and the Object Repository is built. This is a good point for a break.
+
+    Don't continue without it: **Autopilot for Testers** builds your test cases from the Object Repository elements. Without them, it can't automate the test cases in the next step.
 
 !!! info "Switch to Studio Desktop"
     Delegate has set up the project and built the Object Repository. For the next two steps, **you work directly in Studio Desktop**, using **Autopilot for Testers** to turn your manual test cases into automations.
