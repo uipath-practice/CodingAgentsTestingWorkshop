@@ -100,4 +100,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-05 | Data Fabric: learners no longer create entities (removed from Prerequisites). Trainer Setup: the trainer creates the entity from a schema, imports the Excel data, and gives the group **Data Reader**. File links to follow. |
 | 2026-11-05 | Trainer Setup links the Data Fabric files in `docs/assets/Files/Data Fabric files/`: `Schema.json` (entity **UiBankTestData**) and `UiBankLoanData.csv` (2 rows). |
 | 2026-11-05 | Step 6 section *Generate test data* renamed **Attach test data** (heading, flow box, *You did it*, README). |
-| 2026-11-05 | Step 6 *Attach test data* written from the Software Testing guide's Data Service tab: new data-driven test case, link **UiBankTestData**, map arguments, Verify against **ExpectedOutcome**, run once per variation. |
+| 2026-11-05 | Step 6 *Attach test data* written from the Software Testing guide's Data Service tab: Add Test Data on an automated test case (not the failing one), Data Service, link **UiBankTestData**, map arguments, Verify against **ExpectedOutcome**, run once per variation. |

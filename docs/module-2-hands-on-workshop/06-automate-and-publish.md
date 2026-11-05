@@ -78,8 +78,10 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
 
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 
-1. Create a new data-driven test case for the UiBank loan application flow.
-2. Link it to the **UiBankTestData** entity.
+Next, you attach test data to one of the test cases you automated, so it runs once for each set of values in the trainer's **UiBankTestData** entity.
+
+1. In Studio, right-click one of your automated test cases, not the one you made fail, and select **Add Test Data**.
+2. Choose **Data Service**, and link the **UiBankTestData** entity.
 3. Map the workflow arguments to the entity fields.
 4. Add a **Verify** activity to compare the actual outcome with **ExpectedOutcome**.
 5. Run the test case and check that it runs once for each data variation.
