@@ -92,4 +92,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-05 | F-11: guide zip updated to the owner's second export, without project permissions, import summaries, migration logs or custom field values. Only the four report attachments naming source orgs remain. |
 
 | 2026-11-05 | F-11 closed: the four reports naming the staging orgs `testsuite_presales` and `testcloud_team` are hidden attachments (not visible or deletable in the TM UI), so the owner kept them. |
-| 2026-11-05 | P-06 (a, partly): step 05 has a collapsed *Use the backup library* box: download the owner's `UiBankORForChrome.Descriptors` `.nupkg` and import it through Manage Packages → Settings (steps and screenshot from the Software Testing guide). |
+| 2026-11-05 | P-06 (a, partly): step 05 has a collapsed *Backup: import a ready-made Object Repository* box: download the owner's `UiBankORForChrome.Descriptors` `.nupkg` and import it through Manage Packages → Settings (steps and screenshot from the Software Testing guide). |

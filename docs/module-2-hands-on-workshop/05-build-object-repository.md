@@ -150,7 +150,7 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
     If an element doesn't highlight, ask Delegate to recapture it.
 
-??? tip "Delegate couldn't build it? Use the backup library"
+??? tip "Backup: import a ready-made Object Repository"
     1. Download <a href="../../assets/Files/Object%20Repository/UiBankORForChrome.Descriptors.1.0.1.nupkg" target="_blank">UiBankORForChrome.Descriptors.1.0.1.nupkg</a> and save it to a folder you can find.
     2. In Studio, click **Manage Packages** from the top ribbon.
     3. Go to **Settings**.
