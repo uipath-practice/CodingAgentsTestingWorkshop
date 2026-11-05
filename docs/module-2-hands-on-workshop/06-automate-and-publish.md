@@ -78,7 +78,7 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
 
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 
-Next, you attach test data to one of the test cases you automated, so it runs once for each set of values in the trainer's **UiBankTestData** entity.
+Next, you attach test data to one of the test cases you automated, so it runs once for each set of values in the **UiBankTestData** entity.
 
 1. In Studio, right-click one of your automated test cases, not the one you made fail, and select **Add Test Data**.
 2. Choose **Data Service**, and link the **UiBankTestData** entity.
