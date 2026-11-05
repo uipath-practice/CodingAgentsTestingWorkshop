@@ -44,9 +44,11 @@ Learners complete their own [Prerequisites](module-0-prerequisites/index.md), bu
 
 ## Data Fabric
 
-✅ Give the group **read-write access** to Data Fabric at **tenant level**: permission to **create entities**, and to create, read, and update **records** (step 6).
+✅ Create the test data entity from the schema file.
 
-✅ Learners name their entity `LoanTestData<INITIALS>`, so names don't clash on the shared tenant.
+✅ Import the test data from the Excel file into the entity.
+
+✅ Give the group the **Data Reader** role, so learners can read the test data (step 6).
 
 ## Learner machines and network
 
@@ -62,4 +64,4 @@ Learners complete their own [Prerequisites](module-0-prerequisites/index.md), bu
 
 ## After the workshop
 
-✅ Clean up the imported projects, learner folders, Data Fabric entities, and robot runtime assignments. Remove learners from the group, or delete the tenant.
+✅ Clean up the imported projects, learner folders, the Data Fabric entity, and robot runtime assignments. Remove learners from the group, or delete the tenant.
