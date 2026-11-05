@@ -48,7 +48,7 @@ Learners complete their own [Prerequisites](docs/module-0-prerequisites/index.md
 
 ### Test Manager
 
-- [ ] Give the group a Test Manager role that can **import projects**, **edit requirements and test cases**, and **execute tests**. Autopilot's requirement evaluation needs requirement create and edit permissions, and Autonomous Exploration needs **Execute Automated Tests**.
+- [ ] Give the group the **Project Creator** tenant role so learners can import the `.tmh` (step 1). The importer becomes **Project owner** of their project automatically, which covers Project Settings (Default Folder, step 1) and the Test Tier custom field (step 4). Autopilot's requirement evaluation needs requirement create and edit permissions, and Autonomous Exploration needs **Execute Automated Tests**.
 - [ ] Learners download the **project file** (`.tmh`) from step 1. Check it imports into the workshop tenant.
 
 ### Orchestrator
@@ -70,7 +70,7 @@ Learners complete their own [Prerequisites](docs/module-0-prerequisites/index.md
 ### On the day
 
 - [ ] Share the **organization name** and **tenant name** with learners.
-- [ ] Do a dry run of steps 01, 04, 05, 06, and 08 with a test user in the learner group. These are the steps that depend most on permissions.
+- [ ] Do a dry run of steps 01, 04, 05, 06, and 08 with a test user in the learner group, including setting the Default Folder (step 1) and creating the Test Tier custom field (step 4). These are the steps that depend most on permissions.
 
 ### After the workshop
 
