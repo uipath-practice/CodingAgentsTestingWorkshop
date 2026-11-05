@@ -59,9 +59,8 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
 
 4. **Run** it locally.
 5. Repeat for each test case with the **Coding Agent WS** label.
-6. **Make one test case fail.** In one automated test case, change an input value so it breaks a rule in the requirement, such as an age or income outside the limits. Keep the expected result as it is, and run it again. It fails, which gives the report in [08. Run and Report](08-run-and-report.md) a real failure to show.
 
-**Check it:** each test case passes locally, except the one you made fail in step 6.
+**Check it:** each test case passes locally.
 
 ??? example "Optional: Fix the activity display names"
     Autopilot names each activity after its manual step, including the test data, which makes long, hard-to-read display names.
@@ -80,11 +79,13 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
 
 Next, you attach test data to one of the test cases you automated, so it runs once for each set of values in the **UiBankTestData** entity.
 
-1. In Studio, right-click one of your automated test cases, not the one you made fail, and select **Add Test Data**.
+One row expects the loan to be rejected, but UiBank approves it, so this test case fails. That's on purpose: it gives the report in [08. Run and Report](08-run-and-report.md) a real failure to show.
+
+1. In Studio, right-click one of your automated test cases, and select **Add Test Data**.
 2. Choose **Data Service**, and link the **UiBankTestData** entity.
 3. Map the workflow arguments to the entity fields.
 4. Add a **Verify** activity to compare the actual outcome with **ExpectedOutcome**.
-5. Run the test case and check that it runs once for each data variation.
+5. Run the test case and check that it runs once for each data variation, and fails on the row with **ExpectedOutcome** set to **FALSE**.
 
 ## Publish the test cases
 
