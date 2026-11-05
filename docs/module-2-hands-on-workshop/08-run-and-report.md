@@ -63,6 +63,8 @@ A report you run once is useful. One that arrives every morning is better. You d
 !!! warning "The machine must be on"
     A scheduled routine runs only if the machine it runs on is powered on and signed in at the scheduled time.
 
+A routine suits a personal report. For the regression run itself, schedule the test set in Test Manager so it runs on the unattended robot, or trigger it from your CI/CD pipeline. Let the routine only fetch and summarise the results.
+
 ## Go further
 
 Stay in the same session — it remembers the run:

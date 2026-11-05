@@ -112,3 +112,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-05 | BP-09 (point 1): step 4 *Beyond running tests* box: Delegate asks for decisions, not passwords; keep test logins in an Orchestrator Credential asset.  |
 | 2026-11-05 | BP-09 (point 2, option b): step 5 OR prompt keeps the sign-in elements and adds "If a test signs in, read the login from a Credential asset with Get Credential". |
 | 2026-11-05 | BP-11: step 6 item 2 uses the reviewer's review checklist (Given / When / Then, one verification, OR elements only, no fixed Delay; ask Delegate to fix). Time it in the rehearsal. |
+| 2026-11-05 | BP-12: step 8 adds the reviewer's line under *The machine must be on*: routines for personal reports; schedule the test set in Test Manager or trigger it from CI/CD for the regression run. |
