@@ -56,14 +56,15 @@ With Delegate, you can run a test case, add steps to an empty one, or create a n
 ### 1 — Run a test case
 
 !!! example "It's your turn now!"
-    1. Replace `<YOUR_TEST_CASE_KEY>` with a test case you created in [03. Generate Test Cases](03-generate-test-cases.md), then paste:
+    1. Keep only one UiBank tab open. Delegate finds the window by its title, and the prompt names UiBank.
+    2. Replace `<YOUR_TEST_CASE_KEY>` with a test case you created in [03. Generate Test Cases](03-generate-test-cases.md), then paste:
 
         ```text
         Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and attach it to that step's result. Push the results to Test Manager. If any step failed, explain the reason.
         ```
 
-    2. Approve when Delegate asks to push the result.
-    3. For any failure, decide: **defect in UiBank**, or **problem with the test case**?
+    3. Approve when Delegate asks to push the result.
+    4. For any failure, decide: **defect in UiBank**, or **problem with the test case**?
 
 ??? tip "Test data already used?"
     Tests like registering a new user fail if the data was used before. Ask Delegate:

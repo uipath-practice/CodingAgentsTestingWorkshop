@@ -48,6 +48,10 @@ List the tenant I am connected to.
 !!! warning "Delegate acts on your behalf"
     It uses your UiPath account and permissions, and every action is logged in your name.
 
+    ✅ Keep screen context on **Default** (the screen icon next to the chatbox), so Delegate sees only the apps attached to the chat.
+
+    ✅ In **Settings → Security → Blocked websites**, quick-add **Banking**, **Payments** and **Password Manager**.
+
 ---
 
 [Next → Introduction: Test Cloud & Test Manager](../module-1-introduction/index.md){: .md-button .md-button--primary}
