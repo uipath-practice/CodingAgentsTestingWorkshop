@@ -52,7 +52,6 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 - [ ] **Confirm how Delegate signs in to the tenant.** Prerequisites still says "Connect UiPath Assistant to your Cloud account". On a machine that has never run `uip login`, check whether Delegate needs the new `uip login status` check in the Installation Guide.
 - [ ] **Add screenshots** for steps 3 and 4 (the built-in agents).
 - [ ] **Remaining reviewer feedback to discuss** (one at a time, before changing anything): T-02, the remaining BP items, and the minor F items.
-- [ ] **F-11 (one item left): sample project re-exported 2026-11-05 (`UIBWS_UiBank Project_2026_11_05_10_33_13_5059.tmh`).** Gone: Vikram's and the owner's emails, project permissions, import summaries and migration logs, Emerald's Default Prompt, the Performance Test Backup copies and their foreign package links, the old requirements, and all custom field values (Owner, Priority; no page uses them). Emerald Koe is a fictional persona (owner), so her run logs stay. Still in the file, owner to decide: four report attachments with staging links naming the orgs `testsuite_presales` and `testcloud_team` (`Insights Report - 20240618.0954`, `Report - 20250627.211842`, and the 2024_02_09 and 2024_03_17 failed-test reports).
 - [ ] **P-06 (parked by owner, later): Delegate fallbacks.** In the rehearsal, note every approval prompt with Adaptive on. Then decide whether to build trainer fallbacks: (a) a checkpoint `.tmh` with automated test cases, a published package and a working OR, so a stuck learner continues from step 7; (b) recordings of the OR build and the step 8 report; (c) a trainer-run go/no-go PDF. Add a "Stuck? Ask your trainer" tip only once a fallback exists.
 - [ ] **Decide on a `.gitignore`.** Add `~$*` so Office lock files can't be committed by accident. Also decide whether `Custom Skills for Guide/`, `TM Attachments/` and the two `.pptx` files in `docs/assets/Files/` should be ignored.
 
@@ -91,3 +90,5 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-05 | F-11: guide zip now holds the owner's new export (UIBWS, 2 requirements, 8 test cases). Submit Loan Request text unchanged apart from list formatting; Request Loan still has no steps. Remaining items listed under F-11. |
 
 | 2026-11-05 | F-11: guide zip updated to the owner's second export, without project permissions, import summaries, migration logs or custom field values. Only the four report attachments naming source orgs remain. |
+
+| 2026-11-05 | F-11 closed: the four reports naming the staging orgs `testsuite_presales` and `testcloud_team` are hidden attachments (not visible or deletable in the TM UI), so the owner kept them. |
