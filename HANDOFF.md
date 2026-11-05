@@ -107,3 +107,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-05 | BP-05 (point 1): Prerequisites trainer-led box adds a *Workshop shortcut* tip: your own user runs the tests; in production an admin assigns a robot account and machine template.  |
 | 2026-11-05 | BP-05 (point 2): Trainer Setup recommends doing the folder and robot setup per learner; granting learners tenant-level rights is the fallback. |
 | 2026-11-05 | BP-06: step 2 *Fix the requirement* has a collapsed *Make every rule measurable* tip with the reviewer's wording: edit the criteria themselves so each rule is measurable, with exact boundaries and the exact approval and rejection messages. |
+| 2026-11-05 | BP-07: step 3 RAG tip's **Best for** row now chooses by ambiguity, not volume (reviewer wording), and adds "In this workshop, use Add documents". |

@@ -18,7 +18,9 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
         | | Add documents | Leverage RAG |
         |---|---|---|
         | **What the agent reads** | The documents you select, **in full** | Only the **relevant passages** from a Context Grounding index |
-        | **Best for** | A few specific documents | Large document sets |
+        | **Best for** | Requirements whose rules live in a few known documents | Requirements with ambiguous terms or abbreviations whose meaning is spread across many sources |
+
+        In this workshop, use **Add documents**.
 
 4. On the next screen:
     1. **Select a prompt**: choose **Valid E2E Scenario Testing**. At the end of the prompt, add:
