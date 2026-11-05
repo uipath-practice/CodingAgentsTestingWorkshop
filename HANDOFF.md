@@ -46,7 +46,7 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 
 ## Open items
 
-- [ ] **Attach test data (step 6) is still "TBD".** Learners attach the trainer's **UiBankTestData** Data Fabric entity (Data Reader role). The Home map, step 6's Nice work and *You did it* still mention test data. When writing it, make sure the test data doesn't overwrite the value learners change to make one test case fail.
+- [ ] **Rehearse Attach test data (step 6):** steps come from the Software Testing guide's Data Service exercise, adapted to the **UiBankTestData** entity (Verify compares the outcome with **ExpectedOutcome**). Check the Studio wording (data-driven test case, linking the entity, mapping arguments) and that it doesn't touch the test case learners make fail.
 - [ ] **Rehearse step 8's prompt:** trigger the test set *and* write the report in one prompt, saved as a PDF in `Documents\UiPath\Reports`. The PDF only shows reporting on past executions. Also check whether Delegate still asks before triggering the run with **Adaptive** and **Smart approvals** on, and try the single test case prompt.
 - [ ] **Rehearse step 5 with Delegate:** the manual run (result and screenshot pushed to Test Manager), Request Loan (gets the Coding Agent WS label), the new loan lookup PDD prompt (no review pause, required final loan ID step), and the Test Tier custom field.
 - [ ] **Rehearse step 6:** Delegate captures UiBank elements into the Object Repository, and Autopilot uses them. Check the Studio **New Project → Test Automation** and **Manage Packages** wording. Time every step, then write the agenda for the Trainer Setup page from those timings (P-03; the reviewer's 8-hour agenda in `MeeraFeedback.md` is a starting point). Time how long automating 3–4 test cases takes, and check that the "make one test case fail" step works as worded.
@@ -100,3 +100,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-05 | Data Fabric: learners no longer create entities (removed from Prerequisites). Trainer Setup: the trainer creates the entity from a schema, imports the Excel data, and gives the group **Data Reader**. File links to follow. |
 | 2026-11-05 | Trainer Setup links the Data Fabric files in `docs/assets/Files/Data Fabric files/`: `Schema.json` (entity **UiBankTestData**) and `UiBankLoanData.csv` (2 rows). |
 | 2026-11-05 | Step 6 section *Generate test data* renamed **Attach test data** (heading, flow box, *You did it*, README). |
+| 2026-11-05 | Step 6 *Attach test data* written from the Software Testing guide's Data Service tab: new data-driven test case, link **UiBankTestData**, map arguments, Verify against **ExpectedOutcome**, run once per variation. |

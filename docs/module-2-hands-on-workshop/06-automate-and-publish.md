@@ -78,7 +78,11 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
 
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 
-TBD
+1. Create a new data-driven test case for the UiBank loan application flow.
+2. Link it to the **UiBankTestData** entity.
+3. Map the workflow arguments to the entity fields.
+4. Add a **Verify** activity to compare the actual outcome with **ExpectedOutcome**.
+5. Run the test case and check that it runs once for each data variation.
 
 ## Publish the test cases
 
