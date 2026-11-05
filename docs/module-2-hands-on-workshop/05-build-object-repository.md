@@ -129,6 +129,8 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
     2. Don't use your desktop or browser while it captures.
 
+    The prompt also captures **Username**, **Password** and **Sign In**. If a test signs in, read the login from a Credential asset with **Get Credential**.
+
 !!! tip "Using Edge?"
     The prompt uses Chrome. If you use Edge, change **running in Chrome** and **Browser: Chrome** to Edge. Keep the name **UiBankORForChrome**, so the next steps still match.
 
