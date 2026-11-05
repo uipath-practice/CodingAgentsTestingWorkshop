@@ -38,7 +38,9 @@ Learners complete their own [Prerequisites](module-0-prerequisites/index.md), bu
 
 ✅ In the Prerequisites folder and robot setup, guide each learner to create a **personal folder**. Their machine is assigned to it, and it becomes their project's default folder.
 
-✅ Give the group the roles it needs for the Prerequisites folder and robot setup. At tenant level, learners must be able to set up their own user: **Personal Automation + Personal workspace**, the **Automation Developer** role, and **Custom Windows credentials**. They also need rights to create their own folder and add machines and users to it. If you'd rather not grant these, do this setup for each learner before the session.
+✅ **Recommended:** do the Prerequisites folder and robot setup for each learner before the session, so learners don't need tenant-level rights.
+
+✅ If learners do it themselves, give the group: **Personal Automation + Personal workspace**, the **Automation Developer** role, and **Custom Windows credentials** at tenant level, plus rights to create their own folder and add machines and users to it.
 
 ✅ If learners use credential assets in test cases, give them the **View** permission on **Assets**.
 
