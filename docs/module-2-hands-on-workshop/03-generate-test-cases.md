@@ -36,10 +36,12 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 
             ✅ **For the whole project** — create new prompts or edit existing ones in the **Prompt Library**, under **Project Settings**.
 
-    2. Optionally, add instructions, for example *"Focus on the age and income rules in the acceptance criteria, and apply the security guidelines."*
+    2. Optionally, add instructions, for example *"Generate 5 test cases. Give every step one action and an expected result, and add preconditions and postconditions."*
     3. Choose a model.
     4. Click **Generate Tests**.
-5. Review the proposals, keep **2 or 3**, and create them.
+5. Expand each proposal and keep it only if it traces to one acceptance criterion, has one action per step, uses realistic data and expects what UiBank really shows. Otherwise sharpen the instructions and regenerate. Keep **2 or 3**, and create them.
+
+    In production, turn on Testing Process Governance so a second reviewer signs off.
 
 **Check it:** the requirement shows the new test cases as linked, each with manual steps and the **Coding Agent WS** label.
 

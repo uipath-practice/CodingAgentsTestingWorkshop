@@ -108,3 +108,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-05 | BP-05 (point 2): Trainer Setup recommends doing the folder and robot setup per learner; granting learners tenant-level rights is the fallback. |
 | 2026-11-05 | BP-06: step 2 *Fix the requirement* has a collapsed *Make every rule measurable* tip with the reviewer's wording: edit the criteria themselves so each rule is measurable, with exact boundaries and the exact approval and rejection messages. |
 | 2026-11-05 | BP-07: step 3 RAG tip's **Best for** row now chooses by ambiguity, not volume (reviewer wording), and adds "In this workshop, use Add documents". |
+| 2026-11-05 | BP-08: step 3 example instruction asks for 5 test cases with one action and an expected result per step, plus pre- and postconditions; item 5 gives the reviewer's keep criteria, regenerate, keep 2 or 3, and a Testing Process Governance note. |
