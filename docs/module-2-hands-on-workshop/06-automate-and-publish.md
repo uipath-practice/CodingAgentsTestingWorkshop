@@ -22,7 +22,7 @@ Click a step to jump to it.
     <div class="flow-part-steps">
       <a class="flow-step" href="#automate-the-test-cases-with-studio-desktop">Automate the test cases with Autopilot</a>
       <span class="flow-arrow"></span>
-      <a class="flow-step" href="#generate-test-data">Generate test data</a>
+      <a class="flow-step" href="#attach-test-data">Attach test data</a>
     </div>
   </div>
   <span class="flow-arrow"></span>
@@ -74,7 +74,7 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
 
     2. Reload the test case in Studio and check the new names.
 
-## Generate test data
+## Attach test data
 
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 

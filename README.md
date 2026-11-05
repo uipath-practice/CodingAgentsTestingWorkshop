@@ -10,7 +10,7 @@ Learners work on a ready-made **UiBank** Test Manager project. In eight hands-on
 |---|---|---|---|
 | **1 · Set up** | 1–2 | Import the project, and configure the Orchestrator folder and robot | Test Manager, Orchestrator |
 | **2 · Plan & test** | 3–5 | Evaluate the requirement, generate test cases, and run them manually | Test Manager, Autopilot for Testers, Delegate |
-| **3 · Build** | 6 | Connect Studio, build the Object Repository, automate the test cases, generate test data, and publish | Studio, Autopilot, Delegate, Data Fabric |
+| **3 · Build** | 6 | Connect Studio, build the Object Repository, automate the test cases, attach test data, and publish | Studio, Autopilot, Delegate, Data Fabric |
 | **4 · Run & report** | 7–8 | Create a test set, trigger it, and get a go/no-go PDF in one prompt | Test Manager, Delegate |
 
 By the end, learners have:

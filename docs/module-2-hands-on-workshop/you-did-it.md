@@ -12,7 +12,7 @@
 
 ✅ Built the Object Repository with Delegate, and automated test cases with Autopilot in Studio
 
-✅ Generated boundary test data
+✅ Attached test data
 
 ✅ Published your automated test cases and grouped them in a regression test set
 
