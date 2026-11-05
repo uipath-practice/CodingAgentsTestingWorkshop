@@ -22,6 +22,8 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 
         In this workshop, use **Add documents**.
 
+        See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/about-autopilot-chat" target="_blank">About Autopilot chat</a>.
+
 4. On the next screen:
     1. **Select a prompt**: choose **Valid E2E Scenario Testing**. At the end of the prompt, add:
 
