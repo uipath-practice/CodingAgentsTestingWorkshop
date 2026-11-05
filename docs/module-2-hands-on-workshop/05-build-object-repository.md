@@ -151,12 +151,13 @@ Building it by hand is usually one of the slowest parts of test automation: you 
     If an element doesn't highlight, ask Delegate to recapture it.
 
 ??? tip "Backup: import a ready-made Object Repository"
-    1. Download <a href="../../assets/Files/Object%20Repository/UiBankORForChrome.Descriptors.1.0.1.nupkg" target="_blank">UiBankORForChrome.Descriptors.1.0.1.nupkg</a> and save it to a folder you can find.
-    2. In Studio, click **Manage Packages** from the top ribbon.
-    3. Go to **Settings**.
-    4. Give the package source a unique name.
-    5. Click the ellipsis (**...**), browse to the folder where you saved the library, and click **Add**.
-    6. Select the new source in the left panel, select the library, click **Install**, then click **Save**.
+    1. On your Desktop, create a folder named **Custom Library**.
+    2. Download <a href="../../assets/Files/Object%20Repository/UiBankORForChrome.Descriptors.1.0.1.nupkg" target="_blank">UiBankORForChrome.Descriptors.1.0.1.nupkg</a> and move it into **Custom Library**.
+    3. In Studio, click **Manage Packages** from the top ribbon.
+    4. Go to **Settings**.
+    5. Give the package source a unique name.
+    6. Click the ellipsis (**...**), browse to **Desktop\Custom Library**, and click **Add**.
+    7. Select the new source in the left panel, select the library, click **Install**, then click **Save**.
 
         ![Custom Library Listing](../assets/images/custom%20library%20listing.png)
 
