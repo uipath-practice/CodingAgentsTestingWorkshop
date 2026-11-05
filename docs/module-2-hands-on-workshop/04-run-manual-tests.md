@@ -189,7 +189,7 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
 
     ✅ **Write the steps** — turn those ideas into manual test cases and link them to the requirement.
 
-    ✅ **Run them with you** — Delegate runs the steps and stops to ask when it needs input you have, such as login details.
+    ✅ **Run them with you** — Delegate runs the steps and stops to ask when it needs a decision from you. Don't paste passwords into the chat: keep test logins in an Orchestrator Credential asset and give Delegate the asset name.
 
     ✅ **Record the results** — create test results with screenshots of failed steps, and upload them to Test Manager.
 
