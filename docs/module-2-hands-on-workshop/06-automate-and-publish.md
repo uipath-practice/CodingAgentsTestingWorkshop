@@ -81,7 +81,7 @@ Next, you attach test data to one of the test cases you automated, so it runs on
 
 One row expects the loan to be rejected, but UiBank approves it, so this test case fails. That's on purpose: it gives the report in [08. Run and Report](08-run-and-report.md) a real failure to show.
 
-1. In Studio, right-click one of your automated test cases, and select **Add Test Data**.
+1. In **Test Explorer**, right-click one of your automated test cases, and select **Add Test Data**.
 2. Choose **Data Service**, and link the **UiBankTestData** entity.
 3. Map the workflow arguments to the entity fields.
 4. Add a **Verify** activity to compare the actual outcome with **ExpectedOutcome**.
