@@ -44,7 +44,7 @@ Automate **every** test case with the **Coding Agent WS** label: the ones the bu
 
     ![Test Explorer](../assets/images/testExplorer.png)
 
-2. Remember it uses **Object Repository** elements and the expected results. 
+2. Review it like a pull request: Given / When / Then sections, one verification for the expected result, **Object Repository** elements only, and no fixed **Delay** activities. If not, ask Delegate to fix it.
 3. Check the **Use Application/Browser** cards. The data-driven test in the next section must open and close the app once per row, and your requirement and test case may not say so.
 
     ✅ **First card:** set **Open** to **Always**.
