@@ -52,7 +52,7 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 - [ ] **Confirm how Delegate signs in to the tenant.** Prerequisites still says "Connect UiPath Assistant to your Cloud account". On a machine that has never run `uip login`, check whether Delegate needs the new `uip login status` check in the Installation Guide.
 - [ ] **Add screenshots** for steps 3 and 4 (the built-in agents).
 - [ ] **Remaining reviewer feedback to discuss** (one at a time, before changing anything): T-02, the remaining BP items, and the minor F items.
-- [ ] **P-06 (parked by owner, later): Delegate fallbacks.** In the rehearsal, note every approval prompt with Adaptive on. Then decide whether to build trainer fallbacks: (a) a checkpoint `.tmh` with automated test cases, a published package and a working OR, so a stuck learner continues from step 7; (b) recordings of the OR build and the step 8 report; (c) a trainer-run go/no-go PDF. Add a "Stuck? Ask your trainer" tip only once a fallback exists.
+- [ ] **P-06 (parked by owner, later): Delegate fallbacks.** In the rehearsal, note every approval prompt with Adaptive on. Then decide whether to build trainer fallbacks: (a) a checkpoint `.tmh` with automated test cases, a published package and a working OR, so a stuck learner continues from step 7; (b) recordings of the OR build and the step 8 report; (c) a trainer-run go/no-go PDF. Add a "Stuck? Ask your trainer" tip only once a fallback exists. **Done 2026-11-05:** a backup Object Repository library (`docs/assets/Files/Object Repository/UiBankORForChrome.Descriptors.1.0.1.nupkg`, published by the owner from Chrome) with import steps in a collapsed box in step 05. Rehearse the import and check Autopilot uses its elements.
 - [ ] **Decide on a `.gitignore`.** Add `~$*` so Office lock files can't be committed by accident. Also decide whether `Custom Skills for Guide/`, `TM Attachments/` and the two `.pptx` files in `docs/assets/Files/` should be ignored.
 
 ## Log
@@ -92,3 +92,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-05 | F-11: guide zip updated to the owner's second export, without project permissions, import summaries, migration logs or custom field values. Only the four report attachments naming source orgs remain. |
 
 | 2026-11-05 | F-11 closed: the four reports naming the staging orgs `testsuite_presales` and `testcloud_team` are hidden attachments (not visible or deletable in the TM UI), so the owner kept them. |
+| 2026-11-05 | P-06 (a, partly): step 05 has a collapsed *Use the backup library* box: download the owner's `UiBankORForChrome.Descriptors` `.nupkg` and import it through Manage Packages → Settings (steps and screenshot from the Software Testing guide). |
