@@ -44,9 +44,9 @@ Learners complete their own [Prerequisites](module-0-prerequisites/index.md), bu
 
 ## Data Fabric
 
-✅ Create the test data entity from the schema file.
+✅ Create the **UiBankTestData** entity from <a href="assets/Files/Data%20Fabric%20files/Schema.json" target="_blank">Schema.json</a>.
 
-✅ Import the test data from the Excel file into the entity.
+✅ Import the test data from <a href="assets/Files/Data%20Fabric%20files/UiBankLoanData.csv" target="_blank">UiBankLoanData.csv</a> into the entity.
 
 ✅ Give the group the **Data Reader** role, so learners can read the test data (step 6).
 
