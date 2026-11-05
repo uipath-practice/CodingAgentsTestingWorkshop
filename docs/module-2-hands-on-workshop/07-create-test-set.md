@@ -19,12 +19,7 @@ A **test set** groups test cases that run together.
 5. On the **Test Cases** tab, click **Configure Automation**.
 6. Check that the execution is set to your personal folder, the one you set as **Default Folder** in [01. Import and Link the Test Manager Project](01-import-tm-project.md#link-the-project-to-your-folder).
 7. Set **Runtime Type** to your machine's runtime from [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot): **App Testing**. The panel shows **1 Runtimes Available, 1 Connected**.
-
-    A new test set uses **Cloud – Serverless Testing** by default, which doesn't run on your robot.
-
 8. Under **Automation Packages**, select **Autoselect Packages**. Check that it lists your `<YOUR_NAME>_UiBank Tests` package, and click **Save**.
-
-    The set only runs test cases from the packages selected here.
 
 See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/quickstart-assigning-test-cases-to-test-sets" target="_blank">Assigning test cases to test sets</a>.
 
