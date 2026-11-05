@@ -45,8 +45,10 @@ Test cases are generated from the requirement's text, so its messages must match
 
 1. Edit **Submit Loan Request**.
 2. In the acceptance criteria, replace "Not approved due to age." with the message UiBank shows.
-3. Edit the acceptance criteria themselves so each rule is measurable, with exact boundaries (18, 65, $100,000) and the exact message UiBank shows for approval and rejection. [03. Generate Test Cases](03-generate-test-cases.md) generates test cases from this text.
-4. Save.
+3. Save.
+
+??? tip "Make every rule measurable"
+    Edit the acceptance criteria themselves so each rule is measurable, with exact boundaries (18, 65, $100,000) and the exact message UiBank shows for approval and rejection. [03. Generate Test Cases](03-generate-test-cases.md) generates test cases from this text.
 
 ## Nice work!
 
