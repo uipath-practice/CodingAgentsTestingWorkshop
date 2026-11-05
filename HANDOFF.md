@@ -19,6 +19,7 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 1 - Introduction | Test Cloud & Test Manager |
 | 2 - Hands-On Workshop | 01 Import and link → 02 Evaluate → 03 Generate → 04 Run manual tests → 05 Set up Studio and build the OR → 06 Automate and publish → 07 Test set → 08 Run and report, You did it! |
 | 3 - Troubleshooting & Next Steps | Overview, More Prompts to Try, Troubleshooting |
+| Trainer Setup | `docs/trainer-setup.md`: the trainer checklist (moved from the README, because other trainers only get the site URL) |
 
 ## Sources
 
@@ -48,7 +49,7 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 - [ ] **Generate test data (step 6) is still "TBD".** Prerequisites (Data Fabric), the Home map, step 6's Nice work and *You did it* still mention test data. When writing it, make sure the test data doesn't overwrite the value learners change to make one test case fail.
 - [ ] **Rehearse step 8's prompt:** trigger the test set *and* write the report in one prompt, saved as a PDF in `Documents\UiPath\Reports`. The PDF only shows reporting on past executions. Also check whether Delegate still asks before triggering the run with **Adaptive** and **Smart approvals** on, and try the single test case prompt.
 - [ ] **Rehearse step 5 with Delegate:** the manual run (result and screenshot pushed to Test Manager), Request Loan (gets the Coding Agent WS label), the new loan lookup PDD prompt (no review pause, required final loan ID step), and the Test Tier custom field.
-- [ ] **Rehearse step 6:** Delegate captures UiBank elements into the Object Repository, and Autopilot uses them. Check the Studio **New Project → Test Automation** and **Manage Packages** wording. Time every step, then write the agenda for the trainer README from those timings (P-03; the reviewer's 8-hour agenda in `MeeraFeedback.md` is a starting point). Time how long automating 3–4 test cases takes, and check that the "make one test case fail" step works as worded.
+- [ ] **Rehearse step 6:** Delegate captures UiBank elements into the Object Repository, and Autopilot uses them. Check the Studio **New Project → Test Automation** and **Manage Packages** wording. Time every step, then write the agenda for the Trainer Setup page from those timings (P-03; the reviewer's 8-hour agenda in `MeeraFeedback.md` is a starting point). Time how long automating 3–4 test cases takes, and check that the "make one test case fail" step works as worded.
 - [ ] **Confirm how Delegate signs in to the tenant.** Prerequisites still says "Connect UiPath Assistant to your Cloud account". On a machine that has never run `uip login`, check whether Delegate needs the new `uip login status` check in the Installation Guide.
 - [ ] **Add screenshots** for steps 3 and 4 (the built-in agents).
 - [ ] **Remaining reviewer feedback to discuss** (one at a time, before changing anything): T-02, the remaining BP items, and the minor F items.
@@ -95,3 +96,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-05 | P-06 (a, partly): step 05 has a collapsed *Backup: import a ready-made Object Repository* box: download the owner's `UiBankORForChrome.Descriptors` `.nupkg` and import it through Manage Packages → Settings (steps and screenshot from the Software Testing guide). |
 | 2026-11-05 | T-02: README names the **Project Creator** tenant role (importer becomes Project owner, covering Default Folder and Test Tier); dry run checks both. Decision wording corrected. |
 | 2026-11-05 | F-49 (reviewer wording, at owner's request): step 07 Configure Automation sets Runtime Type to **App Testing** (1 Runtimes Available, 1 Connected), Autoselect Packages lists the learner's package, and the test run is now recommended. |
+| 2026-11-05 | Trainer checklist moved from the README to a new **Trainer Setup** page (end of nav, linked from the Prerequisites access box); README points to it. BP-01: Autopilot line adds the check "open a requirement: **Evaluate Requirement** is available". |

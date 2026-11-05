@@ -76,3 +76,4 @@ nav:
     - Overview: module-3-troubleshooting-and-next-steps/index.md
     - More Prompts to Try: module-3-troubleshooting-and-next-steps/01-more-agent-prompts.md
     - Troubleshooting: module-3-troubleshooting-and-next-steps/02-troubleshooting.md
+  - Trainer Setup: trainer-setup.md
