@@ -106,4 +106,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-05 | BP-03: Introduction adds a *Rule for today* tip before "That's enough theory": AI output is a draft; review before creating or approving. |
 | 2026-11-05 | BP-05 (point 1): Prerequisites trainer-led box adds a *Workshop shortcut* tip: your own user runs the tests; in production an admin assigns a robot account and machine template.  |
 | 2026-11-05 | BP-05 (point 2): Trainer Setup recommends doing the folder and robot setup per learner; granting learners tenant-level rights is the fallback. |
-| 2026-11-05 | BP-06: step 2 *Fix the requirement* adds "make each rule measurable, with exact boundaries (18, 65, $100,000); edit the criteria themselves, not only the appended suggestions". |
+| 2026-11-05 | BP-06: step 2 *Fix the requirement* adds the reviewer's wording: edit the criteria themselves so each rule is measurable, with exact boundaries and the exact approval and rejection messages. |
