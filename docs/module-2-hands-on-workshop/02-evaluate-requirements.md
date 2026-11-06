@@ -8,11 +8,11 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 2. Click **Optimize Coverage**, and choose **Evaluate Quality**.
 3. In **Provide additional context → Add documents**, select these project documents (marked **P**), so the agent checks the requirement against their rules:
 
-    ✅ **UiBank Glossary of Terms.txt** — undefined banking terms
+    ✅ **UiBank Regression Tests.xlsx** — the 5 existing loan tests and their step style
 
-    ✅ **UiBank Security Guidelines.pdf** — input validation, data masking, sessions
+    ✅ **UiBank Security Guidelines.pdf** — input validation rules for the form fields
 
-    ✅ **UiBank Accessibility Guidelines.docx** — form labels, error messages, keyboard support
+    ✅ **UiBank Accessibility Guidelines.docx** — form labels, error messages and keyboard access
 
     ![Add documents tab in Provide additional context](../assets/images/Add%20Documents%20dialog.png){ .img-equal }
 

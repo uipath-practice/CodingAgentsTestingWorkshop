@@ -8,11 +8,11 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 2. Click **Optimize Coverage**, and choose **Generate Tests**.
 3. In **Provide additional context → Add documents**, select:
 
-    ✅ **UiBank Regression Tests.xlsx** — matches the existing step style, avoids duplicates
+    ✅ **UiBank Regression Tests.xlsx** — the 5 existing loan tests and their step style
 
-    ✅ **UiBank Security Guidelines.pdf** — adds negative tests
+    ✅ **UiBank Security Guidelines.pdf** — input validation rules for the form fields
 
-    ✅ **UiBank Accessibility Guidelines.docx** — adds tests for labels, errors, and keyboard use
+    ✅ **UiBank Accessibility Guidelines.docx** — form labels, error messages and keyboard access
 
     ??? tip "Add documents or Leverage RAG?"
         | | Add documents | Leverage RAG |
