@@ -34,7 +34,19 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
     ![Quality enhancements under Latest activity on the requirement](../assets/images/TM%20Quality%20enhancements.png)
 
 6. Expand each suggestion. Select **Add to Requirement** for the ones you agree with. Each one you add appears at the end of the description: its title, with the suggestion below it.
-7. Edit the requirement. Under each added title, replace the suggestion with the rule itself, and save.
+7. Edit the requirement. Under each added title, replace the suggestion with the rule itself, using the exact text UiBank shows, and save.
+
+    ??? example "Sample: turn a suggestion into a rule"
+        Your suggestions may differ. This one says rejection rules are missing:
+
+        ![An enhancement suggestion: Add Rejection Criteria and Messages](../assets/images/TM%20Enhancement%20suggestion.png)
+
+        Applying with its second example in <a href="https://uibank.uipath.com" target="_blank">UiBank</a> gives the exact text for the rule:
+
+        ```text
+        Add Rejection Criteria and Messages
+        Applicants requesting $150,000 for 3 years with $400,000 income: Reject with "You must be at least 18 years old for a loan and the loan must not exceed 100k."
+        ```
 
 **Check it:** each title you added has a rule under it, not the suggestion.
 
@@ -43,22 +55,10 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 
 ## Fix the requirement
 
-Test cases are generated from the requirement's text, so its messages must match what UiBank shows. The agent doesn't check UiBank, so you do.
+The original acceptance criteria need the same check. Test cases are generated from the requirement's text, so its messages must match what UiBank shows.
 
 1. In <a href="https://uibank.uipath.com" target="_blank">UiBank</a>, go to **Products → Loans → Apply For A Loan**, apply with an age of **17**, and note the message.
 2. Edit **Submit Loan Request**, replace "Not approved due to age." with that message, and save.
-
-??? example "Sample: check a suggestion against UiBank"
-    Your suggestions may differ. This one says rejection rules are missing, but not what UiBank shows:
-
-    ![An enhancement suggestion: Add Rejection Criteria and Messages](../assets/images/TM%20Enhancement%20suggestion.png)
-
-    Applying with its second example in UiBank gives the exact text for the rule:
-
-    ```text
-    Add Rejection Criteria and Messages
-    Applicants requesting $150,000 for 3 years with $400,000 income: Reject with "You must be at least 18 years old for a loan and the loan must not exceed 100k."
-    ```
 
 ??? tip "Make every rule measurable"
     Edit the acceptance criteria themselves so each rule is measurable, with exact boundaries (18, 65, $100,000) and the exact message UiBank shows for approval and rejection. [03. Generate Test Cases](03-generate-test-cases.md) generates test cases from this text.
