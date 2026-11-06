@@ -43,8 +43,12 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
         ```
 
     3. Choose a model.
-    4. Click **Generate Tests**.
-5. Expand each proposal and keep it only if it traces to one acceptance criterion, has one action per step, uses realistic data and expects what UiBank really shows. Otherwise sharpen the instructions and regenerate. Keep **2 or 3**, and create them.
+    4. Click **Generate Tests**. The agent can take a few minutes. You can close the dialog while it works.
+5. On the requirement, click **Generated test cases** under **Latest activity** to see the proposals.
+
+    ![Generated test cases under Latest activity on the requirement](../assets/images/TM%20Generated%20test%20cases.png)
+
+6. Expand each proposal and keep it only if it traces to one acceptance criterion, has one action per step, uses realistic data and expects what UiBank really shows. Otherwise sharpen the instructions and regenerate. Keep **2 or 3**, and create them.
 
     In production, turn on Testing Process Governance so a second reviewer signs off.
 
