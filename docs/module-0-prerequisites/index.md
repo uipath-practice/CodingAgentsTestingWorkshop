@@ -58,7 +58,7 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
         ![Machines tab at the tenant level, with the search box](../assets/images/OC%20Tenant%20Machines.png)
 
-    2. Edit your machine template. Under **Runtime details**, set **App Testing** to **1**, and save.
+    2. Edit your machine template. Under **Runtime details**, set **App Testing** or **Testing** to **1**, whichever you see, and save.
 
         ![App Testing runtime in the machine template](../assets/images/OC%20App%20testing%20license.png)
 
