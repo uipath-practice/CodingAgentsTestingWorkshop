@@ -59,7 +59,7 @@ With Delegate, you can run a test case, add steps to an empty one, or create a n
 
 !!! example "It's your turn now!"
     1. Keep only one UiBank tab open. Delegate finds the window by its title, and the prompt names UiBank.
-    2. Replace `<YOUR_TEST_CASE_KEY>` with a test case you created in [03. Generate Test Cases](03-generate-test-cases.md), then paste:
+    2. Replace `<YOUR_TEST_CASE_KEY>` with the key of one of your **Coding Agent WS** test cases from [03. Generate Test Cases](03-generate-test-cases.md). A key is your project prefix, a colon and a number, for example `UIBAS:43`. Then paste:
 
         ```text
         Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and attach it to that step's result. Push the results to Test Manager. If any step failed, explain the reason.
@@ -89,7 +89,7 @@ With Delegate, you can run a test case, add steps to an empty one, or create a n
 Your project has a test case, **Request Loan**, with no steps.
 
 !!! example "Let's build it with Delegate!"
-    1. Replace `<REQUEST_LOAN_KEY>` with its key, then paste:
+    1. Replace `<REQUEST_LOAN_KEY>` with its key, for example `UIBAS:8`, then paste:
 
         ```text
         Test case <REQUEST_LOAN_KEY> currently has no steps. Add test steps to it based on the linked requirement document and the navigation flow below.
