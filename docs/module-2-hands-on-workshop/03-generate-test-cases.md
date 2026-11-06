@@ -48,11 +48,13 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 
     ![Generated test cases under Latest activity on the requirement](../assets/images/TM%20Generated%20test%20cases.png)
 
-6. Expand each proposal and keep it only if it traces to one acceptance criterion, has one action per step, uses realistic data and expects what UiBank really shows. Otherwise sharpen the instructions and regenerate. Keep **2 or 3**, and create them.
+6. Expand each proposal and keep it only if it traces to one acceptance criterion, has one action per step, uses realistic data and expects what UiBank really shows. Otherwise sharpen the instructions and regenerate. Create the ones you keep.
 
     In production, turn on Testing Process Governance so a second reviewer signs off.
 
-**Check it:** the requirement shows the new test cases as linked, each with manual steps and the **Coding Agent WS** label.
+7. Choose **2 or 3** test cases on the requirement to use for the rest of the workshop: new ones, existing ones, or a mix. New ones already have the **Coding Agent WS** label. For an existing one, open it, and under **Labels**, click **+ Add label** and add **Coding Agent WS**.
+
+**Check it:** 2 or 3 test cases on the requirement have the **Coding Agent WS** label, each with manual steps.
 
 ## Nice work!
 
