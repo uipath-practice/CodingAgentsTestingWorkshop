@@ -44,7 +44,7 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 
     3. Choose a model.
     4. Click **Generate Tests**. The agent can take a few minutes. You can close the dialog while it works.
-5. On the requirement, click **Generated test cases** under **Latest activity** to see the proposals.
+5. Under **Latest activity**, click **Generated test cases** to see the proposals.
 
     ![Generated test cases under Latest activity on the requirement](../assets/images/TM%20Generated%20test%20cases.png)
 
