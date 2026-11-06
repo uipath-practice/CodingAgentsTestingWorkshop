@@ -28,7 +28,7 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
             The built-in prompts are editable, and you can add custom prompts of your own. Manage them in the **Prompt Library**, under **Project Settings**.
 
     2. Choose a model.
-    3. Click **Evaluate quality**. The agent takes about a minute. You can close the dialog while it works.
+    3. Click **Evaluate quality**. The agent can take a few minutes. You can close the dialog while it works.
 5. On the requirement, click **Quality enhancements** under **Latest activity** to see the suggestions.
 
     ![Quality enhancements under Latest activity on the requirement](../assets/images/TM%20Quality%20enhancements.png)
