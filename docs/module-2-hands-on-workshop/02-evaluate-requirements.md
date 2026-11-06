@@ -38,7 +38,7 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
     Can you spot gaps in the acceptance criteria — an applicant who is exactly 18 or 65, or a loan amount that matches two approval rules? Did the agent find them? Compare with your neighbor.
 
 ??? example "Sample: a rule under an added heading"
-    For a suggestion about age boundaries:
+    The agent's suggestions differ for each learner, so yours may not include this one. It shows the kind of rule to write: short and measurable.
 
     ```text
     Clarify age boundaries
