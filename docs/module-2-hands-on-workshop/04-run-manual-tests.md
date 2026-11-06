@@ -28,7 +28,9 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
 
         ![Run Autonomously in the Manual Steps tab](../assets/images/TM%20Run%20autonomously.png)
 
-    2. Confirm the **Target Application URL**, for example `https://uibank.uipath.com`. Turn on **Live Streaming** to watch Autopilot drive the browser, and take over if needed. Leave **AI Model** as it is.
+    2. Enter the **Target Application URL**, `https://uibank.uipath.com`. **Run** stays disabled until you do. Turn on **Live Streaming** to watch Autopilot drive the browser, and take over if needed. Leave **AI Model** as it is.
+
+        **Run** still disabled? Open **Configure** and set **Runtime type** to your machine's runtime, **App Testing** or **Testing**.
     3. Select **Run**.
     4. When it finishes, open the execution:
 
