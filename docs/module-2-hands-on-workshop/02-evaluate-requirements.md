@@ -34,6 +34,9 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
     ![Quality enhancements under Latest activity on the requirement](../assets/images/TM%20Quality%20enhancements.png)
 
 6. Expand each suggestion. Select **Add to Requirement** for the ones you agree with. Each one you add appears at the end of the description: its title, with the suggestion below it.
+
+    ![An enhancement suggestion with Details, Add to Requirement and Remove](../assets/images/TM%20Enhancement%20suggestion.png)
+
 7. Edit the requirement. Under each added title, replace the suggestion with the rule itself, and save.
 
 **Check it:** each title you added has a rule under it, not the suggestion.
