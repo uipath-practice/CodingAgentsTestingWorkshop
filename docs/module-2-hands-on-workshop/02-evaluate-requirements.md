@@ -28,20 +28,20 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
             The built-in prompts are editable, and you can add custom prompts of your own. Manage them in the **Prompt Library**, under **Project Settings**.
 
     2. Choose a model.
-    3. Click **Evaluate quality**. The agent can take a few minutes. You can close the dialog while it works.
+    3. Click **Evaluate quality**. The agent can takes a minute or so. You can close the dialog while it works.
 5. On the requirement, click **Quality enhancements** under **Latest activity** to see the suggestions.
 
     ![Quality enhancements under Latest activity on the requirement](../assets/images/TM%20Quality%20enhancements.png)
 
-6. Expand each suggestion. Select **Add to Requirement** for the ones you agree with, and **Remove** the rest. Each one you add appears as a heading at the end of the description.
-7. Edit the requirement, write a short rule under each added heading, and save.
+6. Expand each suggestion. Select **Add to Requirement** for the ones you agree with. Each one you add appears at the end of the description: its title, with the suggestion below it.
+7. Edit the requirement. Under each added title, replace the suggestion with the rule itself, and save.
 
-**Check it:** the description ends with the headings you added, each with a rule under it.
+**Check it:** each title you added has a rule under it, not the suggestion.
 
 !!! question "Think about it"
-    Can you spot gaps in the acceptance criteria — an applicant who is exactly 18 or 65, or a loan amount that matches two approval rules? Did the agent find them? Compare with your neighbor.
+    Can you spot gaps in the acceptance criteria — an applicant who is exactly 18 or 65, or a loan amount that matches two approval rules? Did the agent find them? Share one gap it found, or missed, in the workshop chat.
 
-??? example "Sample: a rule under an added heading"
+??? example "Sample: a rule under an added title"
     The agent's suggestions differ for each learner, so yours may not include this one. It shows the kind of rule to write: short and measurable.
 
     ```text
