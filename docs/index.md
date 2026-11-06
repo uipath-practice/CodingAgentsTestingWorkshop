@@ -72,11 +72,11 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
 
 By the end of this workshop, you will:
 
-✅ Explore agentic features in Test Manager
+✅ Use the agentic features in Test Manager to evaluate requirements and generate test cases
 
-✅ Delegate at different stages of testing
+✅ Use Delegate to run manual tests, build the Object Repository and write a go/no-go release report
 
-✅ Agentic and Autopilot for Testers features in Studio 
+✅ Turn manual test cases into automations with Autopilot for Testers in Studio, and run them as a regression test set
 
 
 ## How this guide is organized
