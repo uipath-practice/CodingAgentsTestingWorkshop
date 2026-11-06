@@ -35,7 +35,7 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
 ✅ **Your permissions**, which let you run tests in that folder
 
-✅ **Your machine**, with an **App Testing** runtime, where the robot runs your tests
+✅ **Your machine**, with a testing runtime, where the robot runs your tests
 
 
 ??? info "Trainer-led setup: your folder and machine"
@@ -62,7 +62,7 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
         ![App Testing runtime in the machine template](../assets/images/OC%20App%20testing%20license.png)
 
-    3. Open your personal folder. In the **Manage Access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
+    3. Still at the **Tenant** level, go to **Folders** and open your personal folder. In the **Manage Access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
 
         ![Manage Access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
 
