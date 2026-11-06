@@ -36,7 +36,7 @@ For testing, Delegate is fully integrated with **Test Manager**, so you can hand
 
 ### Choose how much Delegate does on its own
 
-Set this in **Settings → Security → Approval mode**:
+Select **Adaptive** from the mode selector next to the chatbox (or **Settings → Security**) and turn **Smart approvals** on.
 
 | Approval mode | What Delegate does |
 |---|---|
