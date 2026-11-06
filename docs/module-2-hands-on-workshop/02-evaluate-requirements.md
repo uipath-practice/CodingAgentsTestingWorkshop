@@ -29,7 +29,7 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 
     2. Choose a model.
     3. Click **Evaluate quality**. The agent takes about a minute. You can close the dialog while it works.
-5. On the requirement, open **Quality enhancements** under **Latest activity**.
+5. On the requirement, click **Quality enhancements** under **Latest activity** to see the suggestions.
 
     ![Quality enhancements under Latest activity on the requirement](../assets/images/TM%20Quality%20enhancements.png)
 
