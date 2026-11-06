@@ -25,14 +25,14 @@ For testing, Delegate is fully integrated with **Test Manager**, so you can hand
 
 1. Open **UiPath Assistant** → **Preferences** → **Orchestrator connection**, sign in with your UiPath account, and select the workshop tenant.
 
-    !!! tip "Assistant already shows you signed in and connected?"
+    ??? tip "Assistant already shows you signed in and connected?"
         1. Click **Sign out**. Your default browser opens and asks if you want to log out. Don't click it.
         2. In that browser, sign in to the workshop tenant.
         3. Go back to Assistant, click **Sign in**, and follow step 1.
 
 2. Select **Delegate** in the top ribbon. It shows only once Assistant is connected.
-3. Set the work profile: click the person icon or your initials (top right) → **Settings** → **Behavior preferences**, and set **Work profile** to **QA / Testing**.
-4. Click **+ New** in the left panel to start a new task.
+
+3. Click **+ New** in the left panel to start a new task.
 
 ### Choose how much Delegate does on its own
 
