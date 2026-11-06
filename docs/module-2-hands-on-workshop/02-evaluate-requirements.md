@@ -41,17 +41,16 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 !!! question "Think about it"
     Can you spot gaps in the acceptance criteria — an applicant who is exactly 18 or 65, or a loan amount that matches two approval rules? Did the agent find them?
 
-??? example "Sample: turn a suggestion into a rule"
+??? example "Sample: look beyond the suggestion"
     The agent's suggestions differ for each learner, so yours may not include this one.
 
     ![An enhancement suggestion: Add Rejection Criteria and Messages](../assets/images/TM%20Enhancement%20suggestion.png)
 
-    Try both examples in <a href="https://uibank.uipath.com" target="_blank">UiBank</a>, then write what it shows as the rule:
+    The suggestion says rejection rules are missing, but not what UiBank shows. Try its examples in <a href="https://uibank.uipath.com" target="_blank">UiBank</a>, and write the exact rejection text as the rule:
 
     ```text
     Add Rejection Criteria and Messages
-    Applicants requesting $75,000 for 1 year with $50,000 income: <Approve or Reject> with "<message UiBank shows>".
-    Applicants requesting $150,000 for 3 years with $400,000 income: <Approve or Reject> with "<message UiBank shows>".
+    Applicants requesting $150,000 for 3 years with $400,000 income: Reject with "You must be at least 18 years old for a loan and the loan must not exceed 100k."
     ```
 
 ## Check the requirement against UiBank
@@ -60,11 +59,13 @@ Test cases are generated from the requirement's text, so its messages must match
 
 1. In <a href="https://uibank.uipath.com" target="_blank">UiBank</a>, go to **Products → Loans → Apply For A Loan**, and apply with an age of **17**.
 2. Compare the message UiBank shows with the rejection message in the requirement's acceptance criteria, "Not approved due to age."
+3. Apply again with an age of **30**, a loan of **$150,000** for **3 years**, and an income of **$400,000**.
+4. Compare the message with "Not approved over $100,000 without sufficient income."
 
 ## Fix the requirement
 
 1. Edit **Submit Loan Request**.
-2. In the acceptance criteria, replace "Not approved due to age." with the message UiBank shows.
+2. In the acceptance criteria, replace both rejection messages with the exact text UiBank shows.
 3. Save.
 
 ??? tip "Make every rule measurable"
