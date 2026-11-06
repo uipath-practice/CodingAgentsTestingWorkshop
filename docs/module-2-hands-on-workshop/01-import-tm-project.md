@@ -30,6 +30,8 @@ To run tests automatically, Test Manager needs to know which **Orchestrator fold
 !!! failure "Skipped this step?"
     Runs fail with `HTTP 400: Please assign folder to project level before executing testcases.`
 
+    Your folder isn't in the **Default Folder** list? You're not assigned to it. Ask your trainer.
+
 ## Check it with Delegate
 
 [Open Delegate](../module-0-prerequisites/01-installation-guide.md#step-2-meet-delegate) and ask, one at a time:

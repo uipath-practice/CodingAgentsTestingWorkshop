@@ -70,6 +70,8 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
         ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
 
+    **Check it:** in your folder, **Machines** lists your machine with **1** under **App Testing** or **Testing**.
+
 ---
 
 [Next → Installation Guide](01-installation-guide.md){: .md-button .md-button--primary}
