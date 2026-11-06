@@ -37,7 +37,6 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
 ✅ **Your machine**, with an **App Testing** runtime, where the robot runs your tests
 
-Later, in [01. Import and Link the Test Manager Project](../module-2-hands-on-workshop/01-import-tm-project.md#link-the-project-to-your-folder), you point your Test Manager project to this folder.
 
 ??? info "Trainer-led setup: your folder and machine"
     Your trainer guides you through these steps.
@@ -55,15 +54,19 @@ Later, in [01. Import and Link the Test Manager Project](../module-2-hands-on-wo
 
     **Set up your machine and folder**
 
-    1. Edit your machine template. Under **Runtime details**, set **App Testing** to **1**, and save.
+    1. In Orchestrator, select **Tenant** (top left) → **Machines**, and search for your name.
+
+        ![Machines tab at the tenant level, with the search box](../assets/images/OC%20Tenant%20Machines.png)
+
+    2. Edit your machine template. Under **Runtime details**, set **App Testing** to **1**, and save.
 
         ![App Testing runtime in the machine template](../assets/images/OC%20App%20testing%20license.png)
 
-    2. Open your personal folder. In the **Manage Access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
+    3. Open your personal folder. In the **Manage Access** tab, check that your username is listed, with **Attended, Unattended** under **Robot Type**.
 
         ![Manage Access tab of the folder](../assets/images/OC%20Settings%20Folder%20Admin.png)
 
-    3. Open the **Machines** tab, next to **Manage Access**. Click **Manage Machines in Folder**, select your machine, then click **Update** to add it to the folder.
+    4. Open the **Machines** tab, next to **Manage Access**. Click **Manage Machines in Folder**, select your machine, then click **Update** to add it to the folder.
 
         ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
 
