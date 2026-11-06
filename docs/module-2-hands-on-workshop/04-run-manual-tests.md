@@ -65,7 +65,7 @@ With Delegate, you can run a test case, add steps to an empty one, or create a n
         Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and attach it to that step's result. Push the results to Test Manager. If any step failed, explain the reason.
         ```
 
-    3. Approve when Delegate asks to push the result.
+    3. If Delegate asks for permission to push the result, approve it. It records the result in a test set execution, which you'll find under **Execution**.
     4. For any failure, decide: **defect in UiBank**, or **problem with the test case**?
 
 ??? tip "Test data already used?"
