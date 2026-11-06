@@ -44,15 +44,23 @@ Select **Adaptive** from the mode selector next to the chatbox (or **Settings â†
 | **Adaptive** *(recommended)* | Auto-approves known safe operations, and asks before the rest. **Smart approvals** also approves what Delegate judges safe |
 | **Full access** | Never asks â€” trusted environments only |
 
-Try it:
+### Check the connection
 
-```text
-List the tenant I am connected to.
-```
+1. Ask Delegate:
 
-Delegate replies with your organization, tenant and user name. If the tenant isn't the workshop tenant, switch it as in the *Assistant already shows you signed in and connected?* tip in step 1, and ask again.
+    ```text
+    List the tenant I am connected to.
+    ```
 
-**Check it:** ask Delegate, *"Run uip login status."* If it says you're not signed in, ask Delegate to run `uip login` and sign in with your workshop account. Don't continue until the login status comes back clean.
+    Delegate replies with your organization, tenant and user name. If the tenant isn't the workshop tenant, switch it as in the *Assistant already shows you signed in and connected?* tip, and ask again.
+
+2. Ask Delegate:
+
+    ```text
+    Run uip login status.
+    ```
+
+    If it says you're not signed in, ask Delegate to run `uip login`, and sign in with your workshop account. Don't continue until the login status comes back clean.
 
 !!! warning "Delegate acts on your behalf"
     It uses your UiPath account and permissions, and every action is logged in your name.
