@@ -50,7 +50,7 @@ Which requirements in my project don't have any test cases linked yet?
 Pick one test case in my project and show me its manual steps and expected results.
 ```
 
-✅ Delegate finds your project and answers from your Test Manager data.
+✅ Delegate finds your project: 2 requirements, 8 test cases and 1 test set (**UiBank Smoke Test Set**). **Submit Loan Request** has 6 linked test cases, and **User Registration Form** has none. You use Submit Loan Request from step 2.
 
 ---
 
