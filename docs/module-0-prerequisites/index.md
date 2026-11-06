@@ -27,7 +27,7 @@ Confirm that you can:
 
 ✅ Use an **App Test Developer** license, to create Test Automation projects
 
-✅ Connect **UiPath Assistant** to your Cloud account
+✅ Connect **UiPath Assistant** to your Cloud account (see [Installation Guide, step 2](01-installation-guide.md#step-2-meet-delegate))
 
 ## Orchestrator folder and robot
 

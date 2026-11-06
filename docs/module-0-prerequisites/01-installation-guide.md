@@ -23,9 +23,10 @@ flowchart LR
 
 For testing, Delegate is fully integrated with **Test Manager**, so you can hand it testing work across the whole cycle, from planning and authoring tests to running them and reporting on the results.
 
-1. Open **UiPath Assistant**, and select **Delegate** in the top ribbon.
-2. Set the work profile: click the chevron next to your user name (bottom left) → **Settings** → **Behavior preferences**, and set **Work profile** to **QA / Testing**.
-3. Click **+ New** in the left panel to start a new task.
+1. Open **UiPath Assistant** → **Preferences** → **Orchestrator connection**, sign in with your UiPath account, and select the workshop tenant.
+2. Select **Delegate** in the top ribbon. It shows only once Assistant is connected.
+3. Set the work profile: click the chevron next to your user name (bottom left) → **Settings** → **Behavior preferences**, and set **Work profile** to **QA / Testing**.
+4. Click **+ New** in the left panel to start a new task.
 
 ### Choose how much Delegate does on its own
 
