@@ -34,9 +34,6 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
     ![Quality enhancements under Latest activity on the requirement](../assets/images/TM%20Quality%20enhancements.png)
 
 6. Expand each suggestion. Select **Add to Requirement** for the ones you agree with. Each one you add appears at the end of the description: its title, with the suggestion below it.
-
-    ![An enhancement suggestion with Details, Add to Requirement and Remove](../assets/images/TM%20Enhancement%20suggestion.png)
-
 7. Edit the requirement. Under each added title, replace the suggestion with the rule itself, and save.
 
 **Check it:** each title you added has a rule under it, not the suggestion.
@@ -44,13 +41,17 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 !!! question "Think about it"
     Can you spot gaps in the acceptance criteria — an applicant who is exactly 18 or 65, or a loan amount that matches two approval rules? Did the agent find them?
 
-??? example "Sample: a rule under an added title"
-    The agent's suggestions differ for each learner, so yours may not include this one. It shows the kind of rule to write: short and measurable.
+??? example "Sample: turn a suggestion into a rule"
+    The agent's suggestions differ for each learner, so yours may not include this one.
+
+    ![An enhancement suggestion: Add Rejection Criteria and Messages](../assets/images/TM%20Enhancement%20suggestion.png)
+
+    Try both examples in <a href="https://uibank.uipath.com" target="_blank">UiBank</a>, then write what it shows as the rule:
 
     ```text
-    Clarify age rules
-    Applicants under 18 are rejected for age.
-    Applicants aged 18 or older pass the age check. There is no upper age limit.
+    Add Rejection Criteria and Messages
+    Applicants requesting $75,000 for 1 year with $50,000 income: <Approve or Reject> with "<message UiBank shows>".
+    Applicants requesting $150,000 for 3 years with $400,000 income: <Approve or Reject> with "<message UiBank shows>".
     ```
 
 ## Check the requirement against UiBank
