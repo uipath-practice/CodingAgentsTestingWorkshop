@@ -18,7 +18,7 @@
 | Delegate can't start the test set run | The test set has no automated test case. [Publish the test cases](../module-2-hands-on-workshop/06-automate-and-publish.md#publish-the-test-cases) again, then check that the set lists them in [07. Create a Test Set](../module-2-hands-on-workshop/07-create-test-set.md). |
 | `HTTP 400: Please assign folder to project level before executing testcases.` | The project has no default folder. Complete [01. Import and Link the Test Manager Project](../module-2-hands-on-workshop/01-import-tm-project.md#link-the-project-to-your-folder). |
 | Test cases are skipped with no result | They're manual — not linked to a published automation. Complete [Publish the test cases](../module-2-hands-on-workshop/06-automate-and-publish.md#publish-the-test-cases) and check each test case shows an automation. |
-| The run stays pending or hangs | The robot is busy or disconnected. In Orchestrator, check the machine in your folder is connected and has an **App Testing** runtime. |
+| The run stays pending or hangs | The robot is busy or disconnected. In Orchestrator, check the machine in your folder is connected and has an **App Testing** or **Testing** runtime. |
 | Tests fail with "Cannot communicate with the browser" | A robot-side problem with the UiPath browser extension, not a product defect. Check the extension is installed and enabled on the robot machine. |
 
 ## Report
