@@ -119,3 +119,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-06 | F-04 (owner): step 2.1 tip for an Assistant already signed in: Sign out, ignore the browser's log-out question, sign in to the workshop tenant in that browser, then Sign in again in Assistant. |
 | 2026-11-06 | Installation Guide step 2.3 (owner): Settings opens from the person icon or your initials (top right), not a chevron at the bottom left. |
 | 2026-11-06 | F-05: approval mode is now an action (reviewer wording): select **Adaptive** from the mode selector next to the chatbox (or Settings → Security) and turn **Smart approvals** on. |
+| 2026-11-06 | F-06: the tenant prompt now says what Delegate replies (organization, tenant, user; Fusion PDF p34); a wrong tenant is switched with the step 1 sign-out tip. |

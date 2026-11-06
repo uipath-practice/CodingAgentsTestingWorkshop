@@ -50,6 +50,8 @@ Try it:
 List the tenant I am connected to.
 ```
 
+Delegate replies with your organization, tenant and user name. If the tenant isn't the workshop tenant, switch it as in the *Assistant already shows you signed in and connected?* tip in step 1, and ask again.
+
 **Check it:** ask Delegate, *"Run uip login status."* If it says you're not signed in, ask Delegate to run `uip login` and sign in with your workshop account. Don't continue until the login status comes back clean.
 
 !!! warning "Delegate acts on your behalf"
