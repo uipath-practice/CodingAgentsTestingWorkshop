@@ -31,7 +31,7 @@ For testing, Delegate is fully integrated with **Test Manager**, so you can hand
         3. Go back to Assistant, click **Sign in**, and follow step 1.
 
 2. Select **Delegate** in the top ribbon. It shows only once Assistant is connected.
-3. Set the work profile: click the chevron next to your user name (bottom left) → **Settings** → **Behavior preferences**, and set **Work profile** to **QA / Testing**.
+3. Set the work profile: click the person icon or your initials (top right) → **Settings** → **Behavior preferences**, and set **Work profile** to **QA / Testing**.
 4. Click **+ New** in the left panel to start a new task.
 
 ### Choose how much Delegate does on its own

@@ -117,3 +117,4 @@ An MkDocs (Material) site for the hands-on **Coding Agents for Test** workshop. 
 | 2026-11-06 | F-01: Home learning objectives now use the reviewer's three full sentences (Test Manager agents; Delegate for manual runs, OR and go/no-go report; Autopilot automations run as a regression test set). |
 | 2026-11-06 | F-04: Installation Guide step 2 starts with Assistant → Preferences → Orchestrator connection (UiPath Delegate installation docs); Delegate shows in the top ribbon only once connected. Prerequisites links to it. |
 | 2026-11-06 | F-04 (owner): step 2.1 tip for an Assistant already signed in: Sign out, ignore the browser's log-out question, sign in to the workshop tenant in that browser, then Sign in again in Assistant. |
+| 2026-11-06 | Installation Guide step 2.3 (owner): Settings opens from the person icon or your initials (top right), not a chevron at the bottom left. |
