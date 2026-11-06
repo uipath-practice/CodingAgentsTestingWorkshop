@@ -39,15 +39,15 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 **Check it:** each title you added has a rule under it, not the suggestion.
 
 !!! question "Think about it"
-    Can you spot gaps in the acceptance criteria — an applicant who is exactly 18 or 65, or a loan amount that matches two approval rules? Did the agent find them? Share one gap it found, or missed, in the workshop chat.
+    Can you spot gaps in the acceptance criteria — an applicant who is exactly 18 or 65, or a loan amount that matches two approval rules? Did the agent find them?
 
 ??? example "Sample: a rule under an added title"
     The agent's suggestions differ for each learner, so yours may not include this one. It shows the kind of rule to write: short and measurable.
 
     ```text
-    Clarify age boundaries
-    Applicants aged exactly 18 or exactly 65 are eligible.
-    Only applicants under 18 or over 65 are rejected for age.
+    Clarify age rules
+    Applicants under 18 are rejected for age.
+    Applicants aged 18 or older pass the age check. There is no upper age limit.
     ```
 
 ## Check the requirement against UiBank
