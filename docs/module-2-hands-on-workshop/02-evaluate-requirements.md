@@ -59,13 +59,11 @@ Test cases are generated from the requirement's text, so its messages must match
 
 1. In <a href="https://uibank.uipath.com" target="_blank">UiBank</a>, go to **Products → Loans → Apply For A Loan**, and apply with an age of **17**.
 2. Compare the message UiBank shows with the rejection message in the requirement's acceptance criteria, "Not approved due to age."
-3. Apply again with an age of **30**, a loan of **$150,000** for **3 years**, and an income of **$400,000**.
-4. Compare the message with "Not approved over $100,000 without sufficient income."
 
 ## Fix the requirement
 
 1. Edit **Submit Loan Request**.
-2. In the acceptance criteria, replace both rejection messages with the exact text UiBank shows.
+2. In the acceptance criteria, replace "Not approved due to age." with the message UiBank shows.
 3. Save.
 
 ??? tip "Make every rule measurable"
