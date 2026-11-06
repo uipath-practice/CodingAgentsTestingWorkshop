@@ -48,7 +48,7 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 
     ![Generated test cases under Latest activity on the requirement](../assets/images/TM%20Generated%20test%20cases.png)
 
-6. Expand each proposal and keep it only if it traces to one acceptance criterion, has one action per step, uses realistic data and expects what UiBank really shows. Otherwise sharpen the instructions and regenerate. Create the ones you keep.
+6. Expand each proposal and keep it only if it traces to one acceptance criterion, has one action per step, uses realistic data and expects what UiBank really shows. Otherwise sharpen the instructions and regenerate. Create only the ones you'll use.
 
     In production, turn on Testing Process Governance so a second reviewer signs off.
 
