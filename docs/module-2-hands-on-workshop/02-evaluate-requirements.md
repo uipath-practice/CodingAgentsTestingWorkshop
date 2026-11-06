@@ -29,10 +29,22 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 
     2. Choose a model.
     3. Click **Evaluate quality**.
-5. Review the suggestions, and apply or dismiss each one. Then update the requirement.
+5. Expand each suggestion. Select **Add to Requirement** for the ones you agree with, and **Remove** the rest. Each one you add appears as a heading at the end of the description.
+6. Edit the requirement, write a short rule under each added heading, and save.
+
+**Check it:** the description ends with the headings you added, each with a rule under it.
 
 !!! question "Think about it"
     Can you spot gaps in the acceptance criteria — an applicant who is exactly 18 or 65, or a loan amount that matches two approval rules? Did the agent find them? Compare with your neighbor.
+
+??? example "Sample: a rule under an added heading"
+    For a suggestion about age boundaries:
+
+    ```text
+    Clarify age boundaries
+    Applicants aged exactly 18 or exactly 65 are eligible.
+    Only applicants under 18 or over 65 are rejected for age.
+    ```
 
 ## Check the requirement against UiBank
 
