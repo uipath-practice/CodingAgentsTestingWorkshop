@@ -51,7 +51,7 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
 
 ## Run manual tests with Delegate
 
-With Delegate, you can run a test case, add steps to an empty one, or create a new one from a business document. You review the work and decide what to save in Test Manager.
+With Delegate, you can run a test case or create a new one from a business document. You review the work and decide what to save in Test Manager.
 
 [Open Delegate](../module-0-prerequisites/01-installation-guide.md#step-2-meet-delegate).
 
@@ -84,50 +84,7 @@ With Delegate, you can run a test case, add steps to an empty one, or create a n
     Rewrite the steps of test case <YOUR_TEST_CASE_KEY> that were unclear during this run, so each one has a single clear action and expected result. Show me the changes before you save them to Test Manager.
     ```
 
-### 2 — Add steps to an empty test case
-
-Your project has a test case, **Request Loan**, with no steps.
-
-!!! example "Let's build it with Delegate!"
-    1. Replace `<REQUEST_LOAN_KEY>` with its key, for example `UIBAS:8`, then paste:
-
-        ```text
-        Test case <REQUEST_LOAN_KEY> currently has no steps. Add test steps to it based on the linked requirement document and the navigation flow below.
-
-        Navigation flow:
-
-        Welcome page (https://uibank.uipath.com/welcome)
-        Open the Products drop-down menu and select Loans.
-        Expected result: The Loans page opens.
-
-        Loans page (https://uibank.uipath.com/loans)
-        Click the Apply For A Loan button.
-        Expected result: The loan application form is displayed.
-
-        Loan application form (https://uibank.uipath.com/loans/apply)
-        Fill in every required field with the values and rules from the requirement document.
-        Click the Submit Loan Application button.
-        Expected result: The application is accepted, and the confirmation or result shown matches the acceptance criteria in the requirement.
-
-        Instructions:
-
-        Take all field names, valid test data, validation rules and expected outcomes from the requirement document. Don't make up any values.
-        Give each step one action and one expected result.
-        If the requirement leaves out details a step needs, such as a missing field value or an unclear acceptance criterion, list them as open questions. Don't guess.
-        Add the label 'Coding Agent WS' to <REQUEST_LOAN_KEY>.
-        Before saving the steps to <REQUEST_LOAN_KEY>, show them to me for review.
-        ```
-
-    2. Then follow Delegate:
-        1. **No requirement linked** — ask it to link the **Submit Loan Request** requirement.
-        2. **Test data** — choose the **approval path**.
-        3. **Open questions** — answer them.
-        4. **Save the steps** — give permission.
-        5. **Run it** — say yes.
-
-**Check it:** **Request Loan** has manual steps and the **Coding Agent WS** label, is linked to the requirement, and has a new result in **Execution**.
-
-### 3 — Create a new requirement and test case (optional)
+### 2 — Create a new requirement and test case (optional)
 
 The business has documented a new process, **Loan lookup**, in a Process Design Document (PDD). It isn't in your requirements yet.
 
