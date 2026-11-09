@@ -33,7 +33,7 @@ You work in **Delegate** on this page: paste each prompt, then wait and watch it
 Replace `<YOUR_NAME>` with your name, for example `AlexS`, so your package is unique on the shared tenant. Then paste:
 
 ```text
-Create a Studio Test Automation project named <YOUR_NAME>_UiBank Tests.
+Create a blank Studio Test Automation project named <YOUR_NAME>_UiBank Tests, with Windows compatibility.
 ```
 
 **Check it:** your project opens in Studio, in `Documents\UiPath\<YOUR_NAME>_UiBank Tests`.
