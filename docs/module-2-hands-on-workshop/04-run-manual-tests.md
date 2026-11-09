@@ -134,12 +134,12 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
         - Description: How often this test should run: every build, daily, or before release.
         - Object type: Test Cases
         - Data type: Label
-        - Possible values: Smoke, Core, Extended
+        - Suggested values: Smoke, Core, Extended
 
         Then, for every test case with the label "Delegate", set Test Tier to "Smoke".
         ```
 
-    **Check it:** open a labeled test case. Its **Details** tab shows **Test Tier: Smoke**.
+    **Check it:** open a labeled test case. Its **Details** tab shows the **Test Tier** dropdown set to **Smoke** (not a second Test Tier line).
 
 ??? info "Beyond running tests — Delegate across the whole manual testing cycle"
     Ideas to try on your own project, in your own words:
