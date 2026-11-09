@@ -120,10 +120,10 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
     Keep going until you're happy with both.
 
 ??? example "Go further — Organize test cases in bulk"
-    1. Add a label to your test cases:
+    1. Replace `<YOUR_TEST_CASE_KEY>` with the key of the test case you ran in part 1, then paste:
 
         ```text
-        Add the label "Delegate" to every test case you created or ran in this session.
+        Add the label "Delegate" to test case <YOUR_TEST_CASE_KEY> and to the Loan Lookup test case you created.
         ```
 
     2. Create a **Test Tier** custom field and set it on the labeled test cases:
