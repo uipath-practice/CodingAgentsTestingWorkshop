@@ -94,11 +94,26 @@ One row expects the loan to be rejected, but UiBank approves it, so this test ca
 !!! info "Switch back to Delegate"
     Your test cases are automated. Go back to Delegate to publish them.
 
-Paste:
+Replace `<TEST_CASE_1>`, `<TEST_CASE_2>`, `<TEST_CASE_3>` with the names of the test cases you automated (add more if you have them), then paste:
 
 ```text
-Set all the test cases in <YOUR_NAME>_UiBank Tests as publishable and publish the project.
+Set the test cases I generated with Autopilot in <YOUR_NAME>_UiBank Tests (<TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3>) as publishable, and publish the project to the Orchestrator Tenant Processes Feed, not my Personal Workspace.
 ```
+
+??? tip "Do it by hand in Studio"
+    1. In the **Project** panel, right-click each automated test case → **Set as Publishable**.
+
+        ![Set as Publishable in the Project panel's right-click menu](../assets/images/Studio%20Set%20As%20Publishable.png)
+
+    2. Select **Publish** in the Studio ribbon.
+
+        ![Publish in the Studio ribbon](../assets/images/Studio%20Publish%20button.jpg)
+
+    3. In **Publish Test Cases**, check the **Package Name** and **New Version**, then select **Next**.
+
+        ![Package properties in Publish Test Cases](../assets/images/Studio%20Publish%20TC%20Window.png)
+
+    4. In **Publish options**, choose the **Orchestrator Tenant Processes Feed**, then select **Publish**.
 
 **Check it:** in Test Manager, open **Test Cases**. Each one you automated shows as **Automated**. Open one and check that its **Automation** tab shows your package, named after your project.
 
