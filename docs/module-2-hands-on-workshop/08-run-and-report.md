@@ -14,12 +14,12 @@ It's release night, and the release manager wants to know: **can we ship?** Ask 
     2. Paste:
 
         ```text
-        Trigger the Regression Test Set of my project in Test Manager and wait for it to finish. Once finished, create a release manager report in PDF for that test set, and save it in Documents\UiPath\Reports. I need a go/no-go summary before tonight's sign-off meeting. Highlight the failures blocking the release.
+        Trigger the Regression Test Set of my project in Test Manager and wait for it to finish. Once finished, create a release manager report in PDF for that test set, and save it on my Desktop. I need a go/no-go summary before tonight's sign-off meeting. Highlight the failures blocking the release.
         ```
 
     3. Approve Delegate's requests. The important one is the run itself, a **real execution** on your robot. Delegate may also ask before it saves the report.
     4. Wait a few minutes while it runs the set, fetches the results, counts them, and finds the top failing test cases.
-    5. If Delegate asks where to save the report, select **Other folder path** and enter `Documents\UiPath\Reports`, then select **Next**. Keep the default file name, and select **Submit**.
+    5. If Delegate asks where to save the report, choose your Desktop. Keep the default file name, and select **Submit**.
 
 ??? tip "Run a single test case instead"
     ```text
@@ -44,7 +44,7 @@ Delegate gives the path to the saved report and summarizes the key numbers in th
     Ask Delegate:
 
     ```text
-    Create a PDF of the report and copy to my Downloads folder
+    Create a PDF of the report and save it on my Desktop.
     ```
 
 !!! question "Think about it"
