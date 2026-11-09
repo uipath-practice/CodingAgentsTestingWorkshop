@@ -128,6 +128,15 @@ Set the test cases I generated with Autopilot in <YOUR_NAME>_UiBank Tests (<TEST
 
     Automate any test case on that list, publish again, then ask again. Continue only when the list is empty.
 
+    ??? tip "Automated in Studio, but still not linked?"
+        Ask Delegate to link it:
+
+        ```text
+        Link the automation <STUDIO_TEST_CASE> in my <YOUR_NAME>_UiBank Tests package to test case <TEST_CASE_KEY> in my Test Manager project.
+        ```
+
+        Or, in Test Manager, open the test case → **Automation** tab → **Select Automation**.
+
 ## Nice work!
 
 Your test cases are automated, data-driven, and published, ready to run from Test Manager.
