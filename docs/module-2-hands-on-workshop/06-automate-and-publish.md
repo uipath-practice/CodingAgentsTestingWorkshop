@@ -42,7 +42,7 @@ Automate **every** test case with the **Coding Agent WS** label: the 3 or more y
 
 1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
 
-    ![Test Explorer](../assets/images/testExplorer.png)
+    ![Test Explorer listing the UiBank test cases](../assets/images/testExplorer.png)
 
 2. Review it like a pull request: Given / When / Then sections, one verification for the expected result, **Object Repository** elements only, and no fixed **Delay** activities. If not, ask Delegate to fix it.
 3. Check the **Use Application/Browser** cards. The data-driven test in the next section must open and close the app once per row, and your requirement and test case may not say so.
