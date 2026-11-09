@@ -58,7 +58,7 @@ Automate **every** test case with the **Coding Agent WS** label: the 3 or more y
     ![Open and Close options of the first Use Application/Browser card](../assets/images/Use%20Application%20properties.png)
 
 4. **Run** it locally.
-5. Repeat for each test case with the **Coding Agent WS** label.
+5. Repeat steps 1–4 for each of your other **Coding Agent WS** test cases, so all 3 or more are automated with Autopilot.
 
 **Check it:** each test case passes locally.
 
