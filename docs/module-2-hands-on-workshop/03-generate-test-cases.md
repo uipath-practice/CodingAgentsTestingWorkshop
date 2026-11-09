@@ -52,11 +52,11 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 
     In production, turn on Testing Process Governance so a second reviewer signs off.
 
-7. Choose **2 or 3** test cases on the requirement to use for the rest of the workshop: new ones, existing ones, or a mix. New ones already have the **Coding Agent WS** label. For an existing one, go to **Test Cases**, open it, click below the existing labels under **Labels**, and add **Coding Agent WS**.
+7. Choose **at least 3** test cases on the requirement to use for the rest of the workshop: new ones, existing ones, or a mix. New ones already have the **Coding Agent WS** label. For an existing one, go to **Test Cases**, open it, click below the existing labels under **Labels**, and add **Coding Agent WS**.
 
     ![Labels on a test case's Overview tab](../assets/images/TM%20Test%20case%20labels.png)
 
-**Check it:** 2 or 3 test cases on the requirement have the **Coding Agent WS** label, each with manual steps.
+**Check it:** at least 3 test cases on the requirement have the **Coding Agent WS** label, each with manual steps.
 
 ## Nice work!
 

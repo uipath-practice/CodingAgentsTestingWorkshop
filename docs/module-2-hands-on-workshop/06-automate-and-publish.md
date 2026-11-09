@@ -38,7 +38,7 @@ Click a step to jump to it.
 
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 
-Automate **every** test case with the **Coding Agent WS** label: the ones the built-in agent created in [03. Generate Test Cases](03-generate-test-cases.md), and the ones Delegate created in [04. Run Manual Tests](04-run-manual-tests.md). Your test set in [07. Create a Test Set](07-create-test-set.md) runs all of them.
+Automate **every** test case with the **Coding Agent WS** label: the 3 or more you chose in [03. Generate Test Cases](03-generate-test-cases.md). Your test set in [07. Create a Test Set](07-create-test-set.md) runs all of them.
 
 1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
 
