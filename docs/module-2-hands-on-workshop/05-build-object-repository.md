@@ -38,6 +38,13 @@ Create a blank Studio Test Automation project named <YOUR_NAME>_UiBank Tests, wi
 
 **Check it:** your project opens in Studio, in `Documents\UiPath\<YOUR_NAME>_UiBank Tests`.
 
+??? tip "Do it by hand in Studio"
+    1. In Studio, go to **Home → New Project → Test Automation**.
+
+        ![New Project → Test Automation in Studio](../assets/images/New%20Test%20Automation%20Project.png)
+
+    2. Name it `<YOUR_NAME>_UiBank Tests`, choose **Windows** compatibility, and create the project.
+
 ## Install the UI Automation package
 
 <span class="tool-badge tool-badge--delegate">Delegate</span>
@@ -47,6 +54,17 @@ Install the latest stable UI Automation activities package in <YOUR_NAME>_UiBank
 ```
 
 **Check it:** **Manage Packages → Project Dependencies** lists **UiPath.UIAutomation.Activities**.
+
+??? tip "Do it by hand in Studio"
+    1. Select **Manage Packages** in the Studio ribbon.
+
+        ![Manage Packages in the Studio ribbon](../assets/images/Studio%20Manage%20Packages%20button.png)
+
+    2. Select **All Packages** and search for `UiPath.UIAutomation.Activities`.
+
+        ![Searching All Packages for UiPath.UIAutomation.Activities](../assets/images/Studio%20Manage%20Packages%20search.png)
+
+    3. Select **UiPath.UIAutomation.Activities**, install the latest stable version, and select **Save**.
 
 ## Link Studio to your Test Manager project
 
@@ -58,7 +76,23 @@ Paste:
 Connect this project to my Test Manager project, then open Test Explorer to show its test cases.
 ```
 
-**Check it:** the connection icon is green, and **Test Explorer** lists your test cases.
+**Check it:** in **Test Manager Settings**, the status is **Connected** and **Default Project** is your project. **Test Explorer** lists your test cases.
+
+??? tip "Do it by hand in Studio"
+    1. Select **Test Manager** in the Studio ribbon.
+
+        ![Test Manager in the Studio ribbon](../assets/images/Studio%20Test%20Manager%20button.png)
+
+    2. Select **Test Manager Settings**.
+
+        ![Test Manager Settings in the Test Manager menu](../assets/images/Studio%20Test%20Manager%20Settings%20menu.png)
+
+    3. Check that the URL is your tenant's Test Manager, and select **Connect**. The status changes to **Connected**.
+    4. In **Default Project**, type your project key and select your project from the list.
+
+        ![Test Manager Settings, Connected, with the UiBank project selected](../assets/images/Studio%20Test%20Manager%20connected.png)
+
+    5. Select **OK**.
 
 ## Build the Object Repository
 
