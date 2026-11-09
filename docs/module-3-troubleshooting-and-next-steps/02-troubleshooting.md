@@ -13,7 +13,7 @@
 
 | Symptom | Likely cause / fix |
 |---|---|
-| *"We weren't able to locate a matching loan ID"* | The loan ID doesn't exist in UiBank. Use the loan ID from your own loan application in [04. Run Manual Tests](../module-2-hands-on-workshop/04-run-manual-tests.md#3-create-a-new-requirement-and-test-case-optional). |
+| *"We weren't able to locate a matching loan ID"* | The loan ID doesn't exist in UiBank. Use the loan ID from your own loan application in [04. Run Manual Tests](../module-2-hands-on-workshop/04-run-manual-tests.md#2-create-a-new-requirement-and-test-case-optional). |
 | Publishing fails | UiPath Assistant isn't connected to Orchestrator. Reconnect it, then [publish the test cases](../module-2-hands-on-workshop/06-automate-and-publish.md#publish-the-test-cases) again. |
 | Delegate can't start the test set run | The test set has no automated test case. [Publish the test cases](../module-2-hands-on-workshop/06-automate-and-publish.md#publish-the-test-cases) again, then check that the set lists them in [07. Create a Test Set](../module-2-hands-on-workshop/07-create-test-set.md). |
 | `HTTP 400: Please assign folder to project level before executing testcases.` | The project has no default folder. Complete [01. Import and Link the Test Manager Project](../module-2-hands-on-workshop/01-import-tm-project.md#link-the-project-to-your-folder). |
