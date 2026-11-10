@@ -14,7 +14,7 @@
 
 ✅ Attached test data
 
-✅ Published your automated test cases and grouped them in a regression test set
+✅ Published your automated test cases and added them to the smoke test set
 
 ✅ Got a go/no-go release report from Delegate in one prompt
 

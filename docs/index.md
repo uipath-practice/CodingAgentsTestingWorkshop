@@ -58,10 +58,10 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
       <span class="wf-phase-title">TM + Delegate</span>
     </div>
     <div class="wf-steps">
-      <a class="wf-step" href="module-2-hands-on-workshop/07-create-test-set/"><span class="wf-num">7</span>Create a test set</a>
+      <a class="wf-step" href="module-2-hands-on-workshop/07-create-test-set/"><span class="wf-num">7</span>Add to the smoke test set</a>
       <a class="wf-step" href="module-2-hands-on-workshop/08-run-and-report/"><span class="wf-num">8</span>Run and report</a>
     </div>
-    <div class="wf-phase-foot">A <strong>regression</strong> set → <strong>go/no-go PDF</strong></div>
+    <div class="wf-phase-foot">A <strong>smoke</strong> run → <strong>go/no-go PDF</strong></div>
   </div>
 </div>
 
@@ -76,7 +76,7 @@ By the end of this workshop, you will:
 
 ✅ Use Delegate to run manual tests, build the Object Repository and write a go/no-go release report
 
-✅ Turn manual test cases into automations with Autopilot for Testers in Studio, and run them as a regression test set
+✅ Turn manual test cases into automations with Autopilot for Testers in Studio, and run them in a test set
 
 
 ## How this guide is organized

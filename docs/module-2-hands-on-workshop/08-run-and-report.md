@@ -5,7 +5,7 @@ It's release night, and the release manager wants to know: **can we ship?** Ask 
 !!! info "Check these first"
     ✅ **Your robot is available** — connected and not busy, in your Orchestrator folder.
 
-    ✅ **Regression Test Set** from [07. Create a Test Set](07-create-test-set.md) has your automated test cases.
+    ✅ **UiBank Smoke Test Set** has your automated test cases, from [07. Add Test Cases to the Smoke Test Set](07-create-test-set.md).
 
 ## Run it
 
@@ -14,7 +14,7 @@ It's release night, and the release manager wants to know: **can we ship?** Ask 
     2. Paste:
 
         ```text
-        Trigger the Regression Test Set of my project in Test Manager and wait for it to finish. Once finished, create a release manager report in PDF for that test set, and save it on my Desktop. I need a go/no-go summary before tonight's sign-off meeting. Highlight the failures blocking the release.
+        Trigger the UiBank Smoke Test Set of my project in Test Manager and wait for it to finish. Once finished, create a release manager report in PDF for this run only, not earlier executions, and save it on my Desktop. I need a go/no-go summary before tonight's sign-off meeting. Highlight the failures blocking the release. List any manual test cases in the set separately as not run, not as failures.
         ```
 
     3. Approve Delegate's requests. The important one is the run itself, a **real execution** on your robot. Delegate may also ask before it saves the report.
@@ -63,7 +63,7 @@ A report you run once is useful. One that arrives every morning is better. You d
 !!! warning "The machine must be on"
     A scheduled routine runs only if the machine it runs on is powered on and signed in at the scheduled time.
 
-A routine suits a personal report. For the regression run itself, schedule the test set in Test Manager so it runs on the unattended robot, or trigger it from your CI/CD pipeline. Let the routine only fetch and summarise the results.
+A routine suits a personal report. For the test set run itself, schedule the test set in Test Manager so it runs on the unattended robot, or trigger it from your CI/CD pipeline. Let the routine only fetch and summarise the results.
 
 ## Go further
 

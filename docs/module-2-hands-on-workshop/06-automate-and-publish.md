@@ -38,7 +38,7 @@ Click a step to jump to it.
 
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 
-Automate **every** test case with the **Coding Agent WS** label: the 3 or more you chose in [03. Generate Test Cases](03-generate-test-cases.md). Your test set in [07. Create a Test Set](07-create-test-set.md) runs all of them.
+Automate **every** test case you chose in [03. Generate Test Cases](03-generate-test-cases.md), 3 or more. In [07. Add Test Cases to the Smoke Test Set](07-create-test-set.md), you add them to **UiBank Smoke Test Set**, which runs them in [08. Run and Report](08-run-and-report.md).
 
 1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
 
@@ -58,7 +58,7 @@ Automate **every** test case with the **Coding Agent WS** label: the 3 or more y
     ![Open and Close options of the first Use Application/Browser card](../assets/images/Use%20Application%20properties.png)
 
 4. **Run** it locally.
-5. Repeat steps 1–4 for each of your other **Coding Agent WS** test cases, so all 3 or more are automated with Autopilot.
+5. Repeat steps 1–4 for each of your other chosen test cases, so all 3 or more are automated with Autopilot.
 
 **Check it:** each test case passes locally.
 
@@ -117,13 +117,13 @@ Set the test cases I generated with Autopilot in <YOUR_NAME>_UiBank Tests (<TEST
 
 **Check it:** in Test Manager, open **Test Cases**. Each one you automated shows as **Automated**. Open one and check that its **Automation** tab shows your package, named after your project.
 
-!!! warning "Don't continue until every labelled test case is automated"
-    Your test set in [07. Create a Test Set](07-create-test-set.md) runs every test case with the **Coding Agent WS** label. Any test case that isn't automated breaks the run and the report.
+!!! warning "Don't continue until every test case you chose is automated"
+    The test set runs only automated test cases. A test case you chose that isn't linked to your automation is left out of the run and the report.
 
-    Paste in Delegate:
+    Replace `<TEST_CASE_1>`, `<TEST_CASE_2>`, `<TEST_CASE_3>` as before, then paste in Delegate:
 
     ```text
-    List every test case in my Test Manager project with the label 'Coding Agent WS'. For each one, tell me whether it's linked to a Studio project named '<YOUR_NAME>_UiBank Tests'. List the ones that aren't.
+    For each of these test cases in my Test Manager project: <TEST_CASE_1>, <TEST_CASE_2>, <TEST_CASE_3>, tell me whether it's linked to a Studio project named '<YOUR_NAME>_UiBank Tests'. List the ones that aren't.
     ```
 
     Automate any test case on that list, publish again, then ask again. Continue only when the list is empty.
@@ -143,6 +143,6 @@ Your test cases are automated, data-driven, and published, ready to run from Tes
 
 ---
 
-[Next → 07. Create a Test Set](07-create-test-set.md){: .md-button .md-button--primary}
+[Next → 07. Add Test Cases to the Smoke Test Set](07-create-test-set.md){: .md-button .md-button--primary}
 
 ---

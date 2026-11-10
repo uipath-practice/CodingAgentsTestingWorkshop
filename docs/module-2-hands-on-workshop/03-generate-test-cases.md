@@ -25,14 +25,10 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
         See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/about-autopilot-chat" target="_blank">About Autopilot chat</a>.
 
 4. On the next screen:
-    1. **Select a prompt**: choose **Valid E2E Scenario Testing**. At the end of the prompt, add:
-
-        ```text
-        Add the label 'Coding Agent WS' to every test case you create.
-        ```
+    1. **Select a prompt**: choose **Valid E2E Scenario Testing**.
 
         ??? info "Editing prompts and adding your own"
-            ✅ **For this run only** — edit the prompt right here, as you just did.
+            ✅ **For this run only** — edit the prompt right here.
 
             ✅ **For the whole project** — create new prompts or edit existing ones in the **Prompt Library**, under **Project Settings**.
 
@@ -52,11 +48,9 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 
     In production, turn on Testing Process Governance so a second reviewer signs off.
 
-7. Choose **at least 3** test cases on the requirement to use for the rest of the workshop: new ones, existing ones, or a mix. New ones already have the **Coding Agent WS** label. For an existing one, go to **Test Cases**, open it, click below the existing labels under **Labels**, and add **Coding Agent WS**.
+7. Choose **at least 3** test cases on the requirement to use for the rest of the workshop: new ones, existing ones, or a mix. Note their names. You automate them in [06. Automate and Publish the Test Cases](06-automate-and-publish.md).
 
-    ![Labels on a test case's Overview tab](../assets/images/TM%20Test%20case%20labels.png)
-
-**Check it:** at least 3 test cases on the requirement have the **Coding Agent WS** label, each with manual steps.
+**Check it:** at least 3 test cases on the requirement have manual steps, and you've noted their names.
 
 ## Nice work!
 

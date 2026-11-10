@@ -59,7 +59,7 @@ With Delegate, you can run a test case or create a new one from a business docum
 
 !!! example "It's your turn now!"
     1. Keep only one UiBank tab open. Delegate finds the window by its title, and the prompt names UiBank.
-    2. Replace `<YOUR_TEST_CASE_KEY>` with the key of one of your **Coding Agent WS** test cases from [03. Generate Test Cases](03-generate-test-cases.md). A key is your project prefix, a colon and a number, for example `UIBAS:43`. Then paste:
+    2. Replace `<YOUR_TEST_CASE_KEY>` with the key of one of the test cases you chose in [03. Generate Test Cases](03-generate-test-cases.md). A key is your project prefix, a colon and a number, for example `UIBAS:43`. Then paste:
 
         ```text
         Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and attach it to that step's result. Push the results to Test Manager. If any step failed, explain the reason.
@@ -140,6 +140,8 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
         ```
 
     **Check it:** open a labeled test case. Its **Details** tab shows the **Test Tier** dropdown set to **Smoke** (not a second Test Tier line).
+
+    **Test Tier** is only a field. It doesn't add test cases to **UiBank Smoke Test Set**.
 
 ??? info "Beyond running tests — Delegate across the whole manual testing cycle"
     Ideas to try on your own project, in your own words:
