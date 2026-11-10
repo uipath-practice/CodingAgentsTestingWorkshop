@@ -16,7 +16,7 @@
 
 ✅ Published your automated test cases and added them to the smoke test set
 
-✅ Got a go/no-go release report from Delegate in one prompt
+✅ Triaged a failed run with Delegate, proved a real UiBank defect in the browser, and made the go/no-go call
 
 ---
 

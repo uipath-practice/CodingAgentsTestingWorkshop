@@ -1,3 +1,4 @@
 Age,YearlyIncome,Email,LoanAmount,LoanTerm,ExpectedOutcome
-32,20000,email1@uipath.com,10000,10,TRUE
-32,15000,email2@uipath.com,5000,3,FALSE
+32,20000,email1@test.com,10000,10,TRUE
+32,15000,email2@test.com,5000,3,TRUE
+66,20000,email3@test.com,7000,5,FALSE

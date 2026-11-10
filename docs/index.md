@@ -4,7 +4,7 @@
 
 **Thank you for joining the UiPath Coding Agents for Test Workshop!**
 
-This **Learner's Handbook** is your hands-on guide for the workshop. We keep the theory short and get you building fast: in one day you'll take a set of requirements all the way to an automated test run, and finish by asking an AI agent for a **go/no-go release report** in plain English.
+This **Learner's Handbook** is your hands-on guide for the workshop. We keep the theory short and get you building fast: in one day you'll take a requirement all the way to an automated test run, and finish by asking an AI agent to triage the failures and write a **go/no-go release report** in plain English.
 
 !!! info "Before the workshop"
     Complete the **[Prerequisites](module-0-prerequisites/index.md)** before the session starts. You install Studio and Delegate, and the hands-on steps depend on them.
@@ -59,9 +59,9 @@ You'll walk through the full testing lifecycle in UiPath Test Cloud, with AI at 
     </div>
     <div class="wf-steps">
       <a class="wf-step" href="module-2-hands-on-workshop/07-create-test-set/"><span class="wf-num">7</span>Add to the smoke test set</a>
-      <a class="wf-step" href="module-2-hands-on-workshop/08-run-and-report/"><span class="wf-num">8</span>Run and report</a>
+      <a class="wf-step" href="module-2-hands-on-workshop/08-run-and-report/"><span class="wf-num">8</span>Run, triage, and report</a>
     </div>
-    <div class="wf-phase-foot">A <strong>smoke</strong> run → <strong>go/no-go PDF</strong></div>
+    <div class="wf-phase-foot">A <strong>smoke</strong> run → <strong>triage</strong> → <strong>go/no-go PDF</strong></div>
   </div>
 </div>
 
@@ -74,7 +74,7 @@ By the end of this workshop, you will:
 
 ✅ Use the agentic features in Test Manager to evaluate requirements and generate test cases
 
-✅ Use Delegate to run manual tests, build the Object Repository and write a go/no-go release report
+✅ Use Delegate to run manual tests, build the Object Repository, triage failures against the requirement, and write a go/no-go release report
 
 ✅ Turn manual test cases into automations with Autopilot for Testers in Studio, and run them in a test set
 

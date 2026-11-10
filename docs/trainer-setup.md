@@ -48,7 +48,9 @@ Learners complete their own [Prerequisites](module-0-prerequisites/index.md), bu
 
 ✅ Create the **UiBankTestData** entity from <a href="../assets/Files/Data%20Fabric%20files/Schema.json" target="_blank">Schema.json</a>.
 
-✅ Import the test data from <a href="../assets/Files/Data%20Fabric%20files/UiBankLoanData.csv" target="_blank">UiBankLoanData.csv</a> into the entity.
+✅ Import the test data from <a href="../assets/Files/Data%20Fabric%20files/UiBankLoanData.csv" target="_blank">UiBankLoanData.csv</a> into the entity. It has 3 rows. Imported an earlier version? Import it again.
+
+✅ Before the workshop, check that UiBank still approves a loan for an applicant aged 66. The age-66 row relies on this defect, so step 6's test case fails and step 8 has a UiBank defect to triage. If UiBank now rejects it, remove the row, and tell learners to expect **GO** in step 8.
 
 ✅ Give the group the **Data Reader** role, so learners can read the test data (step 6).
 

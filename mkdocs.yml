@@ -71,7 +71,7 @@ nav:
     - Set Up Studio and Build the Object Repository: module-2-hands-on-workshop/05-build-object-repository.md
     - Automate and Publish the Test Cases: module-2-hands-on-workshop/06-automate-and-publish.md
     - Add Test Cases to the Smoke Test Set: module-2-hands-on-workshop/07-create-test-set.md
-    - Run and Report: module-2-hands-on-workshop/08-run-and-report.md
+    - Run, Triage, and Report: module-2-hands-on-workshop/08-run-and-report.md
     - You did it!: module-2-hands-on-workshop/you-did-it.md
   - Troubleshooting & Next Steps:
     - Overview: module-3-troubleshooting-and-next-steps/index.md

@@ -31,14 +31,14 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
 !!! tip "Do a test run (recommended)"
     Do a test run now, so a missing package or robot shows up here, not in step 8.
 
-    Open the test set → **Execute → Automated**, then check **Execution**. Every test case you automated should have a result. A real failure is fine — that's what the report is for.
+    Open the test set → **Execute → Automated**, then check **Execution**. Every test case you automated should have a result. A failure is fine — you triage it in step 8.
 
 ## Nice work!
 
-Everything is in place to run and report.
+Everything is in place to run, triage, and report.
 
 ---
 
-[Next → 08. Run and Report](08-run-and-report.md){: .md-button .md-button--primary}
+[Next → 08. Run, Triage, and Report](08-run-and-report.md){: .md-button .md-button--primary}
 
 ---

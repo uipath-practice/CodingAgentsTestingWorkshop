@@ -79,7 +79,7 @@ Automate **every** test case you chose in [03. Generate Test Cases](03-generate-
 
 Next, you attach test data to one of the test cases you automated, so it runs once for each set of values in the **UiBankTestData** entity.
 
-One row expects the loan to be rejected, but UiBank approves it, so this test case fails. That's on purpose: it gives the report in [08. Run and Report](08-run-and-report.md) a real failure to show.
+One row expects the loan to be rejected, but UiBank approves it, so this test case fails. Leave it failing: in [08. Run, Triage, and Report](08-run-and-report.md), you find out whether the problem is in UiBank or in the test.
 
 1. In **Test Explorer**, right-click one of your automated test cases, and select **Add Test Data**.
 2. Choose **Data Service**, and link the **UiBankTestData** entity.
