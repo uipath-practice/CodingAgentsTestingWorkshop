@@ -5,11 +5,14 @@ A **test set** groups test cases that run together. Your project already has one
 ## Add your test cases
 
 1. In Test Manager, go to **Test Sets** and open **UiBank Smoke Test Set**.
-2. Go to the **Test Cases** tab. A test set gets its test cases in one of two ways:
+2. Go to the **Test Cases** tab.
 
-    ✅ **Static Assignment** — pick test cases one by one. The set always runs exactly these.
+    ??? info "Static or Dynamic Assignment?"
+        A test set gets its test cases in one of two ways:
 
-    ✅ **Dynamic Assignment** — add labels. The set includes every test case with at least one of them.
+        ✅ **Static Assignment** — pick test cases one by one. The set always runs exactly these.
+
+        ✅ **Dynamic Assignment** — add labels. The set includes every test case with at least one of them.
 
 3. Use **Static Assignment** to add each new test case you automated in [06. Automate and Publish the Test Cases](06-automate-and-publish.md). Existing test cases you chose are already in the set.
 
