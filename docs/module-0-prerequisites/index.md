@@ -25,8 +25,6 @@ Confirm that you can:
 
 ✅ Open **Test Manager** and **Orchestrator** in that tenant
 
-✅ Use an **App Test Developer** license, to create Test Automation projects
-
 ✅ Connect **UiPath Assistant** to your Cloud account (see [Installation Guide, step 2](01-installation-guide.md#step-2-meet-delegate))
 
 ## Orchestrator folder and robot
@@ -39,7 +37,7 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
 
 ??? info "Trainer-led setup: your folder and machine"
-    Your trainer guides you through these steps.
+    Do this with your trainer, before or at the start of the workshop, as they tell you.
 
     **Create your folder**
 

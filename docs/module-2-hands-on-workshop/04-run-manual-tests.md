@@ -7,7 +7,7 @@ There are three ways to run a manual test case. Each records its results in Test
 |---|---|---|---|
 | **Delegate** *(used in this workshop)* | Delegate, on your machine | Web and desktop apps | None |
 | **Manual execution assistant** | You | Any | None |
-| **Run autonomously** | Autopilot, on a robot | Web apps | A robot in the project's default folder ([01. Import and Link the Test Manager Project](01-import-tm-project.md#link-the-project-to-your-folder)) |
+| **Run autonomously** | Autopilot, on a robot | Web apps | A robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)) |
 
 See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-manual-tests" target="_blank">Executing manual tests</a>.
 
