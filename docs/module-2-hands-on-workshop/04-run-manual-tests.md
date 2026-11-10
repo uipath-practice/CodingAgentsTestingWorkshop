@@ -68,13 +68,6 @@ Go back to your Delegate session.
     3. If Delegate asks for permission to push the result, approve it. It records the result in a test set execution, which you'll find under **Execution**.
     4. For any failure, decide: **defect in UiBank**, or **problem with the test case**?
 
-??? tip "Test data already used?"
-    Tests like registering a new user fail if the data was used before. Ask Delegate:
-
-    ```text
-    Rerun test case <YOUR_TEST_CASE_KEY> with new registration data that hasn't been used before, and push the new result to Test Manager.
-    ```
-
 **Check it:** **Execution** → open the new execution → select your test case key. It shows the result and the step results, with the screenshot on the last step.
 
 !!! question "Think about it"
