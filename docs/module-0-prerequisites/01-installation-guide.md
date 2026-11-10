@@ -32,7 +32,7 @@ For testing, Delegate is fully integrated with **Test Manager**, so you can hand
 
 2. Select **Delegate** in the top ribbon. It shows only once Assistant is connected.
 
-3. Click **+ New** in the left panel to start a new task.
+3. Click **+ New** in the left panel to start your session. Use this one session for the whole workshop.
 
 ### Choose how much Delegate does on its own
 

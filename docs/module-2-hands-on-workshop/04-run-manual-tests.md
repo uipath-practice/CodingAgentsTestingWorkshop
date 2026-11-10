@@ -53,7 +53,7 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
 
 With Delegate, you can run a test case or create a new one from a business document. You review the work and decide what to save in Test Manager.
 
-[Open Delegate](../module-0-prerequisites/01-installation-guide.md#step-2-meet-delegate).
+Go back to your Delegate session.
 
 ### 1 — Run a test case
 

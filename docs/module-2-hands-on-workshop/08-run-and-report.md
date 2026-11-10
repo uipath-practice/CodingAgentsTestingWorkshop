@@ -12,7 +12,7 @@ It's release night, and the release manager wants to know: **can we ship?** Run 
 A failed test doesn't always mean a broken app: the test itself can be wrong. You made this call by hand in [04. Run Manual Tests](04-run-manual-tests.md#1-run-a-test-case). Now Delegate checks each failure against the requirement.
 
 !!! example "It's your turn now!"
-    1. [Open Delegate](../module-0-prerequisites/01-installation-guide.md#step-2-meet-delegate).
+    1. Go back to your Delegate session.
     2. Paste:
 
         ```text
