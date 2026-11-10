@@ -1,6 +1,6 @@
 # 01. Import and Link the Test Manager Project
 
-You start from a ready-made **UiBank** project: requirements, test cases, test sets, results, and attachments.
+You start from a ready-made **UiBank** project: a requirement, test cases, a test set, results, and attachments.
 
 ## Download the project file
 
@@ -45,14 +45,14 @@ List the requirements in my project, with the test cases linked to each.
 ```
 
 ```text
-Which requirements in my project don't have any test cases linked yet?
+Which test cases are in the UiBank Smoke Test Set of my project, and what were their latest results?
 ```
 
 ```text
 Pick one test case in my project and show me its manual steps and expected results.
 ```
 
-✅ Delegate finds your project: 2 requirements, 8 test cases and 1 test set (**UiBank Smoke Test Set**). **Submit Loan Request** has 6 linked test cases, and **User Registration Form** has none. You use Submit Loan Request from step 2.
+✅ Delegate finds your project: 1 requirement, **Submit Loan Request**, with 6 linked test cases, and 1 test set, **UiBank Smoke Test Set**, with the same 6. You use Submit Loan Request from step 2.
 
 ---
 
