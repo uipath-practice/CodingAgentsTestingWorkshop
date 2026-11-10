@@ -105,12 +105,18 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
 
 !!! warning "This prompt is built for Chrome"
-    To use Edge, change **running in Chrome** and **Browser: Chrome** to Edge before you send it. Keep the name **UiPath Banking App**, so the next steps still match.
+    Using Edge? Before you send the prompt, change **Chrome** to **Edge** in the two highlighted lines:
+
+    ✅ The first sentence: **running in Chrome**
+
+    ✅ Under **Application**: **Browser: Chrome**
+
+    Keep the name **UiPath Banking App**, so the next steps still match.
 
 !!! example "Delegate"
     1. Prompt in Delegate:
 
-        ```text
+        ```text hl_lines="1 5"
         Create an Object Repository in UiPath Studio Desktop for the UiBank web app running in Chrome.
 
         Application
