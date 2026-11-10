@@ -14,7 +14,8 @@ A **test set** groups test cases that run together. Your project already has one
 
         ✅ **Dynamic Assignment** — add labels. The set includes every test case with at least one of them.
 
-3. Use **Static Assignment** to add each new test case you automated in [06. Automate and Publish the Test Cases](06-automate-and-publish.md). Existing test cases you chose are already in the set.
+3. Click **Add Test Cases** to see all the test cases in the project.
+4. Select each new test case you automated in [06. Automate and Publish the Test Cases](06-automate-and-publish.md), and add them. Existing test cases you chose are already in the set.
 
 ## Configure the automation
 
