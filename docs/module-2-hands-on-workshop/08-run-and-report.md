@@ -122,8 +122,6 @@ A routine suits a personal report. For the test set run itself, schedule the tes
 
 Stay in the same session — it remembers the run:
 
-✅ *"Which acceptance criteria of Submit Loan Request have no passing automated test in this run?"*
-
 ✅ *"Summarize the failures in three bullet points I can paste into Slack."*
 
 ✅ *"Add a section to the report with recommended next steps for the developers."*
