@@ -1,4 +1,4 @@
-# Welcome to the <span style="color: #E53935;">Coding Agents for Test</span> Workshop
+# Welcome to the <span style="color: #2196F3;">Coding Agents for Test</span> Workshop
 
 ![Get robots that execute tests](assets/images/Get%20robots%20that%20execute%20tests.png)
 
@@ -88,13 +88,13 @@ By the end of this workshop, you will:
 | **[Hands-On Workshop](module-2-hands-on-workshop/01-import-tm-project.md)** | The eight hands-on steps, from import to the go/no-go report |
 | **[Troubleshooting & Next Steps](module-3-troubleshooting-and-next-steps/index.md)** | More prompts to try and fixes for common problems |
 
+!!! quote "Here's something worth holding onto as you work through this workshop"
+    AI agents don't replace testers — they give testers a new way to work. Instead of clicking through dashboards to find out what failed and why, you ask a question in plain English and get an answer grounded in your real test data.
+
+    Robots bring determinism and control, agents bring adaptability and reasoning. **This workshop is about putting the two together.**
+
 ---
 
 [Next → Prerequisites](module-0-prerequisites/index.md){: .md-button .md-button--primary}
 
 ---
-
-!!! quote "Here's something worth holding onto as you work through this workshop"
-    AI agents don't replace testers — they give testers a new way to work. Instead of clicking through dashboards to find out what failed and why, you ask a question in plain English and get an answer grounded in your real test data.
-
-    Robots bring determinism and control, agents bring adaptability and reasoning. **This workshop is about putting the two together.**
