@@ -28,8 +28,8 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
 
 **Check it:** **UiBank Smoke Test Set** lists every test case you automated.
 
-!!! tip "Do a test run (recommended)"
-    Do a test run now, so a missing package or robot shows up here, not in step 8.
+!!! warning "Do a test run"
+    This is the first time Test Manager runs a test on your machine. It checks your robot setup from [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot), not just the test set, so a problem shows up here, not in step 8.
 
     Open the test set → **Execute → Automated**, then check **Execution**. Every test case you automated should have a result. A failure is fine — you triage it in step 8.
 

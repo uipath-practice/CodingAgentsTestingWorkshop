@@ -45,7 +45,15 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
     1. Create a personal folder, as your trainer guides you. You'll assign your machine to it.
     2. You get your permissions through a group your trainer sets up. You don't need to set them yourself.
-    3. In the Enterprise setup, use **Custom Windows credentials**: your `domain\username` and your system's Windows password.
+    3. In the Enterprise setup, use **Custom Windows credentials**:
+
+        ✅ **Username:** open a command prompt, run `whoami`, and enter exactly what it returns.
+
+        ✅ **Password:** your Windows sign-in password. Sign in with a Windows Hello PIN? Set **Credential type** to **Smart Card** and enter the PIN as the password.
+
+        ✅ No password, or not sure? Tell your trainer before the workshop.
+
+        See <a href="https://docs.uipath.com/orchestrator/standalone/2023.4/user-guide/configuring-robot-accounts-to-run-unattended-automation" target="_blank">Configuring robot accounts</a> (username formats) and <a href="https://docs.uipath.com/robot/standalone/2025.10/admin-guide/using-entraid-users-with-multifactor-authentication-mfa-with-robots" target="_blank">Using Entra ID users with MFA</a> (Windows Hello PIN).
 
         ![Personal automation and Enterprise robot setup settings](../assets/images/OC%20Settings%20Enterprize%20setup.png){ width="400" }
 
@@ -71,6 +79,8 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
         ![Manage Machines in Folder button](../assets/images/OC%20Manage%20machine.png)
 
     **Check it:** in your folder, **Machines** lists your machine with **1** under **App Testing** or **Testing**.
+
+    **Check it later:** your robot setup is only proven when Test Manager runs a test on your machine. You do that in [07. Add Test Cases to the Smoke Test Set](../module-2-hands-on-workshop/07-create-test-set.md), once you have an automated, published test case. If the run fails to start or sign in, check the Windows username and password here.
 
 ---
 
