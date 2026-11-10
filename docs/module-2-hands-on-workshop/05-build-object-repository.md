@@ -194,12 +194,17 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
 ??? tip "Backup: import a ready-made Object Repository"
     1. On your Desktop, create a folder named **Custom Library**.
-    2. Download <a href="../../assets/Files/Object%20Repository/UiBankORForChrome.Descriptors.1.0.1.nupkg" target="_blank">UiBankORForChrome.Descriptors.1.0.1.nupkg</a> and move it into **Custom Library**.
+    2. Download the library for your browser and move it into **Custom Library**:
+
+        ✅ Chrome: <a href="../../assets/Files/Object%20Repository/UiBankORForChrome.1.0.1.nupkg" target="_blank">UiBankORForChrome.1.0.1.nupkg</a>
+
+        ✅ Edge: <a href="../../assets/Files/Object%20Repository/UiBankORForEdge.1.0.1.nupkg" target="_blank">UiBankORForEdge.1.0.1.nupkg</a>
+
     3. In Studio, click **Manage Packages** from the top ribbon.
     4. Go to **Settings**.
     5. Give the package source a unique name.
     6. Click the ellipsis (**...**), browse to **Desktop\Custom Library**, and click **Add**.
-    7. Select the new source in the left panel, select the library, click **Install**, then click **Save**.
+    7. Select the new source in the left panel, select **UiBankORForChrome** or **UiBankORForEdge**, click **Install**, then click **Save**.
 
         ![Custom Library Listing](../assets/images/custom%20library%20listing.png)
 
