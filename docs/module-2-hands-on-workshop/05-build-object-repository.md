@@ -202,8 +202,11 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
     3. In Studio, click **Manage Packages** from the top ribbon.
     4. Go to **Settings**.
-    5. Give the package source a unique name.
-    6. Click the ellipsis (**...**), browse to **Desktop\Custom Library**, and click **Add**.
+    5. In **Name**, enter a unique name for the package source.
+    6. Next to **Source**, click the ellipsis (**...**), browse to **Desktop\Custom Library**, and click **Add**.
+
+        ![Manage Packages Settings](../assets/images/Manage%20packges%20settings.png)
+
     7. Select the new source in the left panel, select **UiBankORForChrome** or **UiBankORForEdge**, click **Install**, then click **Save**.
 
         ![Custom Library Listing](../assets/images/custom%20library%20listing.png)
