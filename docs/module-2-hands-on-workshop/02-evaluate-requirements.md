@@ -55,10 +55,10 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 
 ## Fix the requirement
 
-The original acceptance criteria need the same check. Test cases are generated from the requirement's text, so its messages must match what UiBank shows.
+The original acceptance criteria need the same check. Test cases are generated from the requirement's text, so its messages must match what UiBank shows. The requirement says what UiBank *should* do: match its wording, not its behaviour.
 
 1. In <a href="https://uibank.uipath.com" target="_blank">UiBank</a>, go to **Products → Loans → Apply For A Loan**, apply with an age of **17**, and note the message.
-2. Edit **Submit Loan Request**, replace "Not approved due to age." with that message, and save.
+2. Edit **Submit Loan Request**. In the **under 18** rule only, replace "Not approved due to age." with that message, and save.
 
 ??? tip "Make every rule measurable"
     Edit the acceptance criteria themselves so each rule is measurable, with exact boundaries, such as 18 and $100,000. [03. Generate Test Cases](03-generate-test-cases.md) generates test cases from this text.
