@@ -104,6 +104,9 @@ The **Object Repository** stores the app's screens and UI elements for every tes
 Building it by hand is usually one of the slowest parts of test automation: you capture every screen and element yourself. Tell Delegate what to capture, and it builds the repository for you. To cover every screen and element the test cases need, use the prompt below.
 
 
+!!! warning "This prompt is built for Chrome"
+    To use Edge, change **running in Chrome** and **Browser: Chrome** to Edge before you send it. Keep the name **UiPath Banking App**, so the next steps still match.
+
 !!! example "Delegate"
     1. Prompt in Delegate:
 
@@ -111,7 +114,7 @@ Building it by hand is usually one of the slowest parts of test automation: you 
         Create an Object Repository in UiPath Studio Desktop for the UiBank web app running in Chrome.
 
         Application
-        - Name: UiBankORForChrome
+        - Name: UiPath Banking App
         - Browser: Chrome
         - Capture each element live in the browser
         - Prefer stable selectors (id, name, aria-label, visible text) over index-based ones
@@ -156,7 +159,7 @@ Building it by hand is usually one of the slowest parts of test automation: you 
            To reach this screen, look up the Loan ID you saved from screen 4.
 
         Acceptance criteria
-        - All 6 screens and 20 elements exist under UiBankORForChrome, named as above
+        - All 6 screens and 20 elements exist under UiPath Banking App, named as above
         - Every selector validates (highlights the correct element) on its live screen
         - Report any element you could not capture reliably, and why
         ```
@@ -165,14 +168,11 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
     The prompt also captures **Username**, **Password** and **Sign In**. If a test signs in, read the login from a Credential asset with **Get Credential**.
 
-!!! tip "Using Edge?"
-    The prompt uses Chrome. If you use Edge, change **running in Chrome** and **Browser: Chrome** to Edge. Keep the name **UiBankORForChrome**, so the next steps still match.
-
 ??? tip "Write your own Object Repository prompt"
     Describe what you need in plain language, such as the app, its screens, and the elements to capture. Delegate can also review and fine-tune your prompt, or fix it when something's missed.
 
 ??? tip "Check it"
-    1. In Studio's **Object Repository** panel, expand **UiBankORForChrome**. It lists all 6 screens and their elements. If it's empty, reload the project.
+    1. In Studio's **Object Repository** panel, expand **UiPath Banking App**. It lists all 6 screens and their elements. If it's empty, reload the project.
 
         ![Object Repository panel](../assets/images/Object%20Repo.png){ width="300" }
 

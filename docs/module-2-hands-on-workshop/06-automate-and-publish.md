@@ -3,7 +3,7 @@
 Turn your manual test cases into automations with **Autopilot for Testers** in Studio, then publish them with Delegate. Each automation stays **linked** to its test case in Test Manager.
 
 !!! info "Before you start"
-    ✅ Your Studio project is linked to Test Manager, and the **UiBankORForChrome** Object Repository is built, from [05. Set Up Studio and Build the Object Repository](05-build-object-repository.md).
+    ✅ Your Studio project is linked to Test Manager, and the **UiPath Banking App** Object Repository is built, from [05. Set Up Studio and Build the Object Repository](05-build-object-repository.md).
 
 ## What you'll do
 
