@@ -16,10 +16,10 @@ In daily use, ask for yesterday's runs instead.
 In my project, what percentage of requirements are covered by test cases, and which requirements have no test cases at all?
 ```
 
-## Triggering a targeted test set
+## Rerun only the failures
 
 ```text
-Run the UiBank Smoke Test Set in my project and let me know when it's done.
+Rerun only the failed test cases from the latest run of the UiBank Smoke Test Set in my project, as an automated run on my robot, and tell me whether they pass now.
 ```
 
 ## Flaky or recurring failures
