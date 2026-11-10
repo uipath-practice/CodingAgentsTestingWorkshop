@@ -36,3 +36,14 @@ site/
 
 # Python virtual environment
 .venv/
+
+# Office lock files
+~$*
+
+# Local working folders and reference material (not for the public site)
+Custom Skills for Guide/
+TM Attachments/
+Reference Decks/
+
+# Raw Test Manager exports: learners get the .tmh inside the sample project zip
+docs/assets/Files/*.tmh
