@@ -1,6 +1,6 @@
 # Handoff: Coding Agents for Test Workshop Guide
 
-**Owner:** Meera Kannan · **Last updated:** 2026-11-09 · **Status:** On `main`. Reviewer feedback (`MeeraFeedback.md`) is being worked through one item at a time; see Open items.
+**Owner:** Meera Kannan · **Last updated:** 2026-11-10 · **Status:** On `main`. All reviewer feedback and the 2026-11-10 guide review are handled. **Resume here (2026-11-11):** the owner's end-to-end run (re-import the 3-row CSV into UiBankTestData first); then act on the Rehearse items and timings under Open items.
 
 ## What this is
 
