@@ -208,6 +208,8 @@ Building it by hand is usually one of the slowest parts of test automation: you 
 
         ![Custom Library Listing](../assets/images/custom%20library%20listing.png)
 
+    In the **Object Repository** panel, find it under **UI Libraries → UiBankORForChrome** (or **UiBankORForEdge**) **→ UiPath Banking App**.
+
 !!! warning "Complete this step before you continue"
     **Autopilot for Testers** builds your test cases from the Object Repository elements. Without them, it can't automate the test cases in the next step.
 
