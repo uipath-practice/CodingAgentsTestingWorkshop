@@ -82,6 +82,9 @@ Select **Adaptive** from the mode selector next to the chatbox (or **Settings â†
     List the tenant I am connected to.
     ```
 
+    !!! tip "Delegate asks to approve PowerShell?"
+        Running PowerShell is a high-risk tool, so Delegate asks even in **Adaptive**. Select **Allow Run PowerShell for this session**. Delegate then runs PowerShell without asking for the rest of your session.
+
     Delegate replies with your organization, tenant and user name. If the tenant isn't the workshop tenant, switch it as in the *Assistant already shows you signed in and connected?* tip, and ask again.
 
 2. Ask Delegate:
