@@ -29,12 +29,13 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
 
     2. Choose a model.
     3. Click **Evaluate quality**. The agent can take a minute or so. You can close the dialog while it works.
+
 5. Under **Latest activity**, click **Quality enhancements** to see the suggestions.
 
     ![Quality enhancements under Latest activity on the requirement](../assets/images/TM%20Quality%20enhancements.png)
 
-6. Expand each suggestion. Select **Add to Requirement** for the ones you agree with. Each one you add appears at the end of the description: its title, with the suggestion below it.
-7. Edit the requirement. Under each added title, replace the suggestion with the rule itself, using the exact text UiBank shows, and save.
+6. Expand each suggestion. Select **Add to Requirement** for the ones you agree with. Its status changes from **To do** to **In work**, and its title and suggestion appear at the end of the description.
+7. Edit the requirement. Under each added title, replace the suggestion with the rule itself, using the exact text UiBank shows. Your changes save automatically.
 
     ??? example "Sample: turn a suggestion into a rule"
         Your suggestions may differ. This one says rejection rules are missing:
@@ -47,6 +48,8 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
         Add Rejection Criteria and Messages
         Applicants requesting $150,000 for 3 years with $400,000 income: Reject with "You must be at least 18 years old for a loan and the loan must not exceed 100k."
         ```
+
+8. Set the status of each suggestion you used to **Done**, from its status drop-down.
 
 **Check it:** each title you added has a rule under it, not the suggestion.
 
