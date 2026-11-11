@@ -56,13 +56,11 @@ Use the column for your organization type.
 
 ## Data Fabric
 
-✅ Create the **UiBankTestData** entity from <a href="../assets/Files/Data%20Fabric%20files/Schema.json" target="_blank">Schema.json</a>.
+✅ Create the **UiBankTestData** entity from <a href="../assets/Files/Data%20Fabric%20files/Schema.json" download>Schema.json</a>.
 
-✅ Import the test data from <a href="../assets/Files/Data%20Fabric%20files/UiBankLoanData.csv" target="_blank">UiBankLoanData.csv</a> into the entity. It has 3 rows. Imported an earlier version? Import it again.
+✅ Import the test data from <a href="../assets/Files/Data%20Fabric%20files/UiBankLoanData.csv" download>UiBankLoanData.csv</a> into the entity.
 
-✅ Before the workshop, check that UiBank still approves a loan for an applicant aged 66. The age-66 row relies on this defect, so step 6's test case fails and step 8 has a UiBank defect to triage. If UiBank now rejects it, remove the row, and tell learners to expect **GO** in step 8.
-
-✅ Give the group the **Data Reader** role, so learners can read the test data (step 6).
+✅ Give the group the **Data Reader** role.
 
 ## Send learners the prerequisites
 
@@ -70,7 +68,7 @@ Use the column for your organization type.
 
 ??? info "Prerequisites to send learners"
     ```text
-    WHAT YOU NEED
+    SYSTEM REQUIREMENTS
     - A Windows 10 or 11 laptop with local admin rights
     - Google Chrome or Microsoft Edge
     - UiPath Studio, latest STS version, installed. Install it even if
@@ -80,13 +78,13 @@ Use the column for your organization type.
       with no proxy or firewall blocking them. On a company laptop,
       check with your IT team first.
 
-    STEPS TO CONNECT
+    ACCESS AND SETUP
     1. Sign in at https://cloud.uipath.com, and open the organization
        <ORG> and the tenant <TENANT>. Check that you can open
        Test Manager and Orchestrator.
     2. Launch Studio, and sign in to <ORG> and <TENANT>.
 
-    CHECK IT
+    VERIFICATION
     Studio shows you signed in to <TENANT>, and the UiPath extension is
     enabled in your browser.
     ```
