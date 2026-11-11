@@ -1,5 +1,8 @@
 # Test Cloud & Test Manager
 
+!!! tip "Use the import time"
+    The project import in step 1 takes a few minutes. Start it first: [download and import the project](../module-2-hands-on-workshop/01-import-tm-project.md#download-the-project-file), then come back and read this page while it runs.
+
 ## What is Test Cloud?
 
 **Test Cloud** is UiPath's cloud platform for application testing. It brings together:
