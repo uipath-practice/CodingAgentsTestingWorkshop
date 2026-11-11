@@ -25,9 +25,15 @@ Learners complete their own [Prerequisites](module-0-prerequisites/index.md), bu
 
 ## Licenses and runtimes
 
-✅ Assign an **App Test Developer** user license to the group or to each learner. Learners need it to create and publish Test Automation projects in Studio (steps 5 and 6).
+Use the column for your organization type. Learners need the user license to create and publish Test Automation projects in Studio (steps 5 and 6), and the runtime for their machine (Prerequisites: folder and robot setup).
 
-✅ Allocate enough **App Testing** or **Testing** runtimes to the tenant: at least one per learner machine (Prerequisites: folder and robot setup).
+| | Test Cloud organization | Automation Cloud organization |
+|---|---|---|
+| Learner user license | **App Test Developer - Named User** (App Tester can't create or publish Test Automation projects) | **Automation Developer - Named User** (includes Tester for Test Manager) |
+| Where to assign | Organization-wide, no tenant allocation | User license to the group or each learner |
+| Robot runtime for the tenant | **App Test Robot**: at least one per learner machine | **Testing**: at least one per learner machine |
+| Machine template runtime type | **App Testing** | **Testing** |
+| Run autonomously, Autonomous Exploration (step 4 tips) | Available | Not available |
 
 ✅ **Optional:** for the **Run autonomously** and **Autonomous Exploration** tips in step 4, make sure a supported, non-serverless robot is available in each project's default folder. The robot machine must run Windows, and its UiPath browser extension must have **Allow in Incognito** turned on.
 
