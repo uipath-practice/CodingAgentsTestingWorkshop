@@ -1,6 +1,6 @@
 # Trainer Setup
 
-Learners complete their own [Prerequisites](module-0-prerequisites/index.md), but those rely on setup only an organization or tenant admin can do. Complete this checklist **before the workshop**, ideally a few days ahead, and do a dry run with a test user.
+Complete this checklist **before the workshop**, ideally a few days ahead.
 
 ## Organization and tenant
 
@@ -11,7 +11,10 @@ Learners complete their own [Prerequisites](module-0-prerequisites/index.md), bu
 
 ✅ Make sure the tenant has **Test Manager**, **Orchestrator**, and **Data Fabric** enabled.
 
-✅ Make sure **Autopilot for Testers** is allowed for the tenant, in Test Manager and in Studio. Check that no AI Trust Layer or governance policy blocks it. To confirm, open a requirement in Test Manager → **Optimize Coverage**: **Evaluate Quality** is available.
+✅ Make sure **Autopilot for Testers** is allowed for the tenant, in Test Manager and in Studio. Check that no AI Trust Layer or governance policy blocks it.
+
+!!! success "Check it"
+    Open a requirement in Test Manager → **Optimize Coverage**: **Evaluate Quality** is available.
 
 ✅ Make sure learners can use **Delegate** in the organization.
 
