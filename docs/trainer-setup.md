@@ -54,8 +54,6 @@ Use the column for your organization type.
 
 ✅ For the Prerequisites **folder and robot** setup, give the group the Orchestrator rights to configure unattended automation settings for their machine using machine domain name and password.
 
-✅ If learners use credential assets in test cases, give them the **View** permission on **Assets**.
-
 ## Data Fabric
 
 ✅ Create the **UiBankTestData** entity from <a href="../assets/Files/Data%20Fabric%20files/Schema.json" target="_blank">Schema.json</a>.
