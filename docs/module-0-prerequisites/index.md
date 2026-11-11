@@ -33,18 +33,24 @@ Confirm that you can:
 ## Connect Studio and Delegate
 
 1. Launch Studio and **sign in** to the workshop organization and tenant.
-2. Install the **UiPath browser extension**: **Home → Tools → UiPath Extensions**, then select your browser: Chrome or Edge.
-3. Open **UiPath Assistant** → **Preferences** → **Orchestrator connection**, sign in with your UiPath account, and select the workshop tenant.
+2. Open **UiPath Assistant** → **Preferences** → **Orchestrator connection**, sign in with your UiPath account, and select the workshop tenant.
 
     ??? tip "Assistant already shows you signed in and connected?"
         1. Click **Sign out**. Your default browser opens and asks if you want to log out. Don't click it.
         2. In that browser, sign in to the workshop tenant.
-        3. Go back to Assistant, click **Sign in**, and follow step 3.
+        3. Go back to Assistant, click **Sign in**, and follow step 2.
 
-4. Select **Delegate** in the top ribbon. It shows only once Assistant is connected.
-5. Click **+ New** in the left panel to start your session. Use this one session for the whole workshop.
+3. Select **Delegate** in the top ribbon. It shows only once Assistant is connected.
+4. Click **+ New** in the left panel to start your session. Use this one session for the whole workshop.
 
-**Check it:** Studio shows you signed in to the workshop tenant, the extension is enabled in your browser, and Delegate opens from Assistant's top ribbon.
+!!! success "Check it"
+    ✅ Studio shows you signed in to the workshop tenant.
+
+    ✅ **Home → New Project** lists **Test Automation**. No Test Automation option? Ask your trainer to check your license.
+
+    ✅ The UiPath extension is enabled in your browser.
+
+    ✅ Delegate opens from Assistant's top ribbon.
 
 ## Set up Delegate
 

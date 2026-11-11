@@ -85,8 +85,6 @@ Use the column for your organization type. Learners need the user license to cre
        <ORG> and the tenant <TENANT>. Check that you can open
        Test Manager and Orchestrator.
     2. Launch Studio, and sign in to <ORG> and <TENANT>.
-    3. In Studio, go to Home → Tools → UiPath Extensions, and install the
-       extension for your browser (Chrome or Edge).
 
     CHECK IT
     Studio shows you signed in to <TENANT>, and the UiPath extension is
