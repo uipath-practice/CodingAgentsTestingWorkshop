@@ -60,7 +60,6 @@ nav:
   - Home: index.md
   - Prerequisites:
     - Overview: module-0-prerequisites/index.md
-    - Installation Guide: module-0-prerequisites/01-installation-guide.md
   - Introduction:
     - Test Cloud & Test Manager: module-1-introduction/index.md
   - Hands-On Workshop:
