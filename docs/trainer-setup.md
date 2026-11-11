@@ -28,7 +28,7 @@ Complete this checklist **before the workshop**, ideally a few days ahead.
 
 ## Licenses and runtimes
 
-Use the column for your organization type. Learners need the user license to create and publish Test Automation projects in Studio (steps 5 and 6), and the runtime for their machine (Prerequisites: folder and robot setup).
+Use the column for your organization type. 
 
 | | Test Cloud organization | Automation Cloud organization |
 |---|---|---|
@@ -43,17 +43,16 @@ Use the column for your organization type. Learners need the user license to cre
 
 ## Test Manager
 
-✅ Give the group the **Project Creator** tenant role so learners can import the `.tmh` (step 1). The importer becomes **Project owner** of their project automatically, which covers Project Settings (Default Folder, step 1) and the Test Tier custom field (step 4). Autopilot's requirement evaluation needs requirement create and edit permissions, and Autonomous Exploration needs **Execute Automated Tests**.
+✅ Give the group the **Project Creator** tenant role.
 
-✅ Learners download the **project file** (`.tmh`) from step 1. Check it imports into the workshop tenant.
 
 ## Orchestrator
 
-✅ In the Prerequisites **folder and robot setup**, guide each learner to create a **personal folder**. Their machine is assigned to it, and it becomes their project's default folder.
 
-✅ **Recommended:** do the Prerequisites folder and robot setup for each learner before the session, so learners don't need tenant-level rights.
+!!! info "Recommended"
+    Do the Prerequisites folder and robot setup for each learner before the session, so learners don't need tenant-level rights.
 
-✅ For the Prerequisites folder setup, give the group the Orchestrator rights to create a folder, change their own user settings (**Personal automation setup** and **Custom Windows credentials**), and add their machine to the folder.
+✅ For the Prerequisites **folder and robot** setup, give the group the Orchestrator rights to configure unattended automation settings for their machine using machine domain name and password.
 
 ✅ If learners use credential assets in test cases, give them the **View** permission on **Assets**.
 
