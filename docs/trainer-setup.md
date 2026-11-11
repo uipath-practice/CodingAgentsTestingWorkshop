@@ -46,7 +46,7 @@ Use the column for your organization type. Learners need the user license to cre
 
 ## Orchestrator
 
-✅ In the Prerequisites folder and robot setup, guide each learner to create a **personal folder**. Their machine is assigned to it, and it becomes their project's default folder.
+✅ In the Prerequisites **folder and robot setup**, guide each learner to create a **personal folder**. Their machine is assigned to it, and it becomes their project's default folder.
 
 ✅ **Recommended:** do the Prerequisites folder and robot setup for each learner before the session, so learners don't need tenant-level rights.
 
@@ -64,17 +64,38 @@ Use the column for your organization type. Learners need the user license to cre
 
 ✅ Give the group the **Data Reader** role, so learners can read the test data (step 6).
 
-## Learner machines and network
+## Send learners the prerequisites
 
-✅ Learners need **local admin rights** to install the Studio STS installer and the UiPath browser extension for Chrome or Edge.
+✅ Copy and share these prerequisites with learners.
 
-✅ Learners can reach `cloud.uipath.com` and the UiBank app at `https://uibank.uipath.com`, without a proxy or firewall blocking them.
+??? info "Prerequisites to send learners"
+    ```text
+    WHAT YOU NEED
+    - A Windows 10 or 11 laptop with local admin rights
+    - Google Chrome or Microsoft Edge
+    - UiPath Studio, latest STS version, installed. Install it even if
+      you already have Studio:
+      https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi
+    - Access to https://cloud.uipath.com and https://uibank.uipath.com,
+      with no proxy or firewall blocking them. On a company laptop,
+      check with your IT team first.
+
+    STEPS TO CONNECT
+    1. Sign in at https://cloud.uipath.com, and open the organization
+       <ORG> and the tenant <TENANT>. Check that you can open
+       Test Manager and Orchestrator.
+    2. Launch Studio, and sign in to <ORG> and <TENANT>.
+    3. In Studio, go to Home → Tools → UiPath Extensions, and install the
+       extension for your browser (Chrome or Edge).
+
+    CHECK IT
+    Studio shows you signed in to <TENANT>, and the UiPath extension is
+    enabled in your browser.
+    ```
 
 ## On the day
 
 ✅ Share the **organization name** and **tenant name** with learners.
-
-✅ Do a dry run of steps 01, 04, 05, 06, and 08 with a test user in the learner group, including setting the Default Folder (step 1) and creating the Test Tier custom field (step 4). These are the steps that depend most on permissions.
 
 ## After the workshop
 
