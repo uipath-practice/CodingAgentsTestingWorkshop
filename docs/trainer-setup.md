@@ -35,7 +35,8 @@ Use the column for your organization type. Learners need the user license to cre
 | Machine template runtime type | **App Testing** | **Testing** |
 | Run autonomously, Autonomous Exploration (step 4 tips) | Available | Not available |
 
-✅ **Optional:** for the **Run autonomously** and **Autonomous Exploration** tips in step 4, make sure a supported, non-serverless robot is available in each project's default folder. The robot machine must run Windows, and its UiPath browser extension must have **Allow in Incognito** turned on.
+!!! info "Optional: Run autonomously and Autonomous Exploration"
+    For these tips in step 4, make sure a supported, non-serverless robot is available in each project's default folder. The robot machine must run Windows, and its UiPath browser extension must have **Allow in Incognito** turned on.
 
 ## Test Manager
 
