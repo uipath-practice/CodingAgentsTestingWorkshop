@@ -34,13 +34,13 @@ To run tests automatically, Test Manager needs to know which **Orchestrator fold
 
 ## Check it with Delegate
 
-[Open Delegate](../module-0-prerequisites/index.md#connect-studio-and-delegate) and ask, one at a time:
+[Open Delegate](../module-0-prerequisites/index.md#connect-studio-and-delegate) and ask:
 
 ```text
 List the Test Manager projects created by me, with their details. If there's more than one, ask me which one to use for this workshop. Remember that project, and use it whenever I ask about my project in this session.
 ```
 
-✅ Delegate finds your project: 1 requirement, **Submit Loan Request**, with 6 linked test cases, and 1 test set, **UiBank Smoke Test Set**, with the same 6. You use Submit Loan Request from step 2.
+✅ Delegate lists the Test Manager projects you created, including the one you just imported. If you have more than one, it asks which one to use.
 
 ---
 
