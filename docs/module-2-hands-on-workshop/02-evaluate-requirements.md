@@ -45,16 +45,12 @@ Vague or incomplete requirements lead to gaps in testing. The **Evaluate Require
         Applying with its second example in <a href="https://uibank.uipath.com" target="_blank">UiBank</a> gives the exact text for the rule:
 
         ```text
-        Add Rejection Criteria and Messages
-        Applicants requesting $150,000 for 3 years with $400,000 income: Reject with "You must be at least 18 years old for a loan and the loan must not exceed 100k."
+        Applicants requesting $150,000 for 3 years with $400,000 income: Rejected with "You must be at least 18 years old for a loan and the loan must not exceed 100k."
         ```
 
 8. Set the status of each suggestion you used to **Done**, from its status drop-down.
 
 **Check it:** each title you added has a rule under it, not the suggestion.
-
-!!! question "Think about it"
-    Can you spot gaps in the acceptance criteria — an applicant who is exactly 18 or 65, or a loan amount that matches two approval rules? Did the agent find them?
 
 ## Fix the requirement
 

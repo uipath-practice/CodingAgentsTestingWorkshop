@@ -40,18 +40,6 @@ To run tests automatically, Test Manager needs to know which **Orchestrator fold
 List the Test Manager projects created by me, with their details. If there's more than one, ask me which one to use for this workshop. Remember that project, and use it whenever I ask about my project in this session.
 ```
 
-```text
-List the requirements in my project, with the test cases linked to each.
-```
-
-```text
-Which test cases are in the UiBank Smoke Test Set of my project, and what were their latest results?
-```
-
-```text
-Pick one test case in my project and show me its manual steps and expected results.
-```
-
 ✅ Delegate finds your project: 1 requirement, **Submit Loan Request**, with 6 linked test cases, and 1 test set, **UiBank Smoke Test Set**, with the same 6. You use Submit Loan Request from step 2.
 
 ---

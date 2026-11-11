@@ -76,7 +76,7 @@ By the end of this workshop, you will:
 
 ✅ Use Delegate to run manual tests, build the Object Repository, triage failures against the requirement, and write a go/no-go release report
 
-✅ Turn manual test cases into automations with Autopilot for Testers in Studio, and run them in a test set
+✅ Turn manual test cases into automations with Autopilot for Testers in Studio
 
 
 ## How this guide is organized
