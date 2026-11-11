@@ -4,7 +4,10 @@ Learners complete their own [Prerequisites](module-0-prerequisites/index.md), bu
 
 ## Organization and tenant
 
-✅ Create the workshop **tenant** in an organization. Note that **Run autonomously** and **Autonomous Exploration** are only available in Test Cloud.
+✅ Create the workshop **tenant** in an organization.
+
+!!! info "Test Cloud only"
+    **Run autonomously** and **Autonomous Exploration** are only available in Test Cloud.
 
 ✅ Make sure the tenant has **Test Manager**, **Orchestrator**, and **Data Fabric** enabled.
 
