@@ -50,7 +50,7 @@ Use the column for your organization type. Learners need the user license to cre
 
 ✅ **Recommended:** do the Prerequisites folder and robot setup for each learner before the session, so learners don't need tenant-level rights.
 
-✅ If learners do it themselves, give the group: **Personal Automation + Personal workspace**, the **Automation Developer** role, and **Custom Windows credentials** at tenant level, plus rights to create their own folder and add machines and users to it.
+✅ For the Prerequisites folder setup, give the group the Orchestrator rights to create a folder, change their own user settings (**Personal automation setup** and **Custom Windows credentials**), and add their machine to the folder.
 
 ✅ If learners use credential assets in test cases, give them the **View** permission on **Assets**.
 
