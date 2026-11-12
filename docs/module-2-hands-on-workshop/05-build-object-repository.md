@@ -170,7 +170,7 @@ Building it by hand is usually one of the slowest parts of test automation: you 
         - Report any element you could not capture reliably, and why
         ```
 
-    2. Don't use your desktop or browser while it captures, except to approve Delegate's requests. It asks before it submits the sample loan application.
+    2. Don't use your desktop or browser while it captures, except to approve Delegate's requests. It asks before it submits the sample loan application. If your screen locks, unlock it, and Delegate carries on.
 
     The prompt also captures **Username**, **Password** and **Sign In**. If a test signs in, read the login from a Credential asset with **Get Credential**.
 

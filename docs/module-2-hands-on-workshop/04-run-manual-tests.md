@@ -76,7 +76,7 @@ Go back to your Delegate session.
         Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and save it to my Desktop. Push the results to Test Manager. If any step failed, explain the reason.
         ```
 
-        It takes about 10 minutes. Delegate uses your mouse and keyboard, so don't touch them until it reports back. Follow its progress in the task list.
+        It takes about 10 minutes. Delegate uses your mouse and keyboard, so don't touch them until it reports back. Follow its progress in the task list. If your screen locks, unlock it, and Delegate carries on.
 
     3. If Delegate asks for permission to push the result, approve it. It records the result in a test set execution, which you'll find under **Execution**.
     4. For any failure, decide: **defect in UiBank**, or **problem with the test case**?

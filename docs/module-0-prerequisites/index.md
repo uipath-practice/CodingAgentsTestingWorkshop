@@ -10,6 +10,8 @@ Use this checklist to confirm you're ready **before the workshop starts**.
 
 ✅ A browser: **Google Chrome** or **Microsoft Edge**
 
+✅ **Screen lock off** for the workshop day: set the screen to never turn off and the laptop to never sleep while plugged in. Delegate and your robot need an unlocked screen. Turn it back on afterwards.
+
 ✅ **UiPath Studio**, latest STS version: download and run <a href="https://download.uipath.com/connected-installer/latest/sts/UiPathPlatformSTS.msi" target="_blank">UiPathPlatformSTS.msi</a>
 
 !!! warning "Install the latest STS version"
