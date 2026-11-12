@@ -58,6 +58,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
         ✅ No empty activities, such as an extra **Use Application/Browser** card
 
         If something's off, ask Delegate to fix it, or fix it yourself.
+
 3. Check the **Use Application/Browser** cards. The data-driven test in the next section must open and close the app once per row, and your requirement and test case may not say so.
 
     ✅ **First card:** set **Open** to **Always**.
