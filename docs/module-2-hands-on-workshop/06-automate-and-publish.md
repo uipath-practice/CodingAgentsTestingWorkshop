@@ -47,7 +47,6 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 2. Review it like a pull request.
 
     !!! tip "Review checklist"
-        ✅ Given / When / Then sections
 
         ✅ One verification for the expected result
 
@@ -55,9 +54,11 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
         ✅ No fixed **Delay** activities
 
-        ✅ No empty activities, such as an extra **Use Application/Browser** card
+        ✅ No empty or extra activities
 
         If something's off, ask Delegate to fix it, or fix it yourself.
+
+        Best practice: structure each test case in **Given / When / Then** sections. See <a href="https://docs.uipath.com/test-cloud/automation-cloud/latest/admin-guide/rpa-testing-best-practices" target="_blank">Automation testing best practices</a>.
 
 3. Check the **Use Application/Browser** cards. The data-driven test in the next section must open and close the app once per row, and your requirement and test case may not say so.
 
