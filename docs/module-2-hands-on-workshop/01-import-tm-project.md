@@ -1,4 +1,4 @@
-# 01. Import and Link the Test Manager Project
+# 1. Import and Link the Test Manager Project
 
 You start from a ready-made **UiBank** project: a requirement, test cases, a test set, results, and attachments.
 

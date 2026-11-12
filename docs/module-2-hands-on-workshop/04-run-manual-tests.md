@@ -1,4 +1,4 @@
-# 04. Run Manual Tests
+# 4. Run Manual Tests
 
 There are three ways to run a manual test case. Each records its results in Test Manager.
 

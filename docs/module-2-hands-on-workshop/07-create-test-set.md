@@ -1,4 +1,4 @@
-# 07. Add Test Cases to the Smoke Test Set
+# 7. Add Test Cases to the Smoke Test Set
 
 A **test set** groups test cases that run together. Your project already has one: **UiBank Smoke Test Set**, with the existing loan test cases. Add the new test cases you automated, so the set runs them too.
 

@@ -1,4 +1,4 @@
-# 08. Run, Triage, and Report
+# 8. Run, Triage, and Report
 
 It's release night, and the release manager wants to know: **can we ship?** Run the test set, find out why anything failed, prove it, and write the go/no-go report.
 

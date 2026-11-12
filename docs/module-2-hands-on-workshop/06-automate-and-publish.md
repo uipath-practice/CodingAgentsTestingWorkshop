@@ -1,4 +1,4 @@
-# 06. Automate and Publish the Test Cases
+# 6. Automate and Publish the Test Cases
 
 Turn your manual test cases into automations with **Autopilot for Testers** in Studio, then publish them with Delegate. Each automation stays **linked** to its test case in Test Manager.
 

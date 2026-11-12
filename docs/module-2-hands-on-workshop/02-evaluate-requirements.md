@@ -1,4 +1,4 @@
-# 02. Evaluate Requirements
+# 2. Evaluate Requirements
 
 Vague or incomplete requirements lead to gaps in testing. The **Evaluate Requirement Quality** built-in agent finds gaps in a requirement, such as undefined thresholds, ambiguous input formats, and missing edge cases or validation rules, and suggests fixes.
 

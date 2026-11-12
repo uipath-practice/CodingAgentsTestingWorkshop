@@ -1,4 +1,4 @@
-# 05. Set Up Studio and Build the Object Repository
+# 5. Set Up Studio and Build the Object Repository
 
 Set up a Studio Test Automation project with Delegate, link it to Test Manager, and build the Object Repository that Autopilot uses in the next step.
 
