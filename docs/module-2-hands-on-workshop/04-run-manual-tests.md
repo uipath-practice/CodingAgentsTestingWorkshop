@@ -81,7 +81,7 @@ Go back to your Delegate session.
     3. If Delegate asks for permission to push the result, approve it. It records the result in a test set execution, which you'll find under **Execution**.
     4. For any failure, decide: **defect in UiBank**, or **problem with the test case**?
 
-**Check it:** **Execution** → open the execution named **Delegate-** followed by your test case name and the date. It shows the test case result and each step's result, with a Delegate trace file attached to every step. The executions dated 2024 came with the imported project. The screenshot is on your Desktop.
+**Check it:** **Execution** → open the execution named **Delegate-** followed by your test case name and the date. It shows the test case result and each step's result, with a Delegate trace file attached to every step, saved locally under Appdata.
 
 !!! question "Think about it"
     Did Delegate stumble on a step? Autopilot automates these same steps in [6. Automate and Publish the Test Cases](06-automate-and-publish.md), so fix them now:
@@ -99,16 +99,16 @@ The business has documented a new process, **Loan lookup**, in a Process Design 
     2. Attach it in Delegate, then paste:
 
         ```text
-        Analyze the attached PDD and create + save a requirement and a manual test case directly in UiPath Test Manager — no review pause, just create and save.
+        Analyze the attached PDD and create + save a requirement and a manual test case directly in UiPath Test Manager.
 
         Requirement: Create one new requirement for the process described in the PDD (don't create it if an existing requirement already covers this exact process — check first and tell me if you find one instead of creating a duplicate). Name it Loan Lookup. Its description should summarize the user flow (pages/actions) and any acceptance criteria from the PDD.
-        Test case: Create one manual test case - infer name from the PDD, derived from the PDD's numbered steps/screenshots — one test step per documented UI action, each with an expected result.
+        Test case: Create one manual test case - infer name from the PDD, derived from the PDD's numbered steps/screenshots — one test step per documented UI action, each with an expected result. Don't use the loan ID shown in the PDD: the step that enters the loan ID should use a loan ID from a loan applied for today.
         Final step: After the PDD's last action, add a step that verifies the loan details page shows the same loan ID that was entered, along with the rest of the loan's details.
         Link: Link the new test case to the new requirement.
         Report back: give me the created requirement key and test case key when done.
         ```
 
-    3. Ask Delegate to run the new test case.
+    3. Ask Delegate to apply for a loan in UiBank to get a new loan ID, then run the new test case with it.
 
 **Check it:** a new **Loan Lookup** requirement, with a linked test case that has manual steps and a result in **Execution**.
 
