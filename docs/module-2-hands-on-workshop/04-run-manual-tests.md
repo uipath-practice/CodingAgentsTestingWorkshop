@@ -24,7 +24,7 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
             Select **Set Passed Until Here**.
 
     4. Check the postcondition, the state the app must be in after the test. Select **Condition Met** if it holds.
-    5. Select **Next**, then **Done** after the last test case.
+    5. Select **Next** to run the next test case. After the last one, select **Done**.
     6. Check the results in the project's **Execution** section.
 
     See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-test-sets-manually" target="_blank">Executing test sets manually</a>.
