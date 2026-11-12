@@ -17,7 +17,11 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
         !!! info "Allow pop-ups for Test Manager"
             The manual execution assistant opens in a new window.
 
-    2. Perform each step, then select **Set Passed** or **Set Failed** (comment on failures). **Set Passed Until Here** passes several steps at once.
+    2. Perform each step, then select **Set Passed** or **Set Failed** (comment on failures).
+
+        !!! info "Pass several steps at once"
+            Select **Set Passed Until Here**.
+
     3. At any step, capture a screenshot or upload related files as attachments.
     4. Check the postcondition, the state the app must be in after the test. Select **Condition Met** if it holds.
     5. Select **Next**, then **Done** after the last test case.
