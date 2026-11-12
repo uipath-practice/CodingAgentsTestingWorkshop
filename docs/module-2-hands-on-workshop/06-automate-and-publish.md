@@ -44,7 +44,20 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
     ![Generate Test Case with Autopilot in the Test Explorer right-click menu](../assets/images/testExplorer.png)
 
-2. Review it like a pull request: Given / When / Then sections, one verification for the expected result, **Object Repository** elements only, no fixed **Delay** activities, and no empty activities, such as an extra **Use Application/Browser** card. If not, ask Delegate to fix it, or delete it yourself.
+2. Review it like a pull request.
+
+    !!! tip "Review checklist"
+        ✅ Given / When / Then sections
+
+        ✅ One verification for the expected result
+
+        ✅ **Object Repository** elements only
+
+        ✅ No fixed **Delay** activities
+
+        ✅ No empty activities, such as an extra **Use Application/Browser** card
+
+        If something's off, ask Delegate to fix it, or fix it yourself.
 3. Check the **Use Application/Browser** cards. The data-driven test in the next section must open and close the app once per row, and your requirement and test case may not say so.
 
     ✅ **First card:** set **Open** to **Always**.
