@@ -12,7 +12,11 @@ There are three ways to run a manual test case. Each records its results in Test
 See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-manual-tests" target="_blank">Executing manual tests</a>.
 
 ??? tip "Manual execution assistant"
-    1. Go to **Test Sets**, open **UiBank Smoke Test Set**, and select **Execute → Manually**. Allow pop-ups for Test Manager. The manual execution assistant opens in a new window.
+    1. Go to **Test Sets**, open **UiBank Smoke Test Set**, and select **Execute → Manually**.
+
+        !!! info "Allow pop-ups for Test Manager"
+            The manual execution assistant opens in a new window.
+
     2. Perform each step, then select **Set Passed** or **Set Failed** (comment on failures). **Set Passed Until Here** passes several steps at once.
     3. At any step, capture a screenshot or upload related files as attachments.
     4. Check the postcondition, the state the app must be in after the test. Select **Condition Met** if it holds.
