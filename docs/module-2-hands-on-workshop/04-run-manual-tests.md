@@ -54,8 +54,8 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
 ??? tip "No test case yet? Explore the requirement autonomously"
     **Autonomous Exploration** is exploratory testing with Autopilot: it learns the app, designs tests, and runs them within a time-box.
 
-    1. Open a requirement → **+ Autonomous Exploration**.
-    2. Enter the app URL, set a **time-box**, and select an AI model. Turn on **Live Streaming** to watch it explore.
+    1. Open a **requirement** → **Autonomous Exploration**.
+    2. Enter the app URL, set a **time-box**, and select an AI model. Enable **Live Streaming** to watch it explore.
     3. Select **Start**. When it's **Completed**, select **Show report**.
 
     Needs a Windows robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)), with the UiPath browser extension set to **Allow in Incognito**. See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/running-autonomous-exploration" target="_blank">Running Autonomous Exploration</a>.
@@ -73,13 +73,15 @@ Go back to your Delegate session.
     2. Replace `<YOUR_TEST_CASE_KEY>` with the key of one of the test cases you chose in [3. Generate Test Cases](03-generate-test-cases.md). A key is your project prefix, a colon and a number, for example `UIBAS:43`. Then paste:
 
         ```text
-        Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and attach it to that step's result. Push the results to Test Manager. If any step failed, explain the reason.
+        Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and save it to my Desktop. Push the results to Test Manager. If any step failed, explain the reason.
         ```
+
+        It takes about 10 minutes. Delegate uses your mouse and keyboard, so don't touch them until it reports back. Follow its progress in the task list.
 
     3. If Delegate asks for permission to push the result, approve it. It records the result in a test set execution, which you'll find under **Execution**.
     4. For any failure, decide: **defect in UiBank**, or **problem with the test case**?
 
-**Check it:** **Execution** → open the new execution → select your test case key. It shows the result and the step results, with the screenshot on the last step.
+**Check it:** **Execution** → open the execution named **Delegate-** followed by your test case name and the date. It shows the test case result and each step's result, with a Delegate trace file attached to every step. The executions dated 2024 came with the imported project. The screenshot is on your Desktop.
 
 !!! question "Think about it"
     Did Delegate stumble on a step? Autopilot automates these same steps in [6. Automate and Publish the Test Cases](06-automate-and-publish.md), so fix them now:
