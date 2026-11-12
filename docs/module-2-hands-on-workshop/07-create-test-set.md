@@ -15,12 +15,12 @@ A **test set** groups test cases that run together. Your project already has one
         ✅ **Dynamic Assignment** — add labels. The set includes every test case with at least one of them.
 
 3. Click **Add Test Cases** to see all the test cases in the project.
-4. Select each new test case you automated in [06. Automate and Publish the Test Cases](06-automate-and-publish.md), and add them. Existing test cases you chose are already in the set.
+4. Select each new test case you automated in [6. Automate and Publish the Test Cases](06-automate-and-publish.md), and add them. Existing test cases you chose are already in the set.
 
 ## Configure the automation
 
 1. On the **Test Cases** tab, click **Configure Automation**.
-2. Check that the execution is set to your personal folder, the one you set as **Default Folder** in [01. Import and Link the Test Manager Project](01-import-tm-project.md#link-the-project-to-your-folder).
+2. Check that the execution is set to your personal folder, the one you set as **Default Folder** in [1. Import and Link the Test Manager Project](01-import-tm-project.md#link-the-project-to-your-folder).
 3. Set **Runtime Type** to the runtime you set on your machine: **App Testing** or **Testing**. The panel shows **1 Runtimes Available, 1 Connected**.
 4. Under **Automation Packages**, select **Autoselect Packages**. Check that it lists your `<YOUR_NAME>_UiBank Tests` package, and click **Save**.
 

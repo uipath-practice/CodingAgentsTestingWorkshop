@@ -5,11 +5,11 @@ It's release night, and the release manager wants to know: **can we ship?** Run 
 !!! info "Check these first"
     ✅ **Your robot is available** — connected and not busy, in your Orchestrator folder.
 
-    ✅ **UiBank Smoke Test Set** has your automated test cases, from [07. Add Test Cases to the Smoke Test Set](07-create-test-set.md).
+    ✅ **UiBank Smoke Test Set** has your automated test cases, from [7. Add Test Cases to the Smoke Test Set](07-create-test-set.md).
 
 ## Run and triage
 
-A failed test doesn't always mean a broken app: the test itself can be wrong. You made this call by hand in [04. Run Manual Tests](04-run-manual-tests.md#1-run-a-test-case). Now Delegate checks each failure against the requirement.
+A failed test doesn't always mean a broken app: the test itself can be wrong. You made this call by hand in [4. Run Manual Tests](04-run-manual-tests.md#1-run-a-test-case). Now Delegate checks each failure against the requirement.
 
 !!! example "It's your turn now!"
     1. Go back to your Delegate session.
@@ -33,7 +33,7 @@ A failed test doesn't always mean a broken app: the test itself can be wrong. Yo
 **Check it:** compare Delegate's totals with **Execution** in Test Manager. Delegate can be wrong, so check its triage against the requirement yourself.
 
 !!! info "What you should find"
-    ✅ Your test case with test data, from [06. Automate and Publish the Test Cases](06-automate-and-publish.md#attach-test-data), fails on the row with age **66**. The requirement rejects applicants over 65, but UiBank approves them. That's a **UiBank defect**.
+    ✅ Your test case with test data, from [6. Automate and Publish the Test Cases](06-automate-and-publish.md#attach-test-data), fails on the row with age **66**. The requirement rejects applicants over 65, but UiBank approves them. That's a **UiBank defect**.
 
     ✅ Its other rows pass.
 

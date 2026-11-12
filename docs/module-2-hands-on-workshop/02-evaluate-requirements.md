@@ -60,7 +60,7 @@ The original acceptance criteria need the same check. Test cases are generated f
 2. Edit **Submit Loan Request**. In the **under 18** rule only, replace "Not approved due to age." with that message, and save.
 
 ??? tip "Make every rule measurable"
-    Edit the acceptance criteria themselves so each rule is measurable, with exact boundaries, such as 18 and $100,000. [03. Generate Test Cases](03-generate-test-cases.md) generates test cases from this text.
+    Edit the acceptance criteria themselves so each rule is measurable, with exact boundaries, such as 18 and $100,000. [3. Generate Test Cases](03-generate-test-cases.md) generates test cases from this text.
 
 ## Nice work!
 

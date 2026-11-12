@@ -1,6 +1,6 @@
 # 3. Generate Test Cases
 
-The **Generate Test Cases** built-in agent reads a requirement and proposes test cases with manual steps. It works from the requirement you improved in [02. Evaluate Requirements](02-evaluate-requirements.md). You review the test cases before they're saved. The project already has 6 test cases on this requirement. Generate once to see how the agent writes manual steps. You don't have to keep what it proposes.
+The **Generate Test Cases** built-in agent reads a requirement and proposes test cases with manual steps. It works from the requirement you improved in [2. Evaluate Requirements](02-evaluate-requirements.md). You review the test cases before they're saved. The project already has 6 test cases on this requirement. Generate once to see how the agent writes manual steps. You don't have to keep what it proposes.
 
 ## Generate them with a built-in agent
 
@@ -49,7 +49,7 @@ The **Generate Test Cases** built-in agent reads a requirement and proposes test
 
     In production, turn on Testing Process Governance so a second reviewer signs off.
 
-7. Choose **at least 3** test cases on the requirement to use for the rest of the workshop: new ones, existing ones, or a mix. Note their names. You automate them in [06. Automate and Publish the Test Cases](06-automate-and-publish.md).
+7. Choose **at least 3** test cases on the requirement to use for the rest of the workshop: new ones, existing ones, or a mix. Note their names. You automate them in [6. Automate and Publish the Test Cases](06-automate-and-publish.md).
 
 ## Nice work!
 

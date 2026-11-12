@@ -3,7 +3,7 @@
 Turn your manual test cases into automations with **Autopilot for Testers** in Studio, then publish them with Delegate. Each automation stays **linked** to its test case in Test Manager.
 
 !!! info "Before you start"
-    ✅ Your Studio project is linked to Test Manager, and the **UiPath Banking App** Object Repository is built, from [05. Set Up Studio and Build the Object Repository](05-build-object-repository.md).
+    ✅ Your Studio project is linked to Test Manager, and the **UiPath Banking App** Object Repository is built, from [5. Set Up Studio and Build the Object Repository](05-build-object-repository.md).
 
 ## What you'll do
 
@@ -38,7 +38,7 @@ Click a step to jump to it.
 
 <span class="tool-badge tool-badge--studio">Studio Desktop</span>
 
-Automate **every** test case you chose in [03. Generate Test Cases](03-generate-test-cases.md), 3 or more. In [07. Add Test Cases to the Smoke Test Set](07-create-test-set.md), you add them to **UiBank Smoke Test Set**, which runs them in [08. Run and Report](08-run-and-report.md).
+Automate **every** test case you chose in [3. Generate Test Cases](03-generate-test-cases.md), 3 or more. In [7. Add Test Cases to the Smoke Test Set](07-create-test-set.md), you add them to **UiBank Smoke Test Set**, which runs them in [8. Run, Triage, and Report](08-run-and-report.md).
 
 1. In **Test Explorer**, right-click one of these test cases → **Generate Test Case with Autopilot**.
 
@@ -79,7 +79,7 @@ Automate **every** test case you chose in [03. Generate Test Cases](03-generate-
 
 Next, you attach test data to one of the test cases you automated, so it runs once for each set of values in the **UiBankTestData** entity.
 
-One row expects the loan to be rejected, but UiBank approves it, so this test case fails. Leave it failing: in [08. Run, Triage, and Report](08-run-and-report.md), you find out whether the problem is in UiBank or in the test.
+One row expects the loan to be rejected, but UiBank approves it, so this test case fails. Leave it failing: in [8. Run, Triage, and Report](08-run-and-report.md), you find out whether the problem is in UiBank or in the test.
 
 1. In **Test Explorer**, right-click one of your automated test cases, and select **Add Test Data**.
 2. Choose **Data Service**, and link the **UiBankTestData** entity.

@@ -3,15 +3,17 @@
 There are three ways to run a manual test case. Each records its results in Test Manager.
 
 
-| | Who runs the steps | Apps it can test | Setup needed |
-|---|---|---|---|
-| **Delegate** *(used in this workshop)* | Delegate, on your machine | Web and desktop apps | None |
-| **Manual execution assistant** | You | Any | None |
-| **Run autonomously** | Autopilot, on a robot | Web apps | A robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)) |
+| | What it runs | Who runs the steps | Apps it can test | Setup needed |
+|---|---|---|---|---|
+| **Delegate** *(used in this workshop)* | One test case | Delegate, on your machine | Web and desktop apps | None |
+| **Manual execution assistant** | A whole test set | You | Any | None |
+| **Run autonomously** | One test case | Autopilot, on a robot | Web apps | A robot in the project's default folder (set up in [Prerequisites](../module-0-prerequisites/index.md#orchestrator-folder-and-robot)) |
 
 See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-manual-tests" target="_blank">Executing manual tests</a>.
 
 ??? tip "Manual execution assistant"
+    You run every test case in a test set yourself, one after another.
+
     1. Go to **Test Sets**, open **UiBank Smoke Test Set**, and select **Execute → Manually**.
 
         !!! info "Allow pop-ups for Test Manager"
@@ -30,7 +32,7 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
     See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-test-sets-manually" target="_blank">Executing test sets manually</a>.
 
 ??? tip "Run autonomously"
-    **Autonomous Test Execution** runs a manual test case with Autopilot, in one click, on a robot.
+    **Autonomous Test Execution** runs one manual test case with Autopilot, in one click, on a robot. You start it from the test case, not from a test set.
 
     1. Go to **Test Cases**, open a manual test case, and go to the **Manual Steps** tab. In the right-hand panel, select **Run Autonomously**.
 
@@ -67,7 +69,7 @@ Go back to your Delegate session.
 
 !!! example "It's your turn now!"
     1. Keep only one UiBank tab open. Delegate finds the window by its title, and the prompt names UiBank.
-    2. Replace `<YOUR_TEST_CASE_KEY>` with the key of one of the test cases you chose in [03. Generate Test Cases](03-generate-test-cases.md). A key is your project prefix, a colon and a number, for example `UIBAS:43`. Then paste:
+    2. Replace `<YOUR_TEST_CASE_KEY>` with the key of one of the test cases you chose in [3. Generate Test Cases](03-generate-test-cases.md). A key is your project prefix, a colon and a number, for example `UIBAS:43`. Then paste:
 
         ```text
         Run the manual test case <YOUR_TEST_CASE_KEY>. Open UiBank at https://uibank.uipath.com, follow the test case's manual steps in the browser, and check every expected result. Take a screenshot at the final validation step and attach it to that step's result. Push the results to Test Manager. If any step failed, explain the reason.
@@ -79,7 +81,7 @@ Go back to your Delegate session.
 **Check it:** **Execution** → open the new execution → select your test case key. It shows the result and the step results, with the screenshot on the last step.
 
 !!! question "Think about it"
-    Did Delegate stumble on a step? Autopilot automates these same steps in [06. Automate and Publish the Test Cases](06-automate-and-publish.md), so fix them now:
+    Did Delegate stumble on a step? Autopilot automates these same steps in [6. Automate and Publish the Test Cases](06-automate-and-publish.md), so fix them now:
 
     ```text
     Rewrite the steps of test case <YOUR_TEST_CASE_KEY> that were unclear during this run, so each one has a single clear action and expected result. Show me the changes before you save them to Test Manager.

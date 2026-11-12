@@ -153,7 +153,7 @@ Signing in to Automation Cloud lets you open Test Manager, but not run tests. Te
 
     **Check it:** in your folder, **Machines** lists your machine with **1** under **App Testing** or **Testing**.
 
-    **Check it later:** your robot setup is only proven when Test Manager runs a test on your machine. You do that in [07. Add Test Cases to the Smoke Test Set](../module-2-hands-on-workshop/07-create-test-set.md), once you have an automated, published test case. If the run fails to start or sign in, check the Windows username and password here.
+    **Check it later:** your robot setup is only proven when Test Manager runs a test on your machine. You do that in [7. Add Test Cases to the Smoke Test Set](../module-2-hands-on-workshop/07-create-test-set.md), once you have an automated, published test case. If the run fails to start or sign in, check the Windows username and password here.
 
 ---
 
