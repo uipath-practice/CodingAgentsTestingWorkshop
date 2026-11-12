@@ -19,15 +19,16 @@ See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-g
         !!! info "Allow pop-ups for Test Manager"
             The manual execution assistant opens in a new window.
 
-    2. Perform each step, then select **Set Passed** or **Set Failed** (comment on failures).
-    3. At any step, capture a screenshot or upload related files as attachments.
+    2. If the test case has a precondition, the state the app must be in before the test, set up the app as it says.
+    3. Perform each step, then select **Set Passed** or **Set Failed** (comment on failures).
+    4. At any step, capture a screenshot or upload related files as attachments.
 
         !!! info "Pass several steps at once"
             Select **Set Passed Until Here**.
 
-    4. Check the postcondition, the state the app must be in after the test. Select **Condition Met** if it holds.
-    5. Select **Next** to run the next test case. After the last one, select **Done**.
-    6. Check the results in the project's **Execution** section.
+    5. If the test case has a postcondition, the state the app must be in after the test, check it. Select **Condition Met** if it holds.
+    6. Select **Next** to run the next test case. After the last one, select **Done**.
+    7. Check the results in the project's **Execution** section.
 
     See <a href="https://docs.uipath.com/test-manager/automation-cloud/latest/user-guide/executing-test-sets-manually" target="_blank">Executing test sets manually</a>.
 
