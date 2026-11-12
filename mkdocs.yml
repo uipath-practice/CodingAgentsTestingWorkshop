@@ -26,6 +26,7 @@ extra:
 
 hooks:
   - hooks/cache_bust.py
+  - hooks/nav_numbers.py
 
 extra_css:
   - assets/css/custom.css

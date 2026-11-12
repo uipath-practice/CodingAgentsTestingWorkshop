@@ -765,3 +765,27 @@ th {
     border-bottom: none;
   }
 }
+
+/* Step numbers in the left menu: same blue circle as the Home workflow map (.wf-num).
+   Added by hooks/nav_numbers.py. */
+.md-nav--primary .md-ellipsis:has(> .nav-num) {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.md-nav--primary .nav-num {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.3em;
+  height: 1.3em;
+  margin-top: 0.1em;
+  border-radius: 50%;
+  background: var(--md-primary-fg-color);
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 700;
+  line-height: 1;
+}
