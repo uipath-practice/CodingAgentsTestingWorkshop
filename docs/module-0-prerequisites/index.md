@@ -1,6 +1,6 @@
 # Prerequisites
 
-Complete this section **before the workshop**.
+Use this checklist to confirm you're ready **before the workshop starts**.
 
 ## Your machine
 
