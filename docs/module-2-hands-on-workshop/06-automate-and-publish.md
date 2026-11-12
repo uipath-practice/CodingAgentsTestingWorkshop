@@ -60,7 +60,7 @@ Automate **every** test case you chose in [3. Generate Test Cases](03-generate-t
 
         Best practice: structure each test case in **Given / When / Then** sections.
 
-3. Check the **Use Application/Browser** cards. The data-driven test in the next section must open and close the app once per row, and your requirement and test case may not say so.
+3. Check the **Use Application/Browser** cards. Each test run should open a fresh instance of the app and close it at the end, so runs don't affect each other. This includes each data row in the next section. Your requirement and test case may not say so.
 
     ✅ **First card:** set **Open** to **Always**.
 
